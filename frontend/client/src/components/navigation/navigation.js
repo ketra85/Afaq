@@ -1,4 +1,5 @@
 import React from 'react';
+import './navigation.css';
 
 export default class Navigation extends React.Component {
     render() {
@@ -10,7 +11,7 @@ export default class Navigation extends React.Component {
     //     $('a[href="' + this.location.pathname + '"]').parents('li,ul').addClass('active');
     // </script>
     <div class="wrapper">
-        {/* <!-- Sidebar  --> */}
+        {/* Sidebar */}
         <nav id="sidebar">
             <ul class="list-unstyled components">
                 <li id="home">
