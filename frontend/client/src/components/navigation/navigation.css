@@ -95,6 +95,7 @@ a:focus {
 }
 
 #sidebar ul li a {
+    color: #ffffff;
     padding: 10px;
     font-size: 1.35em;
     display: block;
