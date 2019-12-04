@@ -12,30 +12,29 @@ p {
     line-height: 1.7em;
     color: #999;
 }
-
-
-.row {
-    min-height: 16vh;
-}
-
-.col {
-    background-color: white ;
-    padding: 3vh 3vw;
-}
-
-
-
-p {
-    font-family: "jotia";
-    font-size: 1.35rem;
-}
-
 a.article,
 a.article:hover {
     background: #8a5673 !important;
     color: #fff !important;
 }
 
+.row {
+    margin: 1rem;
+    min-height: 30rem;
+}
+
+.col {
+    background-color: white;
+    border-left: 5px solid black;
+    border-radius: 8px;
+    padding: 3vh 3vw;
+
+}
+
+p {
+    font-family: "jotia";
+    font-size: 1.35rem;
+}
 
 /* ---------------------------------------------------
     CONTENT STYLE

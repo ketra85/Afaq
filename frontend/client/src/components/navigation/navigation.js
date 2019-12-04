@@ -29,7 +29,7 @@ export default class Navigation extends React.Component {
                     <FontAwesomeIcon
                       icon={faHome}
                       aria-hidden="true"
-                      size="sm"
+                      size="md"
                     />
                   </a>
                 </li>
@@ -39,7 +39,11 @@ export default class Navigation extends React.Component {
                     data-toggle="tooltip"
                     data-placement="right"
                     title="Notifications">
-                    <FontAwesomeIcon icon={faBell} aria-hidden="true" size="sm" />
+                    <FontAwesomeIcon
+                      icon={faBell}
+                      aria-hidden="true"
+                      size="md"
+                    />
                   </a>
                 </li>
                 <li id="contact">
@@ -50,8 +54,9 @@ export default class Navigation extends React.Component {
                     title="Contacts">
                     <FontAwesomeIcon
                       icon={faAddressBook}
-                      aria-hidden="true" 
-                      size="sm" />
+                      aria-hidden="true"
+                      size="md"
+                    />
                   </a>
                 </li>
                 <li id="help">
@@ -62,8 +67,9 @@ export default class Navigation extends React.Component {
                     title="Help">
                     <FontAwesomeIcon
                       icon={faQuestionCircle}
-                      aria-hidden="true" 
-                      size="sm"/>
+                      aria-hidden="true"
+                      size="md"
+                    />
                   </a>
                 </li>
                 <li id="link">
@@ -72,7 +78,11 @@ export default class Navigation extends React.Component {
                     data-toggle="tooltip"
                     data-placement="right"
                     title="Links">
-                    <FontAwesomeIcon icon={faLink} aria-hidden="true" size="sm" />
+                    <FontAwesomeIcon
+                      icon={faLink}
+                      aria-hidden="true"
+                      size="md"
+                    />
                   </a>
                 </li>
                 <li className="footer" id="profile">
@@ -83,8 +93,9 @@ export default class Navigation extends React.Component {
                     title="Profile">
                     <FontAwesomeIcon
                       icon={faUserCircle}
-                      aria-hidden="true" 
-                      size="sm" />
+                      aria-hidden="true"
+                      size="md"
+                    />
                   </a>
                 </li>
                 <li id="qr">
@@ -93,7 +104,11 @@ export default class Navigation extends React.Component {
                     data-toggle="tooltip"
                     data-placement="right"
                     title="QR">
-                    <FontAwesomeIcon icon={faPlane} aria-hidden="true" size="sm"/>
+                    <FontAwesomeIcon
+                      icon={faPlane}
+                      aria-hidden="true"
+                      size="sm"
+                    />
                   </a>
                 </li>
               </ul>
