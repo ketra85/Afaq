@@ -1,10 +1,14 @@
 {
 "env": {
-"es7":true
+"es6":true
 },
 "extends": ["plugin:prettier/recommended"],
 "parserOptions": {
-"ecmaVersion":2019
+"sourceType": "module",
+"ecmaVersion":6,
+"ecmaFeatures": {
+"jsx": true
+}
 },
 "rules": {
 "no-console":"warn"
