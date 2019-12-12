@@ -4,9 +4,9 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = {
   entry: "./src/index.js",
   output: {
-    path: path.join(__dirname, "/dist"),
+    path: path.join(__dirname, "dist"),
     filename: "main.js",
-    publicPath: "/"
+    libraryTarget: "umd"
   },
   devServer: {
     historyApiFallback: true,
@@ -28,14 +28,14 @@ module.exports = {
         loader: ["style-loader", "css-loader"]
       },
       {
-        test: /\.(png|j?g|svg|gif)?$/,
+        test: /\.(png|j?g|svg|gif|ico)?$/,
         use: "file-loader"
       }
     ]
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, "public/index.html"),
+      template: path.resolve(__dirname, "public","index.html"),
       filename: "index.html"
     })
   ]
