@@ -1,18 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Navigation from './components/navigation/navigation';
-import TableView from './components/skeleton/tableView';
-import Header from './components/skeleton/header';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Header />
-      </header>
+    <div class="wrapper">
       <Navigation />
-      <TableView />
+      <div id="content">
+        <div className="row no-gutters">
+          <div className="col-12 headerBox"></div>
+        </div>
+        <div className="row no-gutters">
+          <div className="col-12 contentBox rpd">
+            <div className="tableDiv">
+              <div className="h5 afaqHeading">Graduate Developees</div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
