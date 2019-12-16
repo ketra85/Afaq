@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navigation from './components/navigation/navigation';
+import PMTable from './components/table/PMTable';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <div className="col-12 contentBox rpd">
             <div className="tableDiv">
               <div className="h5 afaqHeading">Graduate Developees</div>
+              <PMTable />
             </div>
           </div>
         </div>
