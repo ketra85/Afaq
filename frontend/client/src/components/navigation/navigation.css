@@ -52,7 +52,7 @@ a:focus {
 ----------------------------------------------------- */
 
 #sidebar {
-  width: 6vw;
+  width: 64px;
   position: fixed;
   top: 0;
   left: 0;
@@ -94,7 +94,7 @@ a:focus {
   padding: 10px;
   font-size: 1.35em;
   display: block;
-  left: 1.5vw;
+  left: 7px;
   bottom: 2vh;
   align-items: center;
   justify-content: center;
@@ -107,7 +107,7 @@ a:focus {
 }
 
 #sidebar ul li {
-  padding-top: 1.5vh;
+  padding-top: 13px;
 }
 
 /* #sidebar ul li a::before {
@@ -125,7 +125,7 @@ a:focus {
 
 #sidebar ul li a:hover {
   color: #8a5673;
-  left: 1.3vw;
+  /* left: 1.3vw; */
   background: #fff;
 }
 
