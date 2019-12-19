@@ -1,5 +1,5 @@
 #content {
-  width: calc(100% - 6vw);
+  width: calc(100% - 64px);
   min-height: 100vh;
   position: absolute;
   top: 0;
@@ -7,12 +7,12 @@
 }
 
 .headerBox {
-  height: 16vh;
+  height: 128px;
 }
 
 .contentBox {
   background-color: #d7d7d7;
-  height: 84vh;
+  height: calc(100vh - 128px);
 }
 
 .tableDiv {
