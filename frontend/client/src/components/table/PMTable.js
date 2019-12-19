@@ -1,6 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import 'antd/dist/antd.css';
+import './PMTable.css';
 import { Table, Tag, Icon } from 'antd';
 
 export default class PMTable extends React.Component {
@@ -144,7 +144,7 @@ export default class PMTable extends React.Component {
         alerts: 'Missing Rotation Plan'
       },
       {
-        key: '5',
+        key: '6',
         name: 'Yousuf',
         id: 97789,
         stream: ['IT'],
@@ -153,7 +153,7 @@ export default class PMTable extends React.Component {
         alerts: 'Missing Rotation Plan'
       },
       {
-        key: '5',
+        key: '7',
         name: 'Reem',
         id: 34567,
         stream: ['HR'],
@@ -162,7 +162,7 @@ export default class PMTable extends React.Component {
         alerts: ''
       },
       {
-        key: '5',
+        key: '8',
         name: 'Elham',
         id: 81239,
         stream: ['IT'],
@@ -171,7 +171,7 @@ export default class PMTable extends React.Component {
         alerts: ''
       },
       {
-        key: '5',
+        key: '9',
         name: 'Abdulaziz',
         id: 109283,
         stream: ['IT'],
@@ -184,8 +184,8 @@ export default class PMTable extends React.Component {
       <Table
         columns={columns}
         dataSource={data}
-        pagination={{ position: 'none' }}
-        scroll={{ y: 300 }}
+        pagination={{ position: 'false' }}
+        scroll={{ y: 400 }}
       />
     );
   }

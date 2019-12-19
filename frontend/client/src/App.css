@@ -21,6 +21,7 @@
   padding: 36px;
   border-left: 8px solid #323232;
   border-radius: 8px;
+  overflow: hidden;
 }
 
 .rpd {
