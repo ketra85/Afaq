@@ -1,16 +1,21 @@
 import React from 'react';
 import 'antd/dist/antd.css';
 import './PMTable.css';
-import { Table, Tag, Icon } from 'antd';
+import { Table, Tag, Icon, Avatar } from 'antd';
 
 export default class PMTable extends React.Component {
   render() {
     const columns = [
       {
+        dataIndex: 'avatar',
+        key: 'avatar',
+        width: 64,
+        render: icon => <Avatar size="default" icon="user" />
+      },
+      {
         title: 'Name',
         dataIndex: 'name',
         key: 'name',
-        render: text => <a>{text}</a>,
         sorter: true
       },
       {
@@ -94,8 +99,6 @@ export default class PMTable extends React.Component {
         )
       }
     ];
-
-    //<Icon type="info-circle" /><a>{" " + text}</a>
 
     const data = [
       {

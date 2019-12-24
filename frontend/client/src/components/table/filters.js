@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, Select } from 'antd';
+import { Row, Col, Select, Icon } from 'antd';
 import 'antd/dist/antd.css';
 
 export default class PMTable extends React.Component {
@@ -14,9 +14,12 @@ export default class PMTable extends React.Component {
       console.log(`selected ${value}`);
     }
     return (
-      <Row type="flex" justify="space-around" align="middle">
-        <Col span={2}>Stream</Col>
-        <Col span={2}>
+      <Row type="flex" align="middle" style={{ height: '14vh' }}>
+        <Col offset={2} span={2}>
+          <Icon type="filter" />
+          Stream
+        </Col>
+        <Col span={5}>
           <Select
             size="large"
             mode="multiple"
@@ -27,8 +30,11 @@ export default class PMTable extends React.Component {
             {children}
           </Select>
         </Col>
-        <Col span={2}>Phase</Col>
-        <Col span={2}>
+        <Col offset={2} span={2}>
+          <Icon type="filter" />
+          Phase
+        </Col>
+        <Col span={5}>
           <Select
             size="large"
             mode="multiple"
@@ -39,7 +45,7 @@ export default class PMTable extends React.Component {
             {children}
           </Select>
         </Col>
-        <Col span={2}>
+        <Col offset={2} span={2}>
           <a>Reset Filter</a>
         </Col>
       </Row>
