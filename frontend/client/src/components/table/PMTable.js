@@ -1,9 +1,16 @@
 import React from 'react';
 import 'antd/dist/antd.css';
 import './PMTable.css';
-import { Table, Tag, Icon, Avatar } from 'antd';
+import PMFilter from './filters';
+import { Table, Tag, Icon, Avatar, Row, Col } from 'antd';
 
 export default class PMTable extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      tabelData: ''
+    };
+  }
   render() {
     const columns = [
       {
@@ -32,7 +39,7 @@ export default class PMTable extends React.Component {
             {tags.map(tag => {
               var color;
               if (tag === 'IT') {
-                color = 'magenta';
+                color = 'rgba(0, 0, 0, 0.25)';
               }
               if (tag === 'HR') {
                 color = 'gold';
@@ -183,13 +190,68 @@ export default class PMTable extends React.Component {
         alerts: ''
       }
     ];
+    const streams = [
+      {
+        key: 'IT',
+        value: 'IT',
+        color: 'rgba(0,0,0,0.25)'
+      },
+      {
+        key: 'HR',
+        value: 'HR',
+        color: 'rgba(0,80,0,0.25)'
+      },
+      {
+        key: 'COM',
+        value: 'COM',
+        color: 'rgba(170,170,0,0.25)'
+      }
+    ];
+
+    const phases = [
+      {
+        key: 'OJT',
+        value: 'OJT',
+        color: 'rgba(220,220,220,0.25)'
+      },
+      {
+        key: 'Fimiliarization',
+        value: 'Fimiliarization',
+        color: 'rgba(255,200,0,0.25)'
+      },
+      {
+        key: 'Rotation',
+        value: 'Rotation',
+        color: 'rgba(220,220,220,0.25)'
+      },
+      {
+        key: 'Finishing OJT',
+        value: 'Finishing OJT',
+        color: 'rgba(220,220,220,0.25)'
+      }
+    ];
+    // this.setState({ tabelData: data });
     return (
-      <Table
-        columns={columns}
-        dataSource={data}
-        pagination={{ position: 'false' }}
-        scroll={{ y: 400 }}
-      />
+      <div>
+        <Row>
+          <Col className="headerBox">
+            <PMFilter stream={streams} phase={phases} />
+          </Col>
+        </Row>
+        <Row>
+          <Col className="contentBox rpd">
+            <div className="tableDiv">
+              <div className="h5 afaqHeading">Graduate Developees</div>
+              <Table
+                columns={columns}
+                dataSource={data}
+                pagination={{ position: 'false' }}
+                scroll={{ y: 400 }}
+              />
+            </div>
+          </Col>
+        </Row>
+      </div>
     );
   }
 }
