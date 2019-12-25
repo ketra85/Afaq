@@ -36,7 +36,7 @@ export default class Navigation extends React.Component {
                 data-placement="right"
                 title="Home"
               >
-                <FontAwesomeIcon icon={faHome} aria-hidden="true" size="md" />
+                <FontAwesomeIcon icon={faHome} aria-hidden="true" size="1x" />
               </a>
             </li>
             <li id="notification">
@@ -46,7 +46,7 @@ export default class Navigation extends React.Component {
                 data-placement="right"
                 title="Notifications"
               >
-                <FontAwesomeIcon icon={faBell} aria-hidden="true" size="md" />
+                <FontAwesomeIcon icon={faBell} aria-hidden="true" size="1x" />
               </a>
             </li>
             <li id="contact">
@@ -59,7 +59,7 @@ export default class Navigation extends React.Component {
                 <FontAwesomeIcon
                   icon={faAddressBook}
                   aria-hidden="true"
-                  size="md"
+                  size="1x"
                 />
               </a>
             </li>
@@ -73,7 +73,7 @@ export default class Navigation extends React.Component {
                 <FontAwesomeIcon
                   icon={faQuestionCircle}
                   aria-hidden="true"
-                  size="md"
+                  size="1x"
                 />
               </a>
             </li>
@@ -84,7 +84,7 @@ export default class Navigation extends React.Component {
                 data-placement="right"
                 title="Links"
               >
-                <FontAwesomeIcon icon={faLink} aria-hidden="true" size="md" />
+                <FontAwesomeIcon icon={faLink} aria-hidden="true" size="1x" />
               </a>
             </li>
             <li className="footer" id="profile">
@@ -97,7 +97,7 @@ export default class Navigation extends React.Component {
                 <FontAwesomeIcon
                   icon={faUserCircle}
                   aria-hidden="true"
-                  size="md"
+                  size="1x"
                 />
               </a>
             </li>

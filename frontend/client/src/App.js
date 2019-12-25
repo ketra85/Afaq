@@ -4,7 +4,7 @@ import Navigation from './components/navigation/navigation';
 
 function App() {
   return (
-    <div class="wrapper">
+    <div className="wrapper">
       <Navigation />
       <div id="content">
         <div className="row no-gutters">
