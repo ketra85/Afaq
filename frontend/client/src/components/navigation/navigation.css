@@ -56,7 +56,7 @@ a:focus {
   position: fixed;
   top: 0;
   left: 0;
-  height: 100vh;
+  min-height: 100vh;
   z-index: 999;
   background: #791049;
   color: #ffffff;
@@ -75,13 +75,20 @@ a:focus {
 }
 
 #sidebar .footer {
-  padding-top: 46vh;
+ padding-top: 46vh;
+}
+
+.fa {
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+
 }
 
 #sidebar ul.components {
   padding: 20px 0;
   border-bottom: 1px solid #8a5673;
-  left: 1.3vw;
+  /* left: 1.3vw; */
 }
 
 #sidebar ul p {
@@ -110,22 +117,8 @@ a:focus {
   padding-top: 13px;
 }
 
-/* #sidebar ul li a::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 1.5vw;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    transition: .5s;
-    transform: scale(.9);
-    z-index: -1;
-} */
-
 #sidebar ul li a:hover {
   color: #8a5673;
-  /* left: 1.3vw; */
   background: #fff;
 }
 
@@ -195,6 +188,13 @@ a.article:hover {
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
+
+/* @media(min-width:992px) {
+  .footer>li:last-child {
+    position: absolute;
+    bottom: 0;
+  }
+} */
 
 /* @media (max-width: 768px) {
   #sidebar {
