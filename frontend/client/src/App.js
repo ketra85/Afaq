@@ -6,7 +6,7 @@ import PMFilter from './components/table/filters';
 
 function App() {
   return (
-    <div class="wrapper">
+    <div className="wrapper">
       <Navigation />
       <div id="content">
         <div className="row no-gutters">
