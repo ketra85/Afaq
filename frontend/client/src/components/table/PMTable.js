@@ -93,9 +93,11 @@ export default class PMTable extends React.Component {
       }
     ];
     this.state = {
+      selectedStream: [],
+      selectedPhase: [],
       streamApplied: false,
       phaseApplied: false,
-      buttonD: true,
+      buttonDisable: true,
       tableData: this.data
     };
     this.handleStreamChange = this.handleStreamChange.bind(this);
@@ -107,14 +109,16 @@ export default class PMTable extends React.Component {
     if (value.length === 0) {
       if (!this.state.phaseApplied) {
         this.setState({
-          buttonD: true,
+          buttonDisable: true,
           tableData: this.data,
-          streamApplied: false
+          streamApplied: false,
+          selectedStream: value
         });
       } else {
         this.setState({
           tableData: this.data,
-          streamApplied: false
+          streamApplied: false,
+          selectedStream: value
         });
       }
     } else {
@@ -130,9 +134,10 @@ export default class PMTable extends React.Component {
         });
       });
       this.setState({
-        buttonD: false,
+        buttonDisable: false,
         tableData: filter,
-        streamApplied: true
+        streamApplied: true,
+        selectedStream: value
       });
     }
   }
@@ -140,9 +145,10 @@ export default class PMTable extends React.Component {
   handlePhaseChange(value) {
     if (value.length === 0) {
       this.setState({
-        buttonD: true,
+        buttonDisable: true,
         tableData: this.data,
-        phaseApplied: false
+        phaseApplied: false,
+        selectedPhase: value
       });
     } else {
       if (!this.state.streamApplied) {
@@ -157,9 +163,10 @@ export default class PMTable extends React.Component {
         });
       });
       this.setState({
-        buttonD: false,
+        buttonDisable: false,
         tableData: filter,
-        phaseApplied: true
+        phaseApplied: true,
+        selectedPhase: value
       });
     }
   }
@@ -176,8 +183,10 @@ export default class PMTable extends React.Component {
 
   clearFilters() {
     this.setState({
-      buttonD: true,
+      buttonDisableisable: true,
       tableData: this.data,
+      selectedStream: [],
+      selectedPhase: [],
       phaseApplied: false,
       streamApplied: false
     });
@@ -334,13 +343,13 @@ export default class PMTable extends React.Component {
       <div>
         <Row>
           <Col className="headerBox">
-            <Row type="flex" align="middle" style={{ height: '14vh' }}>
+            <Row type="flex" align="middle" style={{ height: "14vh" }}>
               <Col offset={2} span={2}>
                 <span className="heading">
                   <FontAwesomeIcon
                     icon={faFilter}
                     color="#d7d7d7"
-                    style={{ width: '1.5em' }}
+                    style={{ width: "1.5em" }}
                   />
                   Stream
                 </span>
@@ -349,9 +358,10 @@ export default class PMTable extends React.Component {
                 <Select
                   mode="tags"
                   placeholder="Filter Streams"
-                  style={{ width: '100%' }}
-                  onChange={this.handleStreamChange}
-                >
+                  style={{ width: "100%" }}
+                  allowClear
+                  value={this.state.selectedStream}
+                  onChange={this.handleStreamChange}>
                   {streams.map(item => (
                     <Select.Option key={item.key} value={item.value}>
                       <span>{item.value}</span>
@@ -364,7 +374,7 @@ export default class PMTable extends React.Component {
                   <FontAwesomeIcon
                     icon={faFilter}
                     color="#d7d7d7"
-                    style={{ width: '1.5em' }}
+                    style={{ width: "1.5em" }}
                   />
                   Phase
                 </span>
@@ -373,9 +383,10 @@ export default class PMTable extends React.Component {
                 <Select
                   mode="tags"
                   placeholder="Filter Phases"
-                  style={{ width: '100%' }}
-                  onChange={this.handlePhaseChange}
-                >
+                  style={{ width: "100%" }}
+                  allowClear
+                  value={this.state.selectedPhase}
+                  onChange={this.handlePhaseChange}>
                   {phases.map(item => (
                     <Option key={item.key} value={item.value}>
                       <div>{item.value}</div>
@@ -386,10 +397,9 @@ export default class PMTable extends React.Component {
               <Col offset={2} span={2}>
                 <Button
                   type="link"
-                  disabled={this.state.buttonD}
-                  onClick={this.clearFilters}
-                >
-                  <span style={{ fontSize: '1.35rem' }}>Clear Filters</span>
+                  disabled={this.state.buttonDisable}
+                  onClick={this.clearFilters}>
+                  <span style={{ fontSize: "1.35rem" }}>Clear Filters</span>
                 </Button>
               </Col>
             </Row>
@@ -402,8 +412,8 @@ export default class PMTable extends React.Component {
               <Table
                 columns={columns}
                 dataSource={this.state.tableData}
-                pagination={{ position: 'false' }}
-                scroll={{ y: '50vh' }}
+                pagination={{ position: "false" }}
+                scroll={{ y: "50vh" }}
               />
             </div>
           </Col>
