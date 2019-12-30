@@ -115,11 +115,13 @@ export default class PMTable extends React.Component {
           selectedStream: value
         });
       } else {
+        console.log(this.state.selectedPhase)
         this.setState({
-          tableData: this.data,
+          // tableData: this.data,
           streamApplied: false,
           selectedStream: value
         });
+      this.handlePhaseChange(this.state.selectedPhase);
       }
     } else {
       if (!this.state.phaseApplied) {
