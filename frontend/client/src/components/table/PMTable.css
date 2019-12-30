@@ -7,7 +7,11 @@
 }
 
 .ant-tag {
-  font-size: 1rem;
-  line-height: 1.4rem;
+  font-size: 14px;
+  line-height: 22px;
+  border-radius: 8px;
+}
+
+.ant-select-selection--multiple .ant-select-selection__choice {
   border-radius: 8px;
 }
