@@ -100,71 +100,32 @@ export default class PMTable extends React.Component {
     };
     this.handleStreamChange = this.handleStreamChange.bind(this);
     this.handlePhaseChange = this.handlePhaseChange.bind(this);
+    this.handleStateChange = this.handleStateChange.bind(this);
     this.clearFilters = this.clearFilters.bind(this);
   }
 
   handleStreamChange(value) {
-    if (value.length === 0) {
-      if (this.selectedPhase.length === 0) {
-        this.selectedStream = value;
-        this.setState({
-          buttonDisable: true,
-          tableData: this.data
-        });
-      } else {
-        this.selectedStream = value;
-        this.handlePhaseChange(this.selectedPhase);
-      }
-    } else {
-      if (this.selectedPhase.length !== 0) {
-        var array = this.state.tableData;
-      } else {
-        var array = this.data;
-      }
-      var filter = [];
-      value.map((tag, index) => {
-        array.map(item => {
-          item.stream[0] === value[index] && filter.push(item);
-        });
-      });
-      this.selectedStream = value;
-      this.setState({
-        buttonDisable: false,
-        tableData: filter
-      });
-    }
+    this.selectedStream = value;
+    var array = this.filterData();
+    this.handleStateChange(array);
   }
 
   handlePhaseChange(value) {
-    var test = this.filterData;
-    console.log(test);
-    if (value.length === 0) {
-      if (this.selectedStream.length === 0) {
-        this.selectedPhase = value;
-        this.setState({
-          buttonDisable: true,
-          tableData: this.data
-        });
-      } else {
-        this.selectedPhase = value;
-        this.handleStreamChange(this.selectedStream);
-      }
-    } else {
-      if (this.selectedStream.length !== 0) {
-        var array = this.state.tableData;
-      } else {
-        var array = this.data;
-      }
-      var filter = [];
-      value.map((tag, index) => {
-        array.map(item => {
-          item.phase[0] === value[index] && filter.push(item);
-        });
+    this.selectedPhase = value;
+    var array = this.filterData();
+    this.handleStateChange(array);
+  }
+
+  handleStateChange(array) {
+    if (this.selectedStream.length === 0 && this.selectedPhase === 0) {
+      this.setState({
+        buttonDisable: true,
+        tableData: array
       });
-      this.selectedPhase = value;
+    } else {
       this.setState({
         buttonDisable: false,
-        tableData: filter
+        tableData: array
       });
     }
   }
@@ -173,16 +134,16 @@ export default class PMTable extends React.Component {
     var array = this.data;
     var filter = [];
     if (this.selectedStream.length !== 0) {
-      selectedStream.map((tag, index) => {
+      this.selectedStream.map((tag, index) => {
         array.map(item => {
-          item.stream[0] === selectedStream[index] && filter.push(item);
+          item.stream[0] === this.selectedStream[index] && filter.push(item);
         });
       });
       if (this.selectedPhase.length !== 0) {
         var filter2 = [];
-        selectedPhase.map((tag, index) => {
+        this.selectedPhase.map((tag, index) => {
           filter.map(item => {
-            item.phase[0] === selectedPhase[index] && filter2.push(item);
+            item.phase[0] === this.selectedPhase[index] && filter2.push(item);
           });
         });
         return filter2;
@@ -191,9 +152,9 @@ export default class PMTable extends React.Component {
       }
     }
     if (this.selectedPhase.length !== 0) {
-      selectedPhase.map((tag, index) => {
+      this.selectedPhase.map((tag, index) => {
         array.map(item => {
-          item.phase[0] === selectedPhase[index] && filter.push(item);
+          item.phase[0] === this.selectedPhase[index] && filter.push(item);
         });
       });
       return filter;
@@ -419,9 +380,9 @@ export default class PMTable extends React.Component {
                   onChange={this.handlePhaseChange}
                 >
                   {phases.map(item => (
-                    <Option key={item.key} value={item.value}>
+                    <Select.Option key={item.key} value={item.value}>
                       <div>{item.value}</div>
-                    </Option>
+                    </Select.Option>
                   ))}
                 </Select>
               </Col>
