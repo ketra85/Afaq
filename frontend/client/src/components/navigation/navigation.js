@@ -17,7 +17,6 @@ import {
 
 const { Footer } = Layout;
 
-const {Footer} = Layout;
 
 library.add(faStroopwafel);
 
