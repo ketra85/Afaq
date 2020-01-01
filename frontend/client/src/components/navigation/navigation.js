@@ -1,7 +1,8 @@
-import React from 'react';
-import './navigation.css';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React from "react";
+import "./navigation.css";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Layout } from "antd";
 import {
   faStroopwafel,
   faHome,
@@ -12,7 +13,9 @@ import {
   faLink,
   faUserCircle,
   faPlane
-} from '@fortawesome/free-solid-svg-icons';
+} from "@fortawesome/free-solid-svg-icons";
+
+const { Footer } = Layout;
 
 library.add(faStroopwafel);
 
@@ -34,8 +37,7 @@ export default class Navigation extends React.Component {
                 href="#"
                 data-toggle="tooltip"
                 data-placement="right"
-                title="Home"
-              >
+                title="Home">
                 <FontAwesomeIcon icon={faHome} aria-hidden="true" size="1x" />
               </a>
             </li>
@@ -44,8 +46,7 @@ export default class Navigation extends React.Component {
                 href="#"
                 data-toggle="tooltip"
                 data-placement="right"
-                title="Notifications"
-              >
+                title="Notifications">
                 <FontAwesomeIcon icon={faBell} aria-hidden="true" size="1x" />
               </a>
             </li>
@@ -54,8 +55,7 @@ export default class Navigation extends React.Component {
                 href="#"
                 data-toggle="tooltip"
                 data-placement="right"
-                title="Contacts"
-              >
+                title="Contacts">
                 <FontAwesomeIcon
                   icon={faAddressBook}
                   aria-hidden="true"
@@ -68,8 +68,7 @@ export default class Navigation extends React.Component {
                 href="#"
                 data-toggle="tooltip"
                 data-placement="right"
-                title="Help"
-              >
+                title="Help">
                 <FontAwesomeIcon
                   icon={faQuestionCircle}
                   aria-hidden="true"
@@ -82,8 +81,7 @@ export default class Navigation extends React.Component {
                 href="#"
                 data-toggle="tooltip"
                 data-placement="right"
-                title="Links"
-              >
+                title="Links">
                 <FontAwesomeIcon icon={faLink} aria-hidden="true" size="1x" />
               </a>
             </li>
@@ -92,24 +90,27 @@ export default class Navigation extends React.Component {
                 href="#"
                 data-toggle="tooltip"
                 data-placement="right"
-                title="Profile"
-              >
+                title="Profile">
                 <FontAwesomeIcon
                   icon={faUserCircle}
                   aria-hidden="true"
                   size="1x"
                 />
               </a>
-            </li>
-            <li id="qr">
-              <a
-                href="#"
-                data-toggle="tooltip"
-                data-placement="right"
-                title="QR"
-              >
-                <FontAwesomeIcon icon={faPlane} aria-hidden="true" size="sm" />
-              </a>
+
+              <li id="qr">
+                <a
+                  href="#"
+                  data-toggle="tooltip"
+                  data-placement="right"
+                  title="QR">
+                  <FontAwesomeIcon
+                    icon={faPlane}
+                    aria-hidden="true"
+                    size="1x"
+                  />
+                </a>
+              </li>
             </li>
           </ul>
         </nav>
