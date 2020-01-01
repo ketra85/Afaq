@@ -386,13 +386,13 @@ export default class PMTable extends React.Component {
       <div>
         <Row>
           <Col className="headerBox">
-            <Row type="flex" align="middle" style={{ height: '14vh' }}>
+            <Row type="flex" align="middle" style={{ height: "14vh" }}>
               <Col offset={2} span={2}>
                 <span className="heading">
                   <FontAwesomeIcon
                     icon={faFilter}
                     color="#d7d7d7"
-                    style={{ width: '1.5em' }}
+                    style={{ width: "1.5em" }}
                   />
                   Stream
                 </span>
@@ -402,11 +402,10 @@ export default class PMTable extends React.Component {
                   streams={streams}
                   mode="multiple"
                   placeholder="Filter Streams"
-                  style={{ width: '100%' }}
+                  style={{ width: "100%" }}
                   allowClear
                   value={this.selectedStream}
-                  onChange={this.handleStreamChange}
-                >
+                  onChange={this.handleStreamChange}>
                   {StreamOptions}
                 </StyledSelectStreams>
               </Col>
@@ -415,7 +414,7 @@ export default class PMTable extends React.Component {
                   <FontAwesomeIcon
                     icon={faFilter}
                     color="#d7d7d7"
-                    style={{ width: '1.5em' }}
+                    style={{ width: "1.5em" }}
                   />
                   Phase
                 </span>
@@ -425,11 +424,10 @@ export default class PMTable extends React.Component {
                   phases={phases}
                   mode="multiple"
                   placeholder="Filter Phases"
-                  style={{ width: '100%' }}
+                  style={{ width: "100%" }}
                   allowClear
                   value={this.selectedPhase}
-                  onChange={this.handlePhaseChange}
-                >
+                  onChange={this.handlePhaseChange}>
                   {PhaseOptions}
                 </StyledSelectPhases>
               </Col>
@@ -437,9 +435,8 @@ export default class PMTable extends React.Component {
                 <Button
                   type="link"
                   disabled={this.state.buttonDisable}
-                  onClick={this.clearFilters}
-                >
-                  <span style={{ fontSize: '1.35rem' }}>Clear Filters</span>
+                  onClick={this.clearFilters}>
+                  <span style={{ fontSize: "1.35rem" }}>Clear Filters</span>
                 </Button>
               </Col>
             </Row>
@@ -452,8 +449,8 @@ export default class PMTable extends React.Component {
               <Table
                 columns={columns}
                 dataSource={this.state.tableData}
-                pagination={{ position: 'false' }}
-                scroll={{ y: '50vh' }}
+                pagination={{ position: "false" }}
+                scroll={{ y: "calc(70vh - 4em)" }}
               />
             </div>
           </Col>
