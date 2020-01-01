@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFilter } from '@fortawesome/free-solid-svg-icons';
 import { Table, Tag, Icon, Avatar, Row, Col, Select, Button } from 'antd';
 import moment from 'moment';
+import styled from 'styled-components';
 
 export default class PMTable extends React.Component {
   constructor(props) {
@@ -117,7 +118,9 @@ export default class PMTable extends React.Component {
   }
 
   handleStateChange(array) {
-    if (this.selectedStream.length === 0 && this.selectedPhase === 0) {
+    console.log(this.selectedStream.length);
+    console.log(this.selectedPhase.length);
+    if (this.selectedStream.length === 0 && this.selectedPhase.length === 0) {
       this.setState({
         buttonDisable: true,
         tableData: array
@@ -329,6 +332,56 @@ export default class PMTable extends React.Component {
       }
     ];
 
+    const gimmeSomeBloodyStreams = streams => {
+      return streams.reduce(
+        (acc, { color, value }) =>
+          `${acc}
+                &[title='${value}'] {
+                   background-color: ${color};
+                }
+        `,
+        ''
+      );
+    };
+
+    const gimmeSomeBloodyPhases = phases => {
+      return phases.reduce(
+        (acc, { color, value }) =>
+          `${acc}
+                &[title='${value}'] {
+                   background-color: ${color};
+                }
+        `,
+        ''
+      );
+    };
+
+    const StyledSelectStreams = styled(Select)`
+      min-width: 100%;
+      .ant-select-selection li.ant-select-selection__choice {
+        ${({ streams }) => (streams ? gimmeSomeBloodyStreams(streams) : '')}
+      }
+    `;
+
+    const StyledSelectPhases = styled(Select)`
+      min-width: 100%;
+      .ant-select-selection li.ant-select-selection__choice {
+        ${({ phases }) => (phases ? gimmeSomeBloodyPhases(phases) : '')}
+      }
+    `;
+
+    const StreamOptions = streams.map(({ color, value }) => (
+      <Select.Option color={color} title={value} key={value}>
+        {value}
+      </Select.Option>
+    ));
+
+    const PhaseOptions = phases.map(({ color, value }) => (
+      <Select.Option color={color} title={value} key={value}>
+        {value}
+      </Select.Option>
+    ));
+
     return (
       <div>
         <Row>
@@ -345,20 +398,17 @@ export default class PMTable extends React.Component {
                 </span>
               </Col>
               <Col span={5}>
-                <Select
-                  mode="tags"
+                <StyledSelectStreams
+                  streams={streams}
+                  mode="multiple"
                   placeholder="Filter Streams"
                   style={{ width: '100%' }}
                   allowClear
                   value={this.selectedStream}
                   onChange={this.handleStreamChange}
                 >
-                  {streams.map(item => (
-                    <Select.Option key={item.key} value={item.value}>
-                      <span>{item.value}</span>
-                    </Select.Option>
-                  ))}
-                </Select>
+                  {StreamOptions}
+                </StyledSelectStreams>
               </Col>
               <Col offset={2} span={2}>
                 <span className="heading">
@@ -371,20 +421,17 @@ export default class PMTable extends React.Component {
                 </span>
               </Col>
               <Col span={5}>
-                <Select
-                  mode="tags"
+                <StyledSelectPhases
+                  phases={phases}
+                  mode="multiple"
                   placeholder="Filter Phases"
                   style={{ width: '100%' }}
                   allowClear
                   value={this.selectedPhase}
                   onChange={this.handlePhaseChange}
                 >
-                  {phases.map(item => (
-                    <Select.Option key={item.key} value={item.value}>
-                      <div>{item.value}</div>
-                    </Select.Option>
-                  ))}
-                </Select>
+                  {PhaseOptions}
+                </StyledSelectPhases>
               </Col>
               <Col offset={2} span={2}>
                 <Button
