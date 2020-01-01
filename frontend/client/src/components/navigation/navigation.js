@@ -1,8 +1,8 @@
-import React from "react";
-import "./navigation.css";
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Layout } from "antd";
+import React from 'react';
+import './navigation.css';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Layout } from 'antd';
 import {
   faStroopwafel,
   faHome,
@@ -16,6 +16,8 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 const { Footer } = Layout;
+
+const {Footer} = Layout;
 
 library.add(faStroopwafel);
 
