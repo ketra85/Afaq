@@ -36,13 +36,15 @@ export default class Navigation extends React.Component {
         <nav id="sidebar">
           <ul className="list-unstyled components">
             <li id="home">
-              <a
-                href="/"
-                data-toggle="tooltip"
-                data-placement="right"
-                title="Home">
-                <FontAwesomeIcon icon={faHome} aria-hidden="true" size="1x" />
-              </a>
+              {/* <Link to="/"> */}
+                <a
+                  href="/"
+                  data-toggle="tooltip"
+                  data-placement="right"
+                  title="Home">
+                  <FontAwesomeIcon icon={faHome} aria-hidden="true" size="1x" />
+                </a>
+              {/* </Link> */}
             </li>
             <li id="notification">
               <a
