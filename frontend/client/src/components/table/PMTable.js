@@ -9,6 +9,10 @@ import {
 import { Table, Tag, Icon, Avatar, Row, Col, Select, Button } from 'antd';
 import moment from 'moment';
 import styled from 'styled-components';
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Provider } from 'react-redux';
+import GDProfile from '../../GDProfile';
+
 
 export default class PMTable extends React.Component {
   constructor(props) {
@@ -191,43 +195,43 @@ export default class PMTable extends React.Component {
   render() {
     const columns = [
       {
-        dataIndex: 'avatar',
-        key: 'avatar',
+        dataIndex: "avatar",
+        key: "avatar",
         width: 64,
         render: icon => <Avatar size="default" icon="user" />
       },
       {
-        title: 'Name',
-        dataIndex: 'name',
-        key: 'name',
+        title: "Name",
+        dataIndex: "name",
+        key: "name",
         sorter: (a, b) => this.compareByAlpha(a.name, b.name)
         // sortDirection: ["descend", "ascend"]
       },
       {
-        title: 'Staff ID',
-        dataIndex: 'id',
-        key: 'id',
+        title: "Staff ID",
+        dataIndex: "id",
+        key: "id",
         sorter: (a, b) => a.id - b.id
         // sortDirection: ["descend", "ascend"]
       },
       {
-        title: 'Stream',
-        key: 'stream',
-        dataIndex: 'stream',
+        title: "Stream",
+        key: "stream",
+        dataIndex: "stream",
         sorter: (a, b) => this.compareByAlpha(a.stream, b.stream),
         // sortDirection: ["descend", "ascend"],
         render: tags => (
           <span>
             {tags.map(tag => {
               var color;
-              if (tag === 'IT') {
-                color = 'rgba(255,10,0,0.25)';
+              if (tag === "IT") {
+                color = "rgba(255,10,0,0.25)";
               }
-              if (tag === 'HR') {
-                color = 'rgba(255,191,0,0.25)';
+              if (tag === "HR") {
+                color = "rgba(255,191,0,0.25)";
               }
-              if (tag === 'COM (Delegated)') {
-                color = 'rgba(127,0,255,0.25)';
+              if (tag === "COM (Delegated)") {
+                color = "rgba(127,0,255,0.25)";
               }
               return (
                 <Tag color={color} key={tag}>
@@ -239,26 +243,26 @@ export default class PMTable extends React.Component {
         )
       },
       {
-        title: 'Phase',
-        key: 'phase',
-        dataIndex: 'phase',
+        title: "Phase",
+        key: "phase",
+        dataIndex: "phase",
         sorter: (a, b) => this.compareByAlpha(a.phase, b.phase),
         // sortDirection: ["descend", "ascend"],
         render: tags => (
           <span>
             {tags.map(tag => {
               var color;
-              if (tag === 'OJT') {
-                color = 'rgba(0,80,0,0.25)';
+              if (tag === "OJT") {
+                color = "rgba(0,80,0,0.25)";
               }
-              if (tag === 'Familiarization') {
-                color = 'rgba(170,170,0,0.25)';
+              if (tag === "Familiarization") {
+                color = "rgba(170,170,0,0.25)";
               }
-              if (tag === 'Rotation') {
-                color = 'rgba(0,200,0,0.25)';
+              if (tag === "Rotation") {
+                color = "rgba(0,200,0,0.25)";
               }
-              if (tag === 'Finishing OJT') {
-                color = 'rgba(0,0,0,0.25)';
+              if (tag === "Finishing OJT") {
+                color = "rgba(0,0,0,0.25)";
               }
               return (
                 <Tag color={color} key={tag}>
@@ -270,23 +274,25 @@ export default class PMTable extends React.Component {
         )
       },
       {
-        title: 'DOJ',
-        dataIndex: 'doj',
-        key: 'doj',
+        title: "DOJ",
+        dataIndex: "doj",
+        key: "doj",
         sorter: (a, b) => moment(a.doj).unix() - moment(b.doj).unix()
       },
       {
-        title: 'Alerts',
-        dataIndex: 'alerts',
-        key: 'alerts',
+        title: "Alerts",
+        dataIndex: "alerts",
+        key: "alerts",
         sorter: (a, b) => this.compareByAlpha(a.alerts, b.alerts),
-        sortDirection: ['descend'],
+        sortDirection: ["descend", "ascend"],
         render: text => (
           <span>
             {text.length > 0 && (
               <span>
                 <FontAwesomeIcon icon={faExclamationCircle} color="red" />
-                <a>{' ' + text}</a>
+                <Link to="/GDProfile">
+                  <a>{" " + text}</a>
+                </Link>
               </span>
             )}
           </span>
@@ -394,13 +400,13 @@ export default class PMTable extends React.Component {
       <div>
         <Row>
           <Col className="headerBox">
-            <Row type="flex" align="middle" style={{ height: '14vh' }}>
+            <Row type="flex" align="middle" style={{ height: "14vh" }}>
               <Col offset={2} span={2}>
                 <span className="heading">
                   <FontAwesomeIcon
                     icon={faFilter}
                     color="#d7d7d7"
-                    style={{ width: '1.5em' }}
+                    style={{ width: "1.5em" }}
                   />
                   Stream
                 </span>
@@ -411,11 +417,10 @@ export default class PMTable extends React.Component {
                   mode="multiple"
                   placeholder="Filter Streams"
                   size="large"
-                  style={{ width: '100%' }}
+                  style={{ width: "100%" }}
                   allowClear
                   value={this.selectedStream}
-                  onChange={this.handleStreamChange}
-                >
+                  onChange={this.handleStreamChange}>
                   {StreamOptions}
                 </StyledSelectStreams>
               </Col>
@@ -424,7 +429,7 @@ export default class PMTable extends React.Component {
                   <FontAwesomeIcon
                     icon={faFilter}
                     color="#d7d7d7"
-                    style={{ width: '1.5em' }}
+                    style={{ width: "1.5em" }}
                   />
                   Phase
                 </span>
@@ -434,12 +439,11 @@ export default class PMTable extends React.Component {
                   phases={phases}
                   mode="multiple"
                   placeholder="Filter Phases"
-                  style={{ width: '100%' }}
+                  style={{ width: "100%" }}
                   size="large"
                   allowClear
                   value={this.selectedPhase}
-                  onChange={this.handlePhaseChange}
-                >
+                  onChange={this.handlePhaseChange}>
                   {PhaseOptions}
                 </StyledSelectPhases>
               </Col>
@@ -447,9 +451,8 @@ export default class PMTable extends React.Component {
                 <Button
                   type="link"
                   disabled={this.state.buttonDisable}
-                  onClick={this.clearFilters}
-                >
-                  <span style={{ fontSize: '1.35rem' }}>Clear Filters</span>
+                  onClick={this.clearFilters}>
+                  <span style={{ fontSize: "1.35rem" }}>Clear Filters</span>
                 </Button>
               </Col>
             </Row>
@@ -462,8 +465,8 @@ export default class PMTable extends React.Component {
               <Table
                 columns={columns}
                 dataSource={this.state.tableData}
-                pagination={{ position: 'false' }}
-                scroll={{ y: 'calc(70vh - 4em)' }}
+                pagination={{ position: "false" }}
+                scroll={{ y: "calc(70vh - 4em)" }}
               />
             </div>
           </Col>

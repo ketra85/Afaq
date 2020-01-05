@@ -14,6 +14,8 @@ import {
   faUserCircle,
   faPlane
 } from "@fortawesome/free-solid-svg-icons";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import GDProfile from "../../GDProfile";
 
 const { Footer } = Layout;
 
@@ -35,7 +37,7 @@ export default class Navigation extends React.Component {
           <ul className="list-unstyled components">
             <li id="home">
               <a
-                href="#"
+                href="/"
                 data-toggle="tooltip"
                 data-placement="right"
                 title="Home">
