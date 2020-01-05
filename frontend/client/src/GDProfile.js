@@ -10,9 +10,6 @@ export default class GDProfile extends React.Component {
     return (
       <div>
         <Layout style={{ minHeight: '100vh' }}>
-          <Sider width="64px">
-            <Navigation />
-          </Sider>
           <Sider class="aboutGd" width="512px"></Sider>
           <Layout>
             <Content style={{ minHeight: '100vh' }} class="gdProfile">
