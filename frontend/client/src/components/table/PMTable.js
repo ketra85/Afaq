@@ -2,7 +2,10 @@ import React from 'react';
 import 'antd/dist/antd.css';
 import './PMTable.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFilter } from '@fortawesome/free-solid-svg-icons';
+import {
+  faFilter,
+  faExclamationCircle
+} from '@fortawesome/free-solid-svg-icons';
 import { Table, Tag, Icon, Avatar, Row, Col, Select, Button } from 'antd';
 import moment from 'moment';
 import styled from 'styled-components';
@@ -282,7 +285,7 @@ export default class PMTable extends React.Component {
           <span>
             {text.length > 0 && (
               <span>
-                <Icon type="info-circle" />
+                <FontAwesomeIcon icon={faExclamationCircle} color="red" />
                 <a>{' ' + text}</a>
               </span>
             )}
