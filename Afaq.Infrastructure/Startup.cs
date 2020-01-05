@@ -8,6 +8,6 @@ namespace Afaq.Infrastructure
     {
         public static void AddDbContext(this IServiceCollection services) =>
             services.AddDbContext<AppDbContext>(options =>
-                options.UseNpgsql(""));
+                options.UseSqlite("Data Source=database.sqlite"));
     }
 }

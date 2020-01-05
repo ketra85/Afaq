@@ -1,0 +1,37 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.1/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.1": {},
+    ".NETStandard,Version=v2.1/": {
+      "Afaq.Core/1.0.0": {
+        "dependencies": {
+          "Afaq.SharedKernel": "1.0.0"
+        },
+        "runtime": {
+          "Afaq.Core.dll": {}
+        }
+      },
+      "Afaq.SharedKernel/1.0.0": {
+        "runtime": {
+          "Afaq.SharedKernel.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Afaq.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Afaq.SharedKernel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

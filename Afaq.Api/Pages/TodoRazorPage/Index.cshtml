@@ -1,0 +1,10 @@
+@page
+@model Afaq.Api.Pages.TodoRazorPage.IndexModel
+
+<h2>Todo Items (Razor Page)</h2>
+<ul>
+    @foreach(var item in Model.TodoItems)
+    {
+        <li>@item.Title<br/>@item.Description</li>
+    }
+</ul>

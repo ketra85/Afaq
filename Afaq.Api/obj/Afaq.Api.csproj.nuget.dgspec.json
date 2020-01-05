@@ -40,9 +40,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.0, )"
+            },
+            "Microsoft.OpenApi": {
+              "target": "Package",
+              "version": "[1.1.4, )"
             },
             "Serilog": {
               "target": "Package",
@@ -50,11 +58,11 @@
             },
             "Serilog.Sinks.Console": {
               "target": "Package",
-              "version": "(, )"
+              "version": "[3.1.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[4.0.1, )"
+              "version": "[5.0.0-rc5, )"
             }
           },
           "imports": [
@@ -184,9 +192,21 @@
               "target": "Package",
               "version": "[3.1.0, )"
             },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[3.1.0, )"
+            },
+            "SQLite": {
+              "target": "Package",
+              "version": "[3.13.0, )"
             }
           },
           "imports": [
@@ -200,9 +220,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
