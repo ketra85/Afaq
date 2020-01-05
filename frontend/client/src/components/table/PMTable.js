@@ -218,13 +218,13 @@ export default class PMTable extends React.Component {
             {tags.map(tag => {
               var color;
               if (tag === 'IT') {
-                color = 'rgba(0, 0, 0, 0.25)';
+                color = 'rgba(255,10,0,0.25)';
               }
               if (tag === 'HR') {
-                color = 'rgba(0, 80, 0, 0.25)';
+                color = 'rgba(255,191,0,0.25)';
               }
               if (tag === 'COM (Delegated)') {
-                color = 'rgba(170, 170, 0, 0.25)';
+                color = 'rgba(127,0,255,0.25)';
               }
               return (
                 <Tag color={color} key={tag}>
@@ -246,16 +246,16 @@ export default class PMTable extends React.Component {
             {tags.map(tag => {
               var color;
               if (tag === 'OJT') {
-                color = 'rgba(220,220,220, 0.25)';
+                color = 'rgba(0,80,0,0.25)';
               }
               if (tag === 'Familiarization') {
-                color = 'rgba(255,200,0, 0.25)';
+                color = 'rgba(170,170,0,0.25)';
               }
               if (tag === 'Rotation') {
-                color = 'rgba(220,220,220, 0.25)';
+                color = 'rgba(0,200,0,0.25)';
               }
               if (tag === 'Finishing OJT') {
-                color = 'rgba(220,220,220, 0.25)';
+                color = 'rgba(0,0,0,0.25)';
               }
               return (
                 <Tag color={color} key={tag}>
@@ -295,40 +295,45 @@ export default class PMTable extends React.Component {
       {
         key: 'IT',
         value: 'IT',
-        color: 'rgba(0,0,0,0.25)'
+        color: 'rgba(255,10,0,0.25)'
       },
       {
         key: 'HR',
         value: 'HR',
-        color: 'rgba(0,80,0,0.25)'
+        color: 'rgba(255,191,0,0.25)'
       },
       {
         key: 'COM (Delegated)',
         value: 'COM (Delegated)',
-        color: 'rgba(170,170,0,0.25)'
+        color: 'rgba(127,0,255,0.25)'
       }
     ];
 
     const phases = [
       {
-        key: 'OJT',
-        value: 'OJT',
+        key: 'Joining',
+        value: 'Joining',
         color: 'rgba(220,220,220,0.25)'
       },
       {
         key: 'Familiarization',
         value: 'Familiarization',
-        color: 'rgba(255,200,0,0.25)'
+        color: 'rgba(170,170,0,0.25)'
       },
       {
         key: 'Rotation',
         value: 'Rotation',
-        color: 'rgba(220,220,220,0.25)'
+        color: 'rgba(0,200,0,0.25)'
+      },
+      {
+        key: 'OJT',
+        value: 'OJT',
+        color: 'rgba(0,80,0,0.25)'
       },
       {
         key: 'Finishing OJT',
         value: 'Finishing OJT',
-        color: 'rgba(220,220,220,0.25)'
+        color: 'rgba(0,0,0,0.25)'
       }
     ];
 
@@ -386,13 +391,13 @@ export default class PMTable extends React.Component {
       <div>
         <Row>
           <Col className="headerBox">
-            <Row type="flex" align="middle" style={{ height: "14vh" }}>
+            <Row type="flex" align="middle" style={{ height: '14vh' }}>
               <Col offset={2} span={2}>
                 <span className="heading">
                   <FontAwesomeIcon
                     icon={faFilter}
                     color="#d7d7d7"
-                    style={{ width: "1.5em" }}
+                    style={{ width: '1.5em' }}
                   />
                   Stream
                 </span>
@@ -402,10 +407,12 @@ export default class PMTable extends React.Component {
                   streams={streams}
                   mode="multiple"
                   placeholder="Filter Streams"
-                  style={{ width: "100%" }}
+                  size="large"
+                  style={{ width: '100%' }}
                   allowClear
                   value={this.selectedStream}
-                  onChange={this.handleStreamChange}>
+                  onChange={this.handleStreamChange}
+                >
                   {StreamOptions}
                 </StyledSelectStreams>
               </Col>
@@ -414,7 +421,7 @@ export default class PMTable extends React.Component {
                   <FontAwesomeIcon
                     icon={faFilter}
                     color="#d7d7d7"
-                    style={{ width: "1.5em" }}
+                    style={{ width: '1.5em' }}
                   />
                   Phase
                 </span>
@@ -424,10 +431,12 @@ export default class PMTable extends React.Component {
                   phases={phases}
                   mode="multiple"
                   placeholder="Filter Phases"
-                  style={{ width: "100%" }}
+                  style={{ width: '100%' }}
+                  size="large"
                   allowClear
                   value={this.selectedPhase}
-                  onChange={this.handlePhaseChange}>
+                  onChange={this.handlePhaseChange}
+                >
                   {PhaseOptions}
                 </StyledSelectPhases>
               </Col>
@@ -435,8 +444,9 @@ export default class PMTable extends React.Component {
                 <Button
                   type="link"
                   disabled={this.state.buttonDisable}
-                  onClick={this.clearFilters}>
-                  <span style={{ fontSize: "1.35rem" }}>Clear Filters</span>
+                  onClick={this.clearFilters}
+                >
+                  <span style={{ fontSize: '1.35rem' }}>Clear Filters</span>
                 </Button>
               </Col>
             </Row>
@@ -449,8 +459,8 @@ export default class PMTable extends React.Component {
               <Table
                 columns={columns}
                 dataSource={this.state.tableData}
-                pagination={{ position: "false" }}
-                scroll={{ y: "calc(70vh - 4em)" }}
+                pagination={{ position: 'false' }}
+                scroll={{ y: 'calc(70vh - 4em)' }}
               />
             </div>
           </Col>

@@ -7,11 +7,14 @@
 }
 
 .ant-tag {
-  font-size: 14px;
-  line-height: 22px;
+  font-size: 16px;
+  line-height: 32px;
+  height: 32px;
   border-radius: 8px;
 }
 
 .ant-select-selection--multiple .ant-select-selection__choice {
   border-radius: 8px;
+  border-color: transparent;
+  color: #323232;
 }
