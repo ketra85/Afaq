@@ -1,0 +1,53 @@
+#content {
+  width: calc(100% - 64px);
+  min-height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.headerBox {
+  height: 15vh;
+}
+
+.contentBox {
+  background-color: #d7d7d7;
+  height: calc(100vh - 15vh);
+}
+
+.tableDiv {
+  background-color: white;
+  height: 100%;
+  padding: 36px;
+  border-left: 8px solid #323232;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.rpd {
+  padding: 24px !important;
+}
+
+.afaqHeading {
+  font-size: 1.35rem !important;
+  color: #323232 !important;
+  margin-bottom: 8px !important;
+}
+
+.heading {
+  font-size: 1.35rem !important;
+  color: #323232 !important;
+}
+
+.aboutGd {
+  background: #d7d7d7;
+}
+
+.gdProfile {
+  background: #818a8f;
+}
+
+.skillcard {
+  height: 42.5vh;
+  padding: 24px !important;
+}
