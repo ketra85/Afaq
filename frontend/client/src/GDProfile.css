@@ -51,3 +51,29 @@
   height: 42.5vh;
   padding: 24px !important;
 }
+
+.colorRow {
+  background-color: aliceblue;
+}
+
+.aboutHeadingsTitle {
+  margin: 0px;
+  color: #818a8f;
+}
+
+.aboutHeadings {
+  margin: 0px;
+  color: #323232;
+}
+
+.headingsRow {
+  min-height: 5vh;
+}
+
+.nameRow {
+  min-height: 20vh;
+}
+
+.spacerRow {
+  min-height: 5vh;
+}
