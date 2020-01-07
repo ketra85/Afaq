@@ -66,6 +66,10 @@
   color: #323232;
 }
 
+.aboutForms {
+  font-size: 15px;
+}
+
 .headingsRow {
   min-height: 5vh;
 }

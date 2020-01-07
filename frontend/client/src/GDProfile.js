@@ -7,37 +7,38 @@ import { Layout, Row, Col, List, Avatar, Tag } from 'antd';
 export default class GDProfile extends React.Component {
   render() {
     const gdData = {
-      name: 'Abdulaziz Abdulhameed Abdulrahman ',
+      name: "Abdulaziz Abdulhameed Abdulrahman ",
       id: 82134,
-      stream: 'IT',
-      phase: 'OJT',
-      PM: 'Meshaal',
-      SL: 'AK',
-      LM: 'Binoy',
-      uni: 'CMU',
-      major: 'IS',
-      AOI: 'Programming, Design, Communication'
+      stream: "IT",
+      phase: "OJT",
+      PM: "Meshaal Al-Mutlaq",
+      SL: "Abdulkarim Lambe",
+      LM: "Binoy Mathew",
+      uni: "Carnegie Melon University",
+      major: "Information Systems",
+      AOI: "Programming, Design and Communication",
     };
+
     const { Sider, Content } = Layout;
+
     return (
       <div>
-        <Layout style={{ minHeight: '100vh' }}>
-          <Sider class="aboutGd" width="512px">
+        <Layout style={{ minHeight: "100vh" }}>
+          <Sider className="aboutGd" width="512px">
             <Row type="flex" align="middle" className="nameRow">
-              <Col offset={1} span={9} style={{ textAlign: 'center' }}>
+              <Col offset={1} span={9} style={{ textAlign: "center" }}>
                 <Avatar size={100} icon="user" />
               </Col>
               <Col span={13}>
                 <h1
                   style={{
-                    fontSize: '1rem',
-                    marginBottom: '5px'
-                  }}
-                >
+                    fontSize: "1rem",
+                    marginBottom: "5px"
+                  }}>
                   {gdData.name}({gdData.id})
                 </h1>
-                <Tag>{gdData.stream}</Tag>
-                <Tag>{gdData.phase}</Tag>
+                <Tag color="rgba(255,10,0,0.25)">{gdData.stream}</Tag>
+                <Tag color="rgba(0,80,0,0.25)">{gdData.phase}</Tag>
               </Col>
             </Row>
             <Row type="flex" align="middle" className="headingsRow">
@@ -99,10 +100,48 @@ export default class GDProfile extends React.Component {
                 <h1 className="aboutHeadings">{gdData.AOI}</h1>
               </Col>
             </Row>
+            <Row className="spacerRow"></Row>
+            <Row type="flex" align="middle" className="headingsRow">
+              <Col offset={1}>
+                <h1 className="aboutHeadingsTitle">FORMS</h1>
+              </Col>
+            </Row>
+            <Row type="flex" align="middle" className="headingsRow">
+              <Col offset={1} span={11}>
+                <a className="aboutForms">Resume</a>
+              </Col>
+              <Col span={11}>
+                <a className="aboutForms">Rotation 1 Evaluation Form</a>
+              </Col>
+            </Row>
+            <Row type="flex" align="middle" className="headingsRow">
+              <Col offset={1} span={11}>
+                <a className="aboutForms">Familiarization Plan</a>
+              </Col>
+              <Col span={11}>
+                <a className="aboutForms">Rotation 2 Evaluation Form</a>
+              </Col>
+            </Row>
+            <Row type="flex" align="middle" className="headingsRow">
+              <Col offset={1} span={11}>
+                <a className="aboutForms">Rotation Plan</a>
+              </Col>
+              <Col span={11}>
+                <a className="aboutForms">Rotation 3 Evaluation Form</a>
+              </Col>
+            </Row>
+            <Row type="flex" align="middle" className="headingsRow">
+              <Col offset={1} span={11}>
+                <a className="aboutForms">6 Months Presentation</a>
+              </Col>
+              <Col span={11}>
+                <a className="aboutForms">Rotation 4 Evaluation Form</a>
+              </Col>
+            </Row>
           </Sider>
           <Layout>
-            <Content style={{ minHeight: '100vh' }} class="gdProfile">
-              <Row style={{ minHeight: '15vh', background: 'white' }}>
+            <Content style={{ minHeight: "100vh" }} class="gdProfile">
+              <Row style={{ minHeight: "15vh", background: "white" }}>
                 <Col></Col>
               </Row>
               <Row>
