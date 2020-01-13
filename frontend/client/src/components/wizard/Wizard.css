@@ -1,0 +1,36 @@
+.ant-steps-item-finish
+  > .ant-steps-item-container
+  > .ant-steps-item-tail::after {
+  background-color: #323232;
+}
+
+.ant-steps-item-tail::after {
+  height: 2px;
+}
+
+.ant-steps-small .ant-steps-item-title {
+  font-size: 1.35rem;
+}
+
+.ant-steps-item-subtitle {
+  font-size: 0.8rem;
+  color: #d7d7d7;
+}
+
+.ant-steps-item-process
+  > .ant-steps-item-container
+  > .ant-steps-item-content
+  > .ant-steps-item-title {
+  color: #791049;
+}
+
+.ant-steps-item-finish
+  > .ant-steps-item-container
+  > .ant-steps-item-content
+  > .ant-steps-item-title {
+  color: #323232;
+}
+
+.ant-steps-item-active {
+  border-bottom: 6px #791049 solid;
+}
