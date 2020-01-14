@@ -2,7 +2,7 @@ import React from 'react';
 import 'antd/dist/antd.css';
 import './GDProfile.css';
 import Wizard from './components/wizard/Wizard';
-import { Layout, Row, Col, List, Avatar, Tag } from 'antd';
+import { Layout, Row, Col, Avatar, Tag } from 'antd';
 
 export default class GDProfile extends React.Component {
   render() {

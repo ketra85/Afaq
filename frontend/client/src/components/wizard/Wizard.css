@@ -31,6 +31,27 @@
   color: #323232;
 }
 
-.ant-steps-item-active {
+/* .ant-steps-item-active {
   border-bottom: 6px #791049 solid;
+} */
+
+.ant-steps-label-vertical.ant-steps-small:not(.ant-steps-dot)
+  .ant-steps-item-icon {
+  max-height: 24px;
+}
+
+.ant-steps-navigation .ant-steps-item::after {
+  content: none;
+}
+
+.ant-steps-navigation {
+  padding-top: 5px;
+}
+
+.ant-steps-navigation .ant-steps-item::before {
+  background-color: #791049;
+}
+
+.ant-steps-label-vertical .ant-steps-item-tail {
+  margin-left: 4.4vw;
 }
