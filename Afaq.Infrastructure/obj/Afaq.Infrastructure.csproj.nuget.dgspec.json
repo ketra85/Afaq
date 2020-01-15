@@ -39,6 +39,12 @@
       },
       "frameworks": {
         "netstandard2.1": {
+          "dependencies": {
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.9.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -124,6 +130,10 @@
             "SQLite": {
               "target": "Package",
               "version": "[3.13.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.9.0, )"
             }
           },
           "imports": [
@@ -176,6 +186,16 @@
       },
       "frameworks": {
         "netstandard2.1": {
+          "dependencies": {
+            "serilog": {
+              "target": "Package",
+              "version": "[2.9.0, )"
+            },
+            "serilog.sinks.console": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -1,10 +1,11 @@
 using System;
-using System.Collections.Generic;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Afaq.Infrastructure.Data;
+using Serilog;
+using Microsoft.Extensions.Configuration;
+using System.IO;
 
 namespace Afaq.Api
 {
@@ -12,6 +13,11 @@ namespace Afaq.Api
     {
         public static void Main(string[] args)
         {
+            Log.Logger = new LoggerConfiguration()
+                .WriteTo.File("log.txt", rollingInterval: RollingInterval.Day)
+                .Enrich.WithProperty("Afaq", "Afaq app runtime logs")
+                .CreateLogger();
+
             var host = CreateWebHostBuilder(args).Build();
 
             using(var scope = host.Services.CreateScope())
@@ -27,13 +33,26 @@ namespace Afaq.Api
                 catch(Exception e)
                 {
                     //log this
+                    Log.Fatal(e, "Host terminated unexpectedly");
+                    return;
+                }
+                finally
+                {
+                    Log.CloseAndFlush();
                 }
             }
             host.Run();
         }
 
+        public static IConfiguration Configuration { get; } = new ConfigurationBuilder()
+            .SetBasePath(Directory.GetCurrentDirectory())
+            .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+            .AddEnvironmentVariables()
+            .Build();
+
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>();
+                .UseStartup<Startup>()
+                .UseSerilog();
     }
 }

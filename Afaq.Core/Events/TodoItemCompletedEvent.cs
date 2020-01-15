@@ -1,5 +1,6 @@
 using Afaq.Core.Entities;
 using Afaq.SharedKernel;
+using Serilog;
 
 namespace Afaq.Core.Events
 {
@@ -9,6 +10,7 @@ namespace Afaq.Core.Events
 
         public TodoItemCompletedEvent(TodoItem completedItem)
         {
+            Log.Information(completedItem.ToString(), "hi from complete event in core");
             CompletedItem = completedItem;
         }
     }

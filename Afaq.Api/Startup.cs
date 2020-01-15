@@ -10,7 +10,6 @@ using Microsoft.OpenApi.Models;
 using Microsoft.AspNetCore.Mvc.NewtonsoftJson;
 using System.Reflection;
 using Afaq.Infrastructure;
-using Swashbuckle.AspNetCore.Swagger;
 
 namespace Afaq.Api
 {
@@ -30,10 +29,9 @@ namespace Afaq.Api
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
+
             services.AddDbContext();
-            services.AddControllersWithViews().AddNewtonsoftJson();
-            services.AddRazorPages();
-            services.AddSwaggerGen(c => c.SwaggerDoc("v1", new OpenApiInfo { Title = "Todo API", Version = "v1" }));
+            services.AddControllers().AddNewtonsoftJson();
 
             return ContainerSetup.InitializeWeb(Assembly.GetExecutingAssembly(), services);
         }
@@ -56,14 +54,10 @@ namespace Afaq.Api
             app.UseStaticFiles();
             app.UseCookiePolicy();
 
-            app.UseSwagger();
-            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Todo API V1"));
-
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
-                // endpoints.MapDefaultControllerRoute();
                 endpoints.MapControllers();
             });
         }

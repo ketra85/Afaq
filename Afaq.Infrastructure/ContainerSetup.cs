@@ -6,6 +6,7 @@ using Afaq.Infrastructure.Data;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Reflection;
+using Serilog;
 
 namespace Afaq.Infrastructure
 {
@@ -21,12 +22,12 @@ namespace Afaq.Infrastructure
         public static IContainer BaseAutofacInitialization(Action<ContainerBuilder> setupAction = null)
         {
             var builder = new ContainerBuilder();
-            // var coreAssembly = Assembly.GetAssembly(typeof(""));
             var infrastructureAssembly = Assembly.GetAssembly(typeof(EfRepository));
             var sharedKernelAssembly = Assembly.GetAssembly(typeof(IRepository));
             builder.RegisterAssemblyTypes(sharedKernelAssembly, infrastructureAssembly).AsImplementedInterfaces();
 
             setupAction?.Invoke(builder);
+            Log.Information("Hello from infra");
             return builder.Build();
         }
     }

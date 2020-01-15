@@ -8,7 +8,7 @@ namespace Afaq.Core
     {
         public static int PopulateDb(IRepository todoRepository)
         {
-            if(todoRepository.List<TodoItem>().Count() >= 5) return 0;
+            if(todoRepository.GetTodoItems<TodoItem>().Count() >= 5) return 0;
             todoRepository.Add(new TodoItem
             {
                 Title = "Get Sample Working",
@@ -26,7 +26,7 @@ namespace Afaq.Core
             });
 
 
-            return todoRepository.List<TodoItem>().Count();
+            return todoRepository.GetTodoItems<TodoItem>().Count();
         }
     }
 }

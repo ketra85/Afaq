@@ -20,6 +20,9 @@ namespace Afaq.Infrastructure.Data
 
         public DbSet<TodoItem> TodoItems { get; set; }
 
+        // protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) 
+        //     => optionsBuilder.UseNpgsql("Host=127.0.0.1:46329;Database=TodoApiTest;Username=ketra;Password=A!612842");
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
