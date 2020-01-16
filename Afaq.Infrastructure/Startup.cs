@@ -8,6 +8,9 @@ namespace Afaq.Infrastructure
     {
         public static void AddDbContext(this IServiceCollection services) =>
             services.AddDbContext<AppDbContext>(options =>
-                options.UseNpgsql("Host=localhost:5432;Username=ketra;Password=A!612842;Database=tododb;"));
+                options.UseSqlite("Data Source=database.sqlite"));
+        // public static void AddDbContext(this IServiceCollection services) =>
+        //     services.AddDbContext<AppDbContext>(options =>
+        //         options.UseNpgsql("Host=localhost:5432;Username=ketra;Password=A!612842;Database=tododb;"));
     }
 }

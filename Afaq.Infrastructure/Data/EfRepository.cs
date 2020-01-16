@@ -20,7 +20,7 @@ namespace Afaq.Infrastructure.Data
             return _dbContext.Set<T>().SingleOrDefault(e => e.Id == id);
         }
 
-        public List<T> GetTodoItems<T>() where T : BaseEntity
+        public List<T> List<T>() where T : BaseEntity
         {
             return _dbContext.Set<T>().ToList();
         }

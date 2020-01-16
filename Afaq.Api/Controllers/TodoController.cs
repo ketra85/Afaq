@@ -25,7 +25,7 @@ namespace Afaq.Api.Controllers
         [HttpGet]
         public IActionResult GetTodoItems()
         {
-            var items = _repository.GetTodoItems<TodoItem>()
+            var items = _repository.List<TodoItem>()
                             .Select(TodoItemDTO.FromTodoItem);
             return Ok(items);
         }
