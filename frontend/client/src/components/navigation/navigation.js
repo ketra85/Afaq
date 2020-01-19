@@ -13,12 +13,11 @@ import {
   faLink,
   faUserCircle,
   faPlane
-} from "@fortawesome/free-solid-svg-icons";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import GDProfile from "../../GDProfile";
+} from '@fortawesome/free-solid-svg-icons';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import GDProfile from '../../GDProfile';
 
 const { Footer } = Layout;
-
 
 library.add(faStroopwafel);
 
@@ -37,13 +36,14 @@ export default class Navigation extends React.Component {
           <ul className="list-unstyled components">
             <li id="home">
               {/* <Link to="/"> */}
-                <a
-                  href="/"
-                  data-toggle="tooltip"
-                  data-placement="right"
-                  title="Home">
-                  <FontAwesomeIcon icon={faHome} aria-hidden="true" size="1x" />
-                </a>
+              <a
+                href="/"
+                data-toggle="tooltip"
+                data-placement="right"
+                title="Home"
+              >
+                <FontAwesomeIcon icon={faHome} aria-hidden="true" size="1x" />
+              </a>
               {/* </Link> */}
             </li>
             <li id="notification">
@@ -51,7 +51,8 @@ export default class Navigation extends React.Component {
                 href="#"
                 data-toggle="tooltip"
                 data-placement="right"
-                title="Notifications">
+                title="Notifications"
+              >
                 <FontAwesomeIcon icon={faBell} aria-hidden="true" size="1x" />
               </a>
             </li>
@@ -60,7 +61,8 @@ export default class Navigation extends React.Component {
                 href="#"
                 data-toggle="tooltip"
                 data-placement="right"
-                title="Contacts">
+                title="Contacts"
+              >
                 <FontAwesomeIcon
                   icon={faAddressBook}
                   aria-hidden="true"
@@ -73,7 +75,8 @@ export default class Navigation extends React.Component {
                 href="#"
                 data-toggle="tooltip"
                 data-placement="right"
-                title="Help">
+                title="Help"
+              >
                 <FontAwesomeIcon
                   icon={faQuestionCircle}
                   aria-hidden="true"
@@ -86,7 +89,8 @@ export default class Navigation extends React.Component {
                 href="#"
                 data-toggle="tooltip"
                 data-placement="right"
-                title="Links">
+                title="Links"
+              >
                 <FontAwesomeIcon icon={faLink} aria-hidden="true" size="1x" />
               </a>
             </li>
@@ -95,7 +99,8 @@ export default class Navigation extends React.Component {
                 href="#"
                 data-toggle="tooltip"
                 data-placement="right"
-                title="Profile">
+                title="Profile"
+              >
                 <FontAwesomeIcon
                   icon={faUserCircle}
                   aria-hidden="true"
@@ -108,7 +113,8 @@ export default class Navigation extends React.Component {
                   href="#"
                   data-toggle="tooltip"
                   data-placement="right"
-                  title="QR">
+                  title="QR"
+                >
                   <FontAwesomeIcon
                     icon={faPlane}
                     aria-hidden="true"

@@ -1,7 +1,7 @@
 import React from 'react';
 import 'antd/dist/antd.css';
 import './GDProfile.css';
-import Wizard from './components/wizard/Wizard';
+import GDHomepage from './GDHomepage';
 import { Layout, Row, Col, Avatar, Tag } from 'antd';
 
 export default class GDProfile extends React.Component {
@@ -19,12 +19,17 @@ export default class GDProfile extends React.Component {
       AOI: 'Programming, Design and Communication'
     };
 
-    const { Sider, Content } = Layout;
+    const { Sider } = Layout;
 
     return (
       <div>
         <Layout style={{ minHeight: '100vh' }}>
-          <Sider className="aboutGd" width="512px">
+          <Sider
+            className="aboutGd"
+            width="512px"
+            // collapsible="true"
+            // collapsedWidth="0"
+          >
             <Row type="flex" align="middle" className="nameRow">
               <Col offset={1} span={9} style={{ textAlign: 'center' }}>
                 <Avatar size={100} icon="user" />
@@ -140,34 +145,7 @@ export default class GDProfile extends React.Component {
               </Col>
             </Row>
           </Sider>
-          <Layout>
-            <Content style={{ minHeight: '100vh' }} className="gdProfile">
-              <Row style={{ maxHeight: '15vh', background: 'white' }}>
-                <Col>
-                  <Wizard />
-                </Col>
-              </Row>
-              <Row>
-                <Col className="skillcard">
-                  <div className="tableDiv">
-                    <div className="h5 afaqHeading">Timeline</div>
-                  </div>
-                </Col>
-              </Row>
-              <Row>
-                <Col className="skillcard" span={12}>
-                  <div className="tableDiv">
-                    <div className="h5 afaqHeading">Tasks</div>
-                  </div>
-                </Col>
-                <Col className="skillcard" span={12}>
-                  <div className="tableDiv">
-                    <div className="h5 afaqHeading">Skillsets</div>
-                  </div>
-                </Col>
-              </Row>
-            </Content>
-          </Layout>
+          <GDHomepage />
         </Layout>
       </div>
     );
