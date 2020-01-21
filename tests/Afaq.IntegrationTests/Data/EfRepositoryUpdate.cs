@@ -29,7 +29,7 @@ namespace Afaq.IntegrationTests.Data
 
             repository.Update(newItem);
             var updatedItem = repository.List<TodoItem>()
-                .FirstOrDefault(i => i.Title = newTitle);
+                .FirstOrDefault(i => i.Title == newTitle);
 
             Assert.IsNotNull(updatedItem);
             Assert.AreNotEqual(item.Title, updatedItem.Title);

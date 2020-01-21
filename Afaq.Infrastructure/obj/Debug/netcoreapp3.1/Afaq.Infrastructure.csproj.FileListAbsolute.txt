@@ -11,3 +11,5 @@
 /home/ketra/Development/Afaq/Afaq.Infrastructure/obj/Debug/netcoreapp3.1/Afaq.Infrastructure.csproj.CopyComplete
 /home/ketra/Development/Afaq/Afaq.Infrastructure/obj/Debug/netcoreapp3.1/Afaq.Infrastructure.dll
 /home/ketra/Development/Afaq/Afaq.Infrastructure/obj/Debug/netcoreapp3.1/Afaq.Infrastructure.pdb
+/home/ketra/Development/Afaq/Afaq.Infrastructure/bin/Debug/netcoreapp3.1/Afaq.Infrastructure.runtimeconfig.json
+/home/ketra/Development/Afaq/Afaq.Infrastructure/bin/Debug/netcoreapp3.1/Afaq.Infrastructure.runtimeconfig.dev.json

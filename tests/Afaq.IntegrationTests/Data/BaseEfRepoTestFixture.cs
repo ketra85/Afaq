@@ -1,7 +1,7 @@
 using Afaq.SharedKernel.Interfaces;
 using Afaq.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DepedencyInjection;
+using Microsoft.Extensions.DependencyInjection;
 using Moq;
 
 namespace Afaq.IntegrationTests.Data
@@ -17,7 +17,7 @@ namespace Afaq.IntegrationTests.Data
                 .BuildServiceProvider();
 
             var builder = new DbContextOptionsBuilder<AppDbContext>();
-            builder.UseInMemoryDatabase("Afaq");
+            builder.UseInMemoryDatabase("Afaq")
                 .UseInternalServiceProvider(serviceProvider);
 
             return builder.Options;

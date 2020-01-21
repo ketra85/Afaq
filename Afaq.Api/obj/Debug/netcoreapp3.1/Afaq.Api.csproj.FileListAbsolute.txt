@@ -91,3 +91,4 @@
 /home/ketra/Development/Afaq/Afaq.Api/bin/Debug/netcoreapp3.1/Serilog.Sinks.File.dll
 /home/ketra/Development/Afaq/Afaq.Api/bin/Debug/netcoreapp3.1/Serilog.Sinks.PeriodicBatching.dll
 /home/ketra/Development/Afaq/Afaq.Api/bin/Debug/netcoreapp3.1/Serilog.Sinks.Seq.dll
+/home/ketra/Development/Afaq/Afaq.Api/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll

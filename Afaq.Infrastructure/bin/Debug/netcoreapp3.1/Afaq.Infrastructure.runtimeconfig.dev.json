@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/ketra/.dotnet/store/|arch|/|tfm|",
+      "/home/ketra/.nuget/packages"
+    ]
+  }
+}

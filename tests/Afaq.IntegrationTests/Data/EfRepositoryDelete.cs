@@ -16,7 +16,7 @@ namespace Afaq.IntegrationTests.Data
             repository.Add(item);
             repository.Delete(item);
 
-            Assert.That(repository.List<TodoItem>(), i => i.Title == initialTitle);
+            CollectionAssert.DoesNotContain(repository.List<TodoItem>(), initialTitle);
         }
     }
 }
