@@ -2,6 +2,7 @@ import React from 'react';
 import 'antd/dist/antd.css';
 import './GDHomepage.css';
 import './Wizard.css';
+import AfaqTimeline from './components/AfaqTimeline';
 import { Layout, Row, Col, Steps } from 'antd';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -155,7 +156,15 @@ export default class GDHomepage extends React.Component {
             <Col className="skillcard">
               <div className="tableDiv">
                 <div className="h5 afaqHeading">Timeline</div>
-                <p>{this.rotations[this.state.current].timeline}</p>
+                <img
+                  id="locationIcon"
+                  src="https://icon-library.net/images/vector-location-icon/vector-location-icon-17.jpg"
+                  width="16px"
+                  alt="Today"
+                />
+                <div id="timeline" style={{ display: 'flex', maxWidth: 900 }}>
+                  <AfaqTimeline />
+                </div>
               </div>
             </Col>
           </Row>

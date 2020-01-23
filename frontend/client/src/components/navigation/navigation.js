@@ -107,21 +107,14 @@ export default class Navigation extends React.Component {
                   size="1x"
                 />
               </a>
-
-              <li id="qr">
-                <a
-                  href="#"
-                  data-toggle="tooltip"
-                  data-placement="right"
-                  title="QR"
-                >
-                  <FontAwesomeIcon
-                    icon={faPlane}
-                    aria-hidden="true"
-                    size="1x"
-                  />
-                </a>
-              </li>
+              <a
+                href="#"
+                data-toggle="tooltip"
+                data-placement="right"
+                title="QR"
+              >
+                <FontAwesomeIcon icon={faPlane} aria-hidden="true" size="1x" />
+              </a>
             </li>
           </ul>
         </nav>
