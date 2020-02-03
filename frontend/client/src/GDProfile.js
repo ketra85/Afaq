@@ -1,40 +1,46 @@
 import React from 'react';
 import 'antd/dist/antd.css';
 import './GDProfile.css';
-import Navigation from './components/navigation/navigation';
-import { Layout, Row, Col, List, Avatar, Tag } from 'antd';
+import GDHomepage from './GDHomepage';
+import { Layout, Row, Col, Avatar, Tag } from 'antd';
 
 export default class GDProfile extends React.Component {
   render() {
     const gdData = {
-      name: "Abdulaziz Abdulhameed Abdulrahman ",
+      name: 'Abdulaziz Abdulhameed Abdulrahman ',
       id: 82134,
-      stream: "IT",
-      phase: "OJT",
-      PM: "Meshaal Al-Mutlaq",
-      SL: "Abdulkarim Lambe",
-      LM: "Binoy Mathew",
-      uni: "Carnegie Melon University",
-      major: "Information Systems",
-      AOI: "Programming, Design and Communication",
+      stream: 'IT',
+      phase: 'OJT',
+      PM: 'Meshaal Al-Mutlaq',
+      SL: 'Abdulkarim Lambe',
+      LM: 'Binoy Mathew',
+      uni: 'Carnegie Melon University',
+      major: 'Information Systems',
+      AOI: 'Programming, Design and Communication'
     };
 
-    const { Sider, Content } = Layout;
+    const { Sider } = Layout;
 
     return (
       <div>
-        <Layout style={{ minHeight: "100vh" }}>
-          <Sider className="aboutGd" width="512px">
+        <Layout style={{ minHeight: '100vh' }}>
+          <Sider
+            className="aboutGd"
+            width="512px"
+            // collapsible="true"
+            // collapsedWidth="0"
+          >
             <Row type="flex" align="middle" className="nameRow">
-              <Col offset={1} span={9} style={{ textAlign: "center" }}>
+              <Col offset={1} span={9} style={{ textAlign: 'center' }}>
                 <Avatar size={100} icon="user" />
               </Col>
               <Col span={13}>
                 <h1
                   style={{
-                    fontSize: "1rem",
-                    marginBottom: "5px"
-                  }}>
+                    fontSize: '1rem',
+                    marginBottom: '5px'
+                  }}
+                >
                   {gdData.name}({gdData.id})
                 </h1>
                 <Tag color="rgba(255,10,0,0.25)">{gdData.stream}</Tag>
@@ -139,32 +145,7 @@ export default class GDProfile extends React.Component {
               </Col>
             </Row>
           </Sider>
-          <Layout>
-            <Content style={{ minHeight: "100vh" }} class="gdProfile">
-              <Row style={{ minHeight: "15vh", background: "white" }}>
-                <Col></Col>
-              </Row>
-              <Row>
-                <Col className="skillcard">
-                  <div className="tableDiv">
-                    <div className="h5 afaqHeading">Timeline</div>
-                  </div>
-                </Col>
-              </Row>
-              <Row>
-                <Col className="skillcard" span={12}>
-                  <div className="tableDiv">
-                    <div className="h5 afaqHeading">Tasks</div>
-                  </div>
-                </Col>
-                <Col className="skillcard" span={12}>
-                  <div className="tableDiv">
-                    <div className="h5 afaqHeading">Skillsets</div>
-                  </div>
-                </Col>
-              </Row>
-            </Content>
-          </Layout>
+          <GDHomepage />
         </Layout>
       </div>
     );
