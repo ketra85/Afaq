@@ -15,7 +15,6 @@ import {
   faPlane
 } from '@fortawesome/free-solid-svg-icons';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import GDProfile from '../../GDProfile';
 
 const { Footer } = Layout;
 

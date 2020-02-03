@@ -1,7 +1,7 @@
 import React from 'react';
 import 'antd/dist/antd.css';
 import './GDProfile.css';
-import GDHomepage from './GDHomepage';
+import GDHomepage from '../GDHomepage/GDHomepage';
 import { Layout, Row, Col, Avatar, Tag } from 'antd';
 
 export default class GDProfile extends React.Component {

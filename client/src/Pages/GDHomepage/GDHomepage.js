@@ -2,7 +2,7 @@ import React from 'react';
 import 'antd/dist/antd.css';
 import './GDHomepage.css';
 import './Wizard.css';
-import AfaqTimeline from './components/AfaqTimeline';
+import AfaqTimeline from '../../components/AfaqTimeline';
 import { Layout, Row, Col, Steps } from 'antd';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
