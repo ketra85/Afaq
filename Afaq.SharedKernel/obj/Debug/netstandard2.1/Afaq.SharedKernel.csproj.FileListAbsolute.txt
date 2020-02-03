@@ -1,8 +1,0 @@
-/home/ketra/Development/Afaq/Afaq.SharedKernel/bin/Debug/netstandard2.1/Afaq.SharedKernel.deps.json
-/home/ketra/Development/Afaq/Afaq.SharedKernel/bin/Debug/netstandard2.1/Afaq.SharedKernel.dll
-/home/ketra/Development/Afaq/Afaq.SharedKernel/bin/Debug/netstandard2.1/Afaq.SharedKernel.pdb
-/home/ketra/Development/Afaq/Afaq.SharedKernel/obj/Debug/netstandard2.1/Afaq.SharedKernel.csprojAssemblyReference.cache
-/home/ketra/Development/Afaq/Afaq.SharedKernel/obj/Debug/netstandard2.1/Afaq.SharedKernel.AssemblyInfoInputs.cache
-/home/ketra/Development/Afaq/Afaq.SharedKernel/obj/Debug/netstandard2.1/Afaq.SharedKernel.AssemblyInfo.cs
-/home/ketra/Development/Afaq/Afaq.SharedKernel/obj/Debug/netstandard2.1/Afaq.SharedKernel.dll
-/home/ketra/Development/Afaq/Afaq.SharedKernel/obj/Debug/netstandard2.1/Afaq.SharedKernel.pdb

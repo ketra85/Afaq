@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace Afaq.SharedKernel
+namespace Afaq.Core
 {
     public abstract class ValueObject : IEquatable<ValueObject>
     {

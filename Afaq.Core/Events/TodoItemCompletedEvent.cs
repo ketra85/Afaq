@@ -1,5 +1,5 @@
 using Afaq.Core.Entities;
-using Afaq.SharedKernel;
+using Afaq.Core;
 using Serilog;
 
 namespace Afaq.Core.Events

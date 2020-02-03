@@ -1,4 +1,4 @@
-using Afaq.SharedKernel.Interfaces;
+using Afaq.Core.Interfaces;
 using Afaq.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;

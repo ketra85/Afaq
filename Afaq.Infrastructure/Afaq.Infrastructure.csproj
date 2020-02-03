@@ -21,7 +21,6 @@
 
     <ItemGroup>
     <ProjectReference Include="..\Afaq.Core\Afaq.Core.csproj" />
-    <ProjectReference Include="..\Afaq.SharedKernel\Afaq.SharedKernel.csproj" />
   </ItemGroup>
 
 </Project>

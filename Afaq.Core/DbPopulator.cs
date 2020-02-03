@@ -1,5 +1,5 @@
 using Afaq.Core.Entities;
-using Afaq.SharedKernel.Interfaces;
+using Afaq.Core.Interfaces;
 using System.Linq;
 
 namespace Afaq.Core

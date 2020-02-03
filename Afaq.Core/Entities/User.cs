@@ -1,5 +1,5 @@
 using Afaq.Core.Events;
-using Afaq.SharedKernel;
+using Afaq.Core;
 using System;
 
 namespace Afaq.Core.Entities

@@ -1,7 +1,7 @@
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using Afaq.Core;
-using Afaq.SharedKernel.Interfaces;
+using Afaq.Core.Interfaces;
 using Afaq.Infrastructure.Data;
 using Microsoft.Extensions.DependencyInjection;
 using System;

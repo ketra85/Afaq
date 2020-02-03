@@ -1,6 +1,6 @@
 using Autofac;
-using Afaq.SharedKernel.Interfaces;
-using Afaq.SharedKernel;
+using Afaq.Core.Interfaces;
+using Afaq.Core;
 using System;
 using System.Collections;
 using System.Collections.Generic;

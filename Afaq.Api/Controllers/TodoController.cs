@@ -1,6 +1,6 @@
 using Afaq.Core;
 using Afaq.Core.Entities;
-using Afaq.SharedKernel.Interfaces;
+using Afaq.Core.Interfaces;
 using Afaq.Api.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;

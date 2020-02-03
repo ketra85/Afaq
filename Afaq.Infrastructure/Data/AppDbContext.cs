@@ -1,10 +1,10 @@
-using Afaq.SharedKernel.Interfaces;
+using Afaq.Core.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using Afaq.Core.Entities;
-using Afaq.SharedKernel;
+using Afaq.Core;
 using System.Reflection;
 
 namespace Afaq.Infrastructure.Data

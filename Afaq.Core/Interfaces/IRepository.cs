@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Afaq.SharedKernel.Interfaces
+namespace Afaq.Core.Interfaces
 {
     public interface IRepository
     {

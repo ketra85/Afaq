@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Afaq.SharedKernel
+namespace Afaq.Core
 {
     public class BaseDomainEvent
     {

@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Afaq.SharedKernel
+namespace Afaq.Core
 {
     public abstract class BaseEntity
     {

@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
-using Afaq.SharedKernel;
+using Afaq.Core;
 
-namespace Afaq.SharedKernel.Interfaces
+namespace Afaq.Core.Interfaces
 {
     public interface IHandle<in T> where T : BaseDomainEvent
     {

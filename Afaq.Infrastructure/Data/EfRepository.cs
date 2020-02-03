@@ -1,5 +1,5 @@
-using Afaq.SharedKernel.Interfaces;
-using Afaq.SharedKernel;
+using Afaq.Core.Interfaces;
+using Afaq.Core;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;

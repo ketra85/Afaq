@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
 using Afaq.Core.Events;
-using Afaq.SharedKernel.Interfaces;
+using Afaq.Core.Interfaces;
 
 namespace Afaq.Core.Services
 {
