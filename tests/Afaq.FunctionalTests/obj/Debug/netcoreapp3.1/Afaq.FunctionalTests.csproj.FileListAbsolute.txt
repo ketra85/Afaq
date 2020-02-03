@@ -1,0 +1,3 @@
+/home/ketra/Development/Afaq/tests/Afaq.FunctionalTests/obj/Debug/netcoreapp3.1/Afaq.FunctionalTests.csprojAssemblyReference.cache
+/home/ketra/Development/Afaq/tests/Afaq.FunctionalTests/obj/Debug/netcoreapp3.1/Afaq.FunctionalTests.AssemblyInfoInputs.cache
+/home/ketra/Development/Afaq/tests/Afaq.FunctionalTests/obj/Debug/netcoreapp3.1/Afaq.FunctionalTests.AssemblyInfo.cs

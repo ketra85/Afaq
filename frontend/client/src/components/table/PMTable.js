@@ -6,12 +6,34 @@ import {
   faFilter,
   faExclamationCircle
 } from '@fortawesome/free-solid-svg-icons';
-import { Table, Tag, Icon, Avatar, Row, Col, Select, Button } from 'antd';
+import {
+  Table,
+  Tag,
+  Avatar,
+  Row,
+  Col,
+  Select,
+  Button,
+  Modal,
+  Input,
+  Upload,
+  Icon,
+  message
+} from 'antd';
 import moment from 'moment';
 import styled from 'styled-components';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import { Provider } from 'react-redux';
-import GDProfile from '../../GDProfile';
+
+const { TextArea } = Input;
+
+const props = {
+  action: 'https://www.mocky.io/v2/5cc8019d300000980a055e76',
+  onChange({ file, fileList }) {
+    if (file.status !== 'uploading') {
+      console.log(file, fileList);
+    }
+  }
+};
 
 export default class PMTable extends React.Component {
   constructor(props) {
@@ -103,12 +125,30 @@ export default class PMTable extends React.Component {
     this.selectedPhase = [];
     this.state = {
       buttonDisable: true,
-      tableData: this.data
+      tableData: this.data,
+      visible: false
     };
     this.handleStreamChange = this.handleStreamChange.bind(this);
     this.handlePhaseChange = this.handlePhaseChange.bind(this);
     this.handleStateChange = this.handleStateChange.bind(this);
     this.clearFilters = this.clearFilters.bind(this);
+    this.showModal = this.showModal.bind(this);
+    this.handleOk = this.handleOk.bind(this);
+    this.handleCancel = this.handleCancel.bind(this);
+  }
+
+  showModal() {
+    this.setState({ visible: true });
+  }
+
+  handleOk(e) {
+    console.log(e);
+    message.success('Submitted successfully');
+    this.setState({ visible: false });
+  }
+
+  handleCancel() {
+    this.setState({ visible: false });
   }
 
   handleStreamChange(value) {
@@ -203,8 +243,14 @@ export default class PMTable extends React.Component {
         title: 'Name',
         dataIndex: 'name',
         key: 'name',
-        sorter: (a, b) => this.compareByAlpha(a.name, b.name)
+        sorter: (a, b) => this.compareByAlpha(a.name, b.name),
         // sortDirection: ["descend", "ascend"]
+        render: text => (
+          <span>
+            <Link to="/GDProfile">{' ' + text}</Link>
+          </span>
+        )
+        /* <Link to="/GDProfile">{' ' + text}</Link> */
       },
       {
         title: 'Staff ID',
@@ -287,9 +333,9 @@ export default class PMTable extends React.Component {
         render: text => (
           <span>
             {text.length > 0 && (
-              <span>
+              <span className="pointerClass" onClick={this.showModal}>
                 <FontAwesomeIcon icon={faExclamationCircle} color="red" />
-                <Link to="/GDProfile">{' ' + text}</Link>
+                {' ' + text}
               </span>
             )}
           </span>
@@ -471,6 +517,61 @@ export default class PMTable extends React.Component {
             </div>
           </Col>
         </Row>
+        <Modal
+          destroyOnClose={true}
+          visible={this.state.visible}
+          title="Graduate Developee Information"
+          onOk={this.handleOk}
+          onCancel={this.handleCancel}
+          footer={[
+            <Button
+              key="submit"
+              type="primary"
+              onClick={this.handleOk}
+              style={{ background: '#791049', borderColor: '#791049' }}
+            >
+              Submit
+            </Button>
+          ]}
+        >
+          <Row gutter={[100, 10]}>
+            <Col span={12}>University:</Col>
+            <Col span={12}>Major:</Col>
+          </Row>
+
+          <Row gutter={[100, 16]}>
+            <Col span={12}>
+              <Input />
+            </Col>
+            <Col span={12}>
+              <Input />
+            </Col>
+          </Row>
+
+          <Row gutter={[16, 16]}>
+            <Col>CV:</Col>
+          </Row>
+
+          <Row gutter={[16, 16]}>
+            <Col span={10}>
+              <Upload {...props}>
+                <Button style={{ padding: '0 60px' }}>
+                  <Icon type="upload" /> Upload
+                </Button>
+              </Upload>
+            </Col>
+          </Row>
+
+          <Row gutter={[16, 16]}>
+            <Col>Areas of Interest:</Col>
+          </Row>
+
+          <Row gutter={[16, 16]}>
+            <Col>
+              <TextArea rows={4} />
+            </Col>
+          </Row>
+        </Modal>
       </div>
     );
   }

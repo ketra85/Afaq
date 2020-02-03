@@ -18,3 +18,34 @@
   border-color: transparent;
   color: #323232;
 }
+
+.pointerClass {
+  color: #1890ff;
+  cursor: pointer;
+}
+
+/* modal */
+
+.ant-modal-header {
+  border-bottom: 0;
+}
+
+.ant-modal-title {
+  color: #323232;
+}
+
+.ant-modal-body {
+  padding: 5px 24px;
+}
+
+.ant-modal-footer {
+  border-top: 0;
+}
+
+.ant-modal {
+  color: #323232;
+}
+
+.ant-input:focus {
+  border-color: darkgrey;
+}
