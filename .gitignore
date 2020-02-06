@@ -1,1 +1,29 @@
-node_modules
+node_modules/
+logs
+*.log
+npm-debug.log*
+*.txt
+
+#visual studio runtime related
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+#nuget related
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/Build
+*.nuget.props
+.nuget.targets
+
