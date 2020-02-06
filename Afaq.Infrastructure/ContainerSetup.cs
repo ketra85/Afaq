@@ -10,6 +10,7 @@ using Serilog;
 
 namespace Afaq.Infrastructure
 {
+    // registers required services for data access to db
     public static class ContainerSetup
     {
         public static IServiceProvider InitializeWeb(Assembly webAssembly, IServiceCollection services) =>
@@ -23,8 +24,8 @@ namespace Afaq.Infrastructure
         {
             var builder = new ContainerBuilder();
             var infrastructureAssembly = Assembly.GetAssembly(typeof(EfRepository));
-            var sharedKernelAssembly = Assembly.GetAssembly(typeof(IRepository));
-            builder.RegisterAssemblyTypes(sharedKernelAssembly, infrastructureAssembly).AsImplementedInterfaces();
+            var coreAssembly = Assembly.GetAssembly(typeof(IRepository));
+            builder.RegisterAssemblyTypes(coreAssembly, infrastructureAssembly).AsImplementedInterfaces();
 
             setupAction?.Invoke(builder);
             Log.Information("Hello from infra");

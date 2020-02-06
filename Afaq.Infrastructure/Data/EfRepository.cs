@@ -6,6 +6,8 @@ using System.Linq;
 
 namespace Afaq.Infrastructure.Data
 {
+    // Extends IRepository from Core
+    // populates CRUD methods in addition to anything else requried
     public class EfRepository : IRepository
     {
         private readonly AppDbContext _dbContext;

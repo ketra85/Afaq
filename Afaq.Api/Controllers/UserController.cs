@@ -3,15 +3,12 @@ using Afaq.Core.Entities;
 using Afaq.Core.Interfaces;
 using Afaq.Api.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Http;
-using Microsoft.EntityFrameworkCore;
 using System.Linq;
-using System.Threading.Tasks;
 using Serilog;
 
 namespace Afaq.Api.Controllers
 {
-    [Route("api/{controller}")]
+    [Route("api/[controller]")]
     [ApiController]
     public class UserController : BaseApiController
     {

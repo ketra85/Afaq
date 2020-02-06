@@ -24,10 +24,8 @@
 /home/ketra/Development/Afaq/Afaq.Api/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
 /home/ketra/Development/Afaq/Afaq.Api/bin/Debug/netcoreapp3.1/Afaq.Core.dll
 /home/ketra/Development/Afaq/Afaq.Api/bin/Debug/netcoreapp3.1/Afaq.Infrastructure.dll
-/home/ketra/Development/Afaq/Afaq.Api/bin/Debug/netcoreapp3.1/Afaq.SharedKernel.dll
 /home/ketra/Development/Afaq/Afaq.Api/bin/Debug/netcoreapp3.1/Afaq.Infrastructure.pdb
 /home/ketra/Development/Afaq/Afaq.Api/bin/Debug/netcoreapp3.1/Afaq.Core.pdb
-/home/ketra/Development/Afaq/Afaq.Api/bin/Debug/netcoreapp3.1/Afaq.SharedKernel.pdb
 /home/ketra/Development/Afaq/Afaq.Api/obj/Debug/netcoreapp3.1/Afaq.Api.csprojAssemblyReference.cache
 /home/ketra/Development/Afaq/Afaq.Api/obj/Debug/netcoreapp3.1/staticwebassets/Afaq.Api.StaticWebAssets.Manifest.cache
 /home/ketra/Development/Afaq/Afaq.Api/obj/Debug/netcoreapp3.1/staticwebassets/Afaq.Api.StaticWebAssets.xml
@@ -38,10 +36,6 @@
 /home/ketra/Development/Afaq/Afaq.Api/obj/Debug/netcoreapp3.1/Afaq.Api.csproj.CopyComplete
 /home/ketra/Development/Afaq/Afaq.Api/obj/Debug/netcoreapp3.1/Afaq.Api.dll
 /home/ketra/Development/Afaq/Afaq.Api/obj/Debug/netcoreapp3.1/Afaq.Api.pdb
-/home/ketra/Development/Afaq/Afaq.Api/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.JsonPatch.dll
-/home/ketra/Development/Afaq/Afaq.Api/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
-/home/ketra/Development/Afaq/Afaq.Api/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
-/home/ketra/Development/Afaq/Afaq.Api/bin/Debug/netcoreapp3.1/Newtonsoft.Json.Bson.dll
 /home/ketra/Development/Afaq/Afaq.Api/bin/Debug/netcoreapp3.1/Microsoft.Data.SqlClient.dll
 /home/ketra/Development/Afaq/Afaq.Api/bin/Debug/netcoreapp3.1/Microsoft.Data.Sqlite.dll
 /home/ketra/Development/Afaq/Afaq.Api/bin/Debug/netcoreapp3.1/Microsoft.DotNet.PlatformAbstractions.dll
@@ -92,3 +86,7 @@
 /home/ketra/Development/Afaq/Afaq.Api/bin/Debug/netcoreapp3.1/Serilog.Sinks.PeriodicBatching.dll
 /home/ketra/Development/Afaq/Afaq.Api/bin/Debug/netcoreapp3.1/Serilog.Sinks.Seq.dll
 /home/ketra/Development/Afaq/Afaq.Api/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
+/home/ketra/Development/Afaq/Afaq.Api/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.Swagger.dll
+/home/ketra/Development/Afaq/Afaq.Api/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/ketra/Development/Afaq/Afaq.Api/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/ketra/Development/Afaq/Afaq.Api/obj/Debug/netcoreapp3.1/Afaq.Api.MvcApplicationPartsAssemblyInfo.cs

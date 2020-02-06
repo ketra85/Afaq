@@ -2,6 +2,8 @@ using Afaq.Core.Events;
 using Afaq.Core;
 using System;
 
+// Entities are the equivalent of models in api or mvc applications
+// Every Entity will extend the base entity which handles shared fields (id and event binding)
 namespace Afaq.Core.Entities
 {
     public class User : BaseEntity

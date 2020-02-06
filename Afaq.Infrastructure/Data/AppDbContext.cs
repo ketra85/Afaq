@@ -9,6 +9,9 @@ using System.Reflection;
 
 namespace Afaq.Infrastructure.Data
 {
+    // Db Context is final layer between infrastructure and the db
+    // the application is never in direct contact with the db
+    // EfRepository <-> DbContext <-> DB
     public class AppDbContext : DbContext
     {
         private readonly IDomainEventDispatcher _dipatcher;

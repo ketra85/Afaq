@@ -5,6 +5,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using Afaq.Core.Entities;
 
+
+//Object used to serialise and deserialise 
+// To send from the api you would need to define this
+// To receive a json request, you would need to bind it to this
 namespace Afaq.Api.Models
 {
     public class UserDTO

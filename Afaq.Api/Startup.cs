@@ -7,7 +7,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
-using Microsoft.AspNetCore.Mvc.NewtonsoftJson;
 using System.Reflection;
 using Afaq.Infrastructure;
 
@@ -31,7 +30,12 @@ namespace Afaq.Api
             });
 
             services.AddDbContext();
-            services.AddControllers().AddNewtonsoftJson();
+            services.AddControllers();
+
+            services.AddSwaggerGen(c => 
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Afaq API", Version = "v1" });
+            });
 
             return ContainerSetup.InitializeWeb(Assembly.GetExecutingAssembly(), services);
         }
@@ -46,6 +50,13 @@ namespace Afaq.Api
                 app.UseExceptionHandler("/Home/Error");
                 app.UseHsts();
             }
+
+            app.UseSwagger();
+            app.UseSwaggerUI(c => 
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Afaq API V1");
+                c.RoutePrefix = String.Empty;
+            });
 
             app.UseHttpsRedirection();
 
