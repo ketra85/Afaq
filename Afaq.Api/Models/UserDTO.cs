@@ -20,13 +20,8 @@ namespace Afaq.Api.Models
 
         public string Name { get; set; }
 
-        public string Stream { get; set; }
-
-        public string Phase { get; set; }
-
+        public String Email { get; set; }
         public DateTime Doj { get; set; }
-
-        public string Alerts { get; set; } 
 
         public static UserDTO FromUser(User user)
         {
@@ -35,10 +30,8 @@ namespace Afaq.Api.Models
                 Id = user.Id,
                 StaffId = user.StaffId,
                 Name = user.Name,
-                Stream = user.Stream,
-                Phase = user.Phase,
-                Doj = user.Doj,
-                Alerts = user.Alerts
+                Email = user.Email,
+                Doj = user.Doj
             };
         }
 

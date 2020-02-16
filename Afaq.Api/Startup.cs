@@ -30,7 +30,11 @@ namespace Afaq.Api
             });
 
             services.AddDbContext();
-            services.AddControllers();
+            services.AddControllers()
+                    .AddJsonOptions(options =>
+                    {
+                        options.JsonSerializerOptions.ToString();
+                    });
 
             services.AddSwaggerGen(c => 
             {

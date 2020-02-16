@@ -24,6 +24,7 @@ namespace Afaq.Api.Controllers
         {
             var items =  _repository.List<User>()
                                     .Select(UserDTO.FromUser);
+            Log.Information("" + items.Count());
             return Ok(items);
         }
 
@@ -47,8 +48,7 @@ namespace Afaq.Api.Controllers
             {
                 StaffId = userParam.StaffId,
                 Name = userParam.Name,
-                Stream = userParam.Stream,
-                Phase = userParam.Phase,
+                Email = userParam.Email,
                 Doj = userParam.Doj
             };
             _repository.Add(user);

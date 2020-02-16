@@ -12,13 +12,9 @@ namespace Afaq.Core.Entities
 
         public string Name { get; set; }
 
-        public string Stream { get; set; }
-
-        public string Phase { get; set; }
+        public string Email { get; set; }
 
         public DateTime Doj { get; set; }
-
-        public string Alerts { get; set; }
 
     }
 }
