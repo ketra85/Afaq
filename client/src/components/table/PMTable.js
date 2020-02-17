@@ -138,16 +138,47 @@ export default class PMTable extends React.Component {
     this.showModal = this.showModal.bind(this);
     this.handleOk = this.handleOk.bind(this);
     this.handleCancel = this.handleCancel.bind(this);
-    this.UserList = this.UserList.bind(this);
   }
 
   componentDidMount() {
-    this.UserList();
+    // this.UserList();
+    this.CatCall();
+  }
+
+  CatCall() {
+    fetch("https://cat-fact.herokuapp.com/facts", {
+      method: "GET",
+      mode: "no-cors",
+      headers: {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*"
+      }
+    })
+    .then(res => res.json())
+    .then(
+      (result) => {
+        console.log(result);
+        this.setState({
+          isLoaded: true,
+        });
+      },
+      (error) => {
+        this.setState({
+          isLoaded: true,
+          error
+        });
+      }
+    )
   }
 
   UserList() {
-    fetch("https://od-api-demo.oxforddictionaries.com:443/api/v1/domains/en/es", {
-      mode: "no-cors"
+    fetch("http://localhost:5000/api/User", {
+      method: "GET",
+      mode: "no-cors",
+      headers: {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*"
+      }
     })
     .then(res => res.json())
     .then(
@@ -265,7 +296,6 @@ export default class PMTable extends React.Component {
     const error = this.state.error;
     const isLoaded = this.state.isLoaded;
     const gds = this.state.gds;
-    console.log(gds);
 
     const columns = [
       {
