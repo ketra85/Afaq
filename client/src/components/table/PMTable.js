@@ -138,33 +138,33 @@ export default class PMTable extends React.Component {
     this.showModal = this.showModal.bind(this);
     this.handleOk = this.handleOk.bind(this);
     this.handleCancel = this.handleCancel.bind(this);
+    this.UserList = this.UserList.bind(this);
   }
 
   componentDidMount() {
-    console.log("component mounted");
-    fetch("localhost:5000/api/User", {
-      mode: "cors",
-      headers: {
-        "Accept": "application/json",
-        "Content-Type": "application/json"
-      }
+    this.UserList();
+  }
+
+  UserList() {
+    fetch("https://od-api-demo.oxforddictionaries.com:443/api/v1/domains/en/en", {
+      mode: "no-cors"
     })
-      .then(res => res.json())
-      .then(
-        (result) => {
-          console.log(result);
-          // this.setState({
-          //   isLoaded: true,
-          //   gds: result.gds
-          // });
-        },
-        (error) => {
-          this.setState({
-            isLoaded: true,
-            error
-          });
-        }
-      )
+    .then(res => res.json())
+    .then(
+      (result) => {
+        console.log(result);
+        this.setState({
+          isLoaded: true,
+          gds: result
+        });
+      },
+      (error) => {
+        this.setState({
+          isLoaded: true,
+          error
+        });
+      }
+    )
   }
 
   showModal() {
@@ -265,7 +265,7 @@ export default class PMTable extends React.Component {
     const error = this.state.error;
     const isLoaded = this.state.isLoaded;
     const gds = this.state.gds;
-    console.log(this.state.gds);
+    console.log(gds);
 
     const columns = [
       {
