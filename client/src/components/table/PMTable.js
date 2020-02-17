@@ -146,7 +146,7 @@ export default class PMTable extends React.Component {
   }
 
   UserList() {
-    fetch("https://od-api-demo.oxforddictionaries.com:443/api/v1/domains/en/en", {
+    fetch("https://od-api-demo.oxforddictionaries.com:443/api/v1/domains/en/es", {
       mode: "no-cors"
     })
     .then(res => res.json())
