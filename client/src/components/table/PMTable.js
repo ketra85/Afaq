@@ -23,6 +23,7 @@ import {
 import moment from 'moment';
 import styled from 'styled-components';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import axios from "axios";
 
 const { TextArea } = Input;
 
@@ -138,15 +139,16 @@ export default class PMTable extends React.Component {
     this.showModal = this.showModal.bind(this);
     this.handleOk = this.handleOk.bind(this);
     this.handleCancel = this.handleCancel.bind(this);
+    this.userList = this.userList.bind(this);
   }
 
   componentDidMount() {
-    // this.UserList();
-    this.CatCall();
+    // this.userList();
+    this.catCall();
   }
 
-  CatCall() {
-    fetch("https://cat-fact.herokuapp.com/facts", {
+  catCall() {
+    fetch("http://openlibrary.org/api/books?bibkeys=ISBN:0201558025", {
       method: "GET",
       mode: "no-cors",
       headers: {
@@ -155,47 +157,43 @@ export default class PMTable extends React.Component {
       }
     })
     .then(res => res.json())
-    .then(
-      (result) => {
-        console.log(result);
-        this.setState({
-          isLoaded: true,
-        });
-      },
-      (error) => {
-        this.setState({
-          isLoaded: true,
-          error
-        });
-      }
-    )
+    .then(catJSON => {
+      console.log(catJSON);
+    })
+    .catch(err => {
+      console.log(err);
+    })
   }
 
-  UserList() {
-    fetch("http://localhost:5000/api/User", {
-      method: "GET",
-      mode: "no-cors",
-      headers: {
-        "Content-Type": "application/json",
-        "Access-Control-Allow-Origin": "*"
-      }
-    })
-    .then(res => res.json())
-    .then(
-      (result) => {
-        console.log(result);
-        this.setState({
-          isLoaded: true,
-          gds: result
-        });
-      },
-      (error) => {
-        this.setState({
-          isLoaded: true,
-          error
-        });
-      }
-    )
+  userList() {
+    axios.get("http://localhost:5000/api/User")
+      .then(res => {
+        console.log(res.data);
+      })
+    // fetch("https://localhost:5000/api/User", {
+    //   method: "GET",
+    //   mode: "no-cors",
+    //   headers: {
+    //     "Content-Type": "application/json",
+    //     "Access-Control-Allow-Origin": "*"
+    //   }
+    // })
+    // .then(res => res.json())
+    // .then(
+    //   (result) => {
+    //     console.log(result);
+    //     this.setState({
+    //       isLoaded: true,
+    //       gds: result
+    //     });
+    //   },
+    //   (error) => {
+    //     this.setState({
+    //       isLoaded: true,
+    //       error
+    //     });
+    //   }
+    // )
   }
 
   showModal() {
