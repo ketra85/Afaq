@@ -19,8 +19,6 @@ namespace Afaq.Api
             Configuration = configuration;
         }
 
-        readonly string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
-
         public IConfiguration Configuration { get; }
 
         public IServiceProvider ConfigureServices(IServiceCollection services)
@@ -33,15 +31,15 @@ namespace Afaq.Api
 
             services.AddCors(options =>
             {
-                options.AddPolicy(MyAllowSpecificOrigins,
+                options.AddPolicy("AfaqPolicy",
                 builder =>
                 {
-                    builder.WithOrigins("http://localhost:8080",
-                                        "http://localhost:9090")
-                                        .AllowAnyHeader()
-                                        .AllowAnyMethod();
+                    builder.AllowAnyOrigin()
+                            .AllowAnyHeader()
+                            .AllowAnyMethod();
                 });
             });
+            services.AddMvc();
 
             services.AddDbContext();
             services.AddControllers();
@@ -72,15 +70,16 @@ namespace Afaq.Api
                 c.RoutePrefix = String.Empty;
             });
 
-            app.UseHttpsRedirection();
 
             app.UseRouting();
-            app.UseCors(MyAllowSpecificOrigins);
+            app.UseCors("AfaqPolicy");
+            
+            // app.UseHttpsRedirection();
 
-            app.UseStaticFiles();
+            // app.UseStaticFiles();
             app.UseCookiePolicy();
 
-            app.UseAuthorization();
+            // app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {

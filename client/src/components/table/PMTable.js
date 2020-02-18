@@ -23,7 +23,6 @@ import {
 import moment from 'moment';
 import styled from 'styled-components';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import axios from "axios";
 
 const { TextArea } = Input;
 
@@ -139,61 +138,29 @@ export default class PMTable extends React.Component {
     this.showModal = this.showModal.bind(this);
     this.handleOk = this.handleOk.bind(this);
     this.handleCancel = this.handleCancel.bind(this);
-    this.userList = this.userList.bind(this);
   }
 
   componentDidMount() {
-    // this.userList();
-    this.catCall();
-  }
-
-  catCall() {
-    fetch("http://openlibrary.org/api/books?bibkeys=ISBN:0201558025", {
-      method: "GET",
-      mode: "no-cors",
-      headers: {
-        "Content-Type": "application/json",
-        "Access-Control-Allow-Origin": "*"
-      }
-    })
-    .then(res => res.json())
-    .then(catJSON => {
-      console.log(catJSON);
-    })
-    .catch(err => {
-      console.log(err);
-    })
+    this.userList();
   }
 
   userList() {
-    axios.get("http://localhost:5000/api/User")
-      .then(res => {
-        console.log(res.data);
-      })
-    // fetch("https://localhost:5000/api/User", {
-    //   method: "GET",
-    //   mode: "no-cors",
-    //   headers: {
-    //     "Content-Type": "application/json",
-    //     "Access-Control-Allow-Origin": "*"
-    //   }
-    // })
-    // .then(res => res.json())
-    // .then(
-    //   (result) => {
-    //     console.log(result);
-    //     this.setState({
-    //       isLoaded: true,
-    //       gds: result
-    //     });
-    //   },
-    //   (error) => {
-    //     this.setState({
-    //       isLoaded: true,
-    //       error
-    //     });
-    //   }
-    // )
+    fetch("http://localhost:5000/api/User")
+    .then(res => res.json())
+    .then(
+      (result) => {
+        this.setState({
+          isLoaded: true,
+          gds: result
+        });
+      },
+      (error) => {
+        this.setState({
+          isLoaded: true,
+          error
+        });
+      }
+    )
   }
 
   showModal() {
@@ -294,6 +261,7 @@ export default class PMTable extends React.Component {
     const error = this.state.error;
     const isLoaded = this.state.isLoaded;
     const gds = this.state.gds;
+    console.log(gds);
 
     const columns = [
       {

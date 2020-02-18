@@ -20,6 +20,8 @@
     <Import Project="$(NuGetPackageRoot)microsoft.net.test.sdk/16.2.0/build/netcoreapp1.0/Microsoft.NET.Test.Sdk.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.test.sdk/16.2.0/build/netcoreapp1.0/Microsoft.NET.Test.Sdk.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">/home/ketra/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0</PkgMicrosoft_Extensions_ApiDescription_Server>
     <PkgReportGenerator Condition=" '$(PkgReportGenerator)' == '' ">/home/ketra/.nuget/packages/reportgenerator/4.4.2</PkgReportGenerator>
+    <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">/home/ketra/.nuget/packages/newtonsoft.json/9.0.1</PkgNewtonsoft_Json>
   </PropertyGroup>
 </Project>
