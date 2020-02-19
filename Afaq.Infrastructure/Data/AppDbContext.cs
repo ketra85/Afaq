@@ -24,6 +24,14 @@ namespace Afaq.Infrastructure.Data
         public DbSet<TodoItem> TodoItems { get; set; }
         public DbSet<User> Users { get; set; }
 
+        public DbSet<Plan> Plans { get; set; }
+
+        public DbSet<Rotation> Rotations { get; set; }
+
+        public DbSet<Project> Projects { get; set; }
+
+        public DbSet<Afaq.Core.Entities.Task> Tasks { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
