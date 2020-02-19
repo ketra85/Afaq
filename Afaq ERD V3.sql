@@ -1,5 +1,5 @@
 CREATE TABLE Employees (
-  "qr_id" int PRIMARY KEY,
+  "staff_seq_number" int PRIMARY KEY,
   "staff_number" int,
   "first_name" VARCHAR(225),
   "last_name" VARCHAR(225),
@@ -8,7 +8,15 @@ CREATE TABLE Employees (
   "avatar_img" VARCHAR(225),
   "doj" date,
   "user_type_id" int,
-  "is_active" bool
+  "is_active" bool,
+  "role_id" int
+);
+
+Create Table Roles
+(
+  "role_id" int,
+  "role_name" varchar(50),
+  "description" varchar(225)
 );
 
 CREATE TABLE UserType (
@@ -23,7 +31,13 @@ CREATE TABLE Plan (
   "pm_id" int,
   "start_date" date,
   "end_date" date,
-  "number_of_rotations" int
+  "stream" varchar(225),
+  "number_of_rotations" int,
+  "modified_by" bigint,
+  "modified_at" date,
+  "created_by" bigint,
+  "created_at" date,
+  "is_active" bool
 );
 
 CREATE TABLE Courses (
@@ -38,11 +52,15 @@ CREATE TABLE Rotation (
   "name" VARCHAR(225),
   "description" VARCHAR(225),
   "start_date" date,
-  "end_date" date,
-  "rotation_type_id" int,
+  "end_date" date,  
   "lm_id" int,
-  "division_name" VARCHAR,
-  "plan_id" int
+  "plan_id" int,
+  "modified_by" bigint,
+  "modified_at" date,
+  "created_by" bigint,
+  "created_at" date,
+  -- "rotation_type_id" int,
+  "is_active" bool
 );
 
 CREATE TABLE RotationType (
