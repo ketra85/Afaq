@@ -2,7 +2,16 @@ node_modules/
 logs
 *.log
 npm-debug.log*
-*.txt
+yarn-debug.log*
+yarn-error.log**.txt
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
 
 #visual studio runtime related
 [Dd]ebug/
@@ -27,3 +36,9 @@ bld/
 *.nuget.props
 .nuget.targets
 
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
