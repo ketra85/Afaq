@@ -126,7 +126,10 @@ export default class PMTable extends React.Component {
     this.state = {
       buttonDisable: true,
       tableData: this.data,
-      visible: false
+      visible: false,
+      error: null,
+      isLoaded: false,
+      gds: []
     };
     this.handleStreamChange = this.handleStreamChange.bind(this);
     this.handlePhaseChange = this.handlePhaseChange.bind(this);
@@ -135,6 +138,29 @@ export default class PMTable extends React.Component {
     this.showModal = this.showModal.bind(this);
     this.handleOk = this.handleOk.bind(this);
     this.handleCancel = this.handleCancel.bind(this);
+  }
+
+  componentDidMount() {
+    this.userList();
+  }
+
+  userList() {
+    fetch("http://localhost:5000/api/User")
+    .then(res => res.json())
+    .then(
+      (result) => {
+        this.setState({
+          isLoaded: true,
+          gds: result
+        });
+      },
+      (error) => {
+        this.setState({
+          isLoaded: true,
+          error
+        });
+      }
+    )
   }
 
   showModal() {
@@ -232,6 +258,11 @@ export default class PMTable extends React.Component {
   }
 
   render() {
+    const error = this.state.error;
+    const isLoaded = this.state.isLoaded;
+    const gds = this.state.gds;
+    console.log(gds);
+
     const columns = [
       {
         dataIndex: 'avatar',

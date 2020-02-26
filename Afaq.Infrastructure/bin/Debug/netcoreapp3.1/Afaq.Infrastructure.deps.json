@@ -9,7 +9,6 @@
       "Afaq.Infrastructure/1.0.0": {
         "dependencies": {
           "Afaq.Core": "1.0.0",
-          "Afaq.SharedKernel": "1.0.0",
           "Autofac": "4.9.4",
           "Autofac.Extensions.DependencyInjection": "5.0.1",
           "Microsoft.EntityFrameworkCore": "3.1.0",
@@ -429,20 +428,6 @@
           }
         }
       },
-      "Serilog.Sinks.Console/3.1.1": {
-        "dependencies": {
-          "Serilog": "2.9.0",
-          "System.Console": "4.3.0",
-          "System.Runtime.InteropServices": "4.3.0",
-          "System.Runtime.InteropServices.RuntimeInformation": "4.3.0"
-        },
-        "runtime": {
-          "lib/netcoreapp1.1/Serilog.Sinks.Console.dll": {
-            "assemblyVersion": "3.1.1.0",
-            "fileVersion": "3.1.1.0"
-          }
-        }
-      },
       "SQLite/3.13.0": {
         "runtimeTargets": {
           "runtimes/linux-x64/native/libsqlite3.so": {
@@ -669,15 +654,6 @@
             "assemblyVersion": "4.0.1.0",
             "fileVersion": "4.6.26515.6"
           }
-        }
-      },
-      "System.Console/4.3.0": {
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.0.0",
-          "Microsoft.NETCore.Targets": "1.1.0",
-          "System.IO": "4.3.0",
-          "System.Runtime": "4.3.0",
-          "System.Text.Encoding": "4.3.0"
         }
       },
       "System.Diagnostics.Debug/4.3.0": {
@@ -937,17 +913,6 @@
           "System.Runtime.Handles": "4.3.0"
         }
       },
-      "System.Runtime.InteropServices.RuntimeInformation/4.3.0": {
-        "dependencies": {
-          "System.Reflection": "4.3.0",
-          "System.Reflection.Extensions": "4.3.0",
-          "System.Resources.ResourceManager": "4.3.0",
-          "System.Runtime": "4.3.0",
-          "System.Runtime.InteropServices": "4.3.0",
-          "System.Threading": "4.3.0",
-          "runtime.native.System": "4.3.0"
-        }
-      },
       "System.Runtime.Serialization.Formatters/4.3.0": {
         "dependencies": {
           "System.Collections": "4.3.0",
@@ -1157,20 +1122,10 @@
       },
       "Afaq.Core/1.0.0": {
         "dependencies": {
-          "Afaq.SharedKernel": "1.0.0",
           "Serilog": "2.9.0"
         },
         "runtime": {
           "Afaq.Core.dll": {}
-        }
-      },
-      "Afaq.SharedKernel/1.0.0": {
-        "dependencies": {
-          "Serilog": "2.9.0",
-          "Serilog.Sinks.Console": "3.1.1"
-        },
-        "runtime": {
-          "Afaq.SharedKernel.dll": {}
         }
       }
     }
@@ -1468,13 +1423,6 @@
       "path": "serilog/2.9.0",
       "hashPath": "serilog.2.9.0.nupkg.sha512"
     },
-    "Serilog.Sinks.Console/3.1.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-56mI5AqvyF/i/c2451nvV71kq370XOCE4Uu5qiaJ295sOhMb9q3BWwG7mWLOVSnmpWiq0SBT3SXfgRXGNP6vzA==",
-      "path": "serilog.sinks.console/3.1.1",
-      "hashPath": "serilog.sinks.console.3.1.1.nupkg.sha512"
-    },
     "SQLite/3.13.0": {
       "type": "package",
       "serviceable": true,
@@ -1579,13 +1527,6 @@
       "sha512": "sha512-UIFvaFfuKhLr9u5tWMxmVoDPkFeD+Qv8gUuap4aZgVGYSYMdERck4OhLN/2gulAc0nYTEigWXSJNNWshrmxnng==",
       "path": "system.configuration.configurationmanager/4.5.0",
       "hashPath": "system.configuration.configurationmanager.4.5.0.nupkg.sha512"
-    },
-    "System.Console/4.3.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-DHDrIxiqk1h03m6khKWV2X8p/uvN79rgSqpilL6uzpmSfxfU5ng8VcPtW4qsDsQDHiTv6IPV9TmD5M/vElPNLg==",
-      "path": "system.console/4.3.0",
-      "hashPath": "system.console.4.3.0.nupkg.sha512"
     },
     "System.Diagnostics.Debug/4.3.0": {
       "type": "package",
@@ -1783,13 +1724,6 @@
       "path": "system.runtime.interopservices/4.3.0",
       "hashPath": "system.runtime.interopservices.4.3.0.nupkg.sha512"
     },
-    "System.Runtime.InteropServices.RuntimeInformation/4.3.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-cbz4YJMqRDR7oLeMRbdYv7mYzc++17lNhScCX0goO2XpGWdvAt60CGN+FHdePUEHCe/Jy9jUlvNAiNdM+7jsOw==",
-      "path": "system.runtime.interopservices.runtimeinformation/4.3.0",
-      "hashPath": "system.runtime.interopservices.runtimeinformation.4.3.0.nupkg.sha512"
-    },
     "System.Runtime.Serialization.Formatters/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -1938,11 +1872,6 @@
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
     "Afaq.Core/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Afaq.SharedKernel/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

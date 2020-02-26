@@ -40,7 +40,7 @@ namespace Afaq.FunctionalTests
 
                         try 
                         {
-                            SeedData.PopulateTestData(db);
+                            SeedData.PopulateTodoTestData(db);
                         }
                         catch(Exception e)
                         {

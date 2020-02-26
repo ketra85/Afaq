@@ -1,0 +1,84 @@
+2020-02-16 11:30:09.290 +03:00 [INF] Hello from infra
+2020-02-16 11:30:11.127 +03:00 [INF] Entity Framework Core 3.1.0 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+2020-02-16 11:30:12.787 +03:00 [INF] Executed DbCommand (54ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')
+2020-02-16 11:30:12.852 +03:00 [INF] Entity Framework Core 3.1.0 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+2020-02-16 11:30:13.354 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "TodoItems" AS t)
+2020-02-16 12:51:49.903 +03:00 [INF] Hello from infra
+2020-02-16 12:51:54.384 +03:00 [INF] Entity Framework Core 3.1.0 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+2020-02-16 12:51:56.523 +03:00 [INF] Executed DbCommand (75ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')
+2020-02-16 12:51:56.609 +03:00 [INF] Entity Framework Core 3.1.0 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+2020-02-16 12:51:57.335 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "TodoItems" AS t)
+2020-02-16 12:56:25.493 +03:00 [INF] Hello from infra
+2020-02-16 12:56:27.511 +03:00 [INF] Entity Framework Core 3.1.0 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+2020-02-16 12:56:28.683 +03:00 [INF] Executed DbCommand (57ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')
+2020-02-16 12:56:28.741 +03:00 [INF] Entity Framework Core 3.1.0 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+2020-02-16 12:56:29.294 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "TodoItems" AS t)
+2020-02-16 13:03:31.518 +03:00 [INF] Hello from infra
+2020-02-16 13:03:33.285 +03:00 [INF] Entity Framework Core 3.1.0 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+2020-02-16 13:03:34.392 +03:00 [INF] Executed DbCommand (31ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')
+2020-02-16 13:03:34.429 +03:00 [INF] Entity Framework Core 3.1.0 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+2020-02-16 13:03:34.809 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "TodoItems" AS t)
+2020-02-16 13:20:32.179 +03:00 [INF] Hello from infra
+2020-02-16 13:20:34.948 +03:00 [INF] Entity Framework Core 3.1.0 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+2020-02-16 13:20:36.121 +03:00 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')
+2020-02-16 13:20:36.163 +03:00 [INF] Entity Framework Core 3.1.0 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+2020-02-16 13:20:36.579 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "TodoItems" AS t)
+2020-02-16 13:29:53.012 +03:00 [INF] Hello from infra
+2020-02-16 13:29:55.589 +03:00 [INF] Entity Framework Core 3.1.0 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+2020-02-16 13:29:56.740 +03:00 [INF] Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')
+2020-02-16 13:29:56.782 +03:00 [INF] Entity Framework Core 3.1.0 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+2020-02-16 13:29:57.238 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "TodoItems" AS t)
+2020-02-16 13:34:24.812 +03:00 [INF] Hello from infra
+2020-02-16 13:34:27.653 +03:00 [INF] Entity Framework Core 3.1.0 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+2020-02-16 13:34:29.312 +03:00 [INF] Executed DbCommand (34ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+                    SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+                    FROM information_schema.tables
+                    WHERE table_type = 'BASE TABLE' AND table_schema NOT IN ('pg_catalog', 'information_schema')
+2020-02-16 13:34:29.361 +03:00 [INF] Entity Framework Core 3.1.0 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+2020-02-16 13:34:29.834 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "TodoItems" AS t)

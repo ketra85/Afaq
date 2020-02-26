@@ -9,6 +9,9 @@ using System.Reflection;
 
 namespace Afaq.Infrastructure.Data
 {
+    // Db Context is final layer between infrastructure and the db
+    // the application is never in direct contact with the db
+    // EfRepository <-> DbContext <-> DB
     public class AppDbContext : DbContext
     {
         private readonly IDomainEventDispatcher _dipatcher;
@@ -21,8 +24,13 @@ namespace Afaq.Infrastructure.Data
         public DbSet<TodoItem> TodoItems { get; set; }
         public DbSet<User> Users { get; set; }
 
-        // protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) 
-        //     => optionsBuilder.UseNpgsql("Host=127.0.0.1:46329;Database=TodoApiTest;Username=ketra;Password=A!612842");
+        public DbSet<Plan> Plans { get; set; }
+
+        public DbSet<Rotation> Rotations { get; set; }
+
+        public DbSet<Project> Projects { get; set; }
+
+        public DbSet<Afaq.Core.Entities.Task> Tasks { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

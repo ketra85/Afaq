@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 
 namespace Afaq.Infrastructure.DomainEvents
 {
+    // Extends the IDomainEventDispatcher from Core
+    // Sets up all needed async methods to execute events for entities
     public class DomainEventDispatcher : IDomainEventDispatcher
     {
         private readonly IComponentContext _container;

@@ -9,10 +9,14 @@ using System.IO;
 
 namespace Afaq.Api
 {
+    //registers all services and settings required by the application
     public class Program
     {
         public static void Main(string[] args)
         {
+            //Sets up the serilog instance
+            //currently it log to a .txt file
+            // Will need to switch to a server connection if we get that
             Log.Logger = new LoggerConfiguration()
                 .WriteTo.File("log.txt", rollingInterval: RollingInterval.Day)
                 .Enrich.WithProperty("Afaq", "Afaq app runtime logs")

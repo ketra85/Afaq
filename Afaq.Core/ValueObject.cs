@@ -5,6 +5,8 @@ using System.Reflection;
 
 namespace Afaq.Core
 {
+    // this class provides a set of utility functions that will help us 
+    // When trying to compare various entities against each other.
     public abstract class ValueObject : IEquatable<ValueObject>
     {
         private List<PropertyInfo> properties;

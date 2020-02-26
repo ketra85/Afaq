@@ -7,7 +7,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
-using Microsoft.AspNetCore.Mvc.NewtonsoftJson;
 using System.Reflection;
 using Afaq.Infrastructure;
 
@@ -30,8 +29,25 @@ namespace Afaq.Api
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AfaqPolicy",
+                builder =>
+                {
+                    builder.AllowAnyOrigin()
+                            .AllowAnyHeader()
+                            .AllowAnyMethod();
+                });
+            });
+            services.AddMvc();
+
             services.AddDbContext();
-            services.AddControllers().AddNewtonsoftJson();
+            services.AddControllers();
+
+            services.AddSwaggerGen(c => 
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Afaq API", Version = "v1" });
+            });
 
             return ContainerSetup.InitializeWeb(Assembly.GetExecutingAssembly(), services);
         }
@@ -47,14 +63,23 @@ namespace Afaq.Api
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
+            app.UseSwagger();
+            app.UseSwaggerUI(c => 
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Afaq API V1");
+                c.RoutePrefix = String.Empty;
+            });
+
 
             app.UseRouting();
+            app.UseCors("AfaqPolicy");
+            
+            // app.UseHttpsRedirection();
 
-            app.UseStaticFiles();
+            // app.UseStaticFiles();
             app.UseCookiePolicy();
 
-            app.UseAuthorization();
+            // app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {

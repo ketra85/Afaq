@@ -24,11 +24,7 @@
         },
         "frameworks": {
           "netstandard2.1": {
-            "projectReferences": {
-              "/home/ketra/Development/Afaq/Afaq.SharedKernel/Afaq.SharedKernel.csproj": {
-                "projectPath": "/home/ketra/Development/Afaq/Afaq.SharedKernel/Afaq.SharedKernel.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -43,66 +39,6 @@
             "Serilog": {
               "target": "Package",
               "version": "[2.9.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "NETStandard.Library": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/home/ketra/Development/Afaq/Afaq.SharedKernel/Afaq.SharedKernel.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/home/ketra/Development/Afaq/Afaq.SharedKernel/Afaq.SharedKernel.csproj",
-        "projectName": "Afaq.SharedKernel",
-        "projectPath": "/home/ketra/Development/Afaq/Afaq.SharedKernel/Afaq.SharedKernel.csproj",
-        "packagesPath": "/home/ketra/.nuget/packages/",
-        "outputPath": "/home/ketra/Development/Afaq/Afaq.SharedKernel/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/home/ketra/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "netstandard2.1"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netstandard2.1": {
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netstandard2.1": {
-          "dependencies": {
-            "serilog": {
-              "target": "Package",
-              "version": "[2.9.0, )"
-            },
-            "serilog.sinks.console": {
-              "target": "Package",
-              "version": "[3.1.1, )"
             }
           },
           "imports": [

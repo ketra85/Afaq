@@ -27,6 +27,29 @@ namespace Afaq.Api
             Description = "Make sure all the tests run and review what they are doing."
         };
 
+        public static readonly User user1 = new User
+        {
+            StaffId = 1,
+            Name = "Abdulla Al-ansari",
+            Email = "alansari.aaaa@gmail.com",
+            Doj = DateTime.Now
+        };
+
+        public static readonly User user2 = new User
+        {
+            StaffId = 2,
+            Name = "Yousuf",
+            Email = "y@afaq.com",
+            Doj = DateTime.Now
+        };
+
+        public static readonly User user3 = new User
+        {
+            StaffId = 3,
+            Name = "Reem",
+            Email = "r@afaq.com",
+            Doj = DateTime.Now
+        };
         public static void Initialize(IServiceProvider serviceProvider)
         {
             using(var dbContext = new AppDbContext(
@@ -35,13 +58,17 @@ namespace Afaq.Api
                 if(dbContext.TodoItems.Any()) 
                 {
                     return;
+                } else if(dbContext.Users.Any()) 
+                {
+                    return;
                 }
 
-                PopulateTestData(dbContext);
+                PopulateTodoTestData(dbContext);
+                PopulateUserTestData(dbContext);
             }
         }
 
-        public static void PopulateTestData(AppDbContext dbContext) 
+        public static void PopulateTodoTestData(AppDbContext dbContext) 
         {
             foreach(var item in dbContext.TodoItems)
             {
@@ -52,6 +79,20 @@ namespace Afaq.Api
             dbContext.TodoItems.Add(todoItem1);
             dbContext.TodoItems.Add(todoItem2);
             dbContext.TodoItems.Add(todoItem3);
+            dbContext.SaveChanges();
+        }
+
+        public static void PopulateUserTestData(AppDbContext dbContext)
+        {
+            foreach(var user in dbContext.Users) 
+            {
+                dbContext.Remove(user);
+            }
+
+            dbContext.SaveChanges();
+            dbContext.Users.Add(user1);
+            dbContext.Users.Add(user2);
+            dbContext.Users.Add(user3);
             dbContext.SaveChanges();
         }
     }
