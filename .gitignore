@@ -6,6 +6,7 @@ yarn-debug.log*
 yarn-error.log**.txt
 /.pnp
 .pnp.js
+*.txt
 
 # testing
 /coverage
@@ -42,3 +43,4 @@ bld/
 .env.development.local
 .env.test.local
 .env.production.local
+.vscode
