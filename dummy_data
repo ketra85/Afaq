@@ -1,0 +1,2007 @@
+### Employees
+
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (300, 35, 'Eadie', 'Skokoe', 'eskokoe0@delicious.com', '7584712777', 'https://robohash.org/impeditetsoluta.png?size=50x50&set=set1', '2019/11/06', true, 1);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (15, 85, 'Charla', 'Bonney', 'cbonney1@infoseek.co.jp', '1351651745', 'https://robohash.org/voluptateauttotam.png?size=50x50&set=set1', '2019/02/04', false, 7);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (392, 3, 'Aylmar', 'McArt', 'amcart2@amazon.co.uk', '2761365544', 'https://robohash.org/suntutratione.png?size=50x50&set=set1', '2019/11/09', false, 5);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (143, 67, 'Maurita', 'Akaster', 'makaster3@yale.edu', '9064960054', 'https://robohash.org/nihiltemporaaut.png?size=50x50&set=set1', '2019/07/22', true, 6);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (377, 59, 'Karissa', 'Coxwell', 'kcoxwell4@shutterfly.com', '9024280151', 'https://robohash.org/numquamnihilconsectetur.png?size=50x50&set=set1', '2019/11/27', false, 3);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (308, 60, 'Carson', 'Yeiles', 'cyeiles5@e-recht24.de', '9792526755', 'https://robohash.org/velvoluptatesrecusandae.png?size=50x50&set=set1', '2019/06/12', true, 6);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (28, 93, 'Pincus', 'Cordobes', 'pcordobes6@gizmodo.com', '5643259646', 'https://robohash.org/suntlaboriosamdolor.png?size=50x50&set=set1', '2019/04/04', true, 5);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (313, 81, 'Mireielle', 'Worters', 'mworters7@technorati.com', '9138918335', 'https://robohash.org/nesciuntaccusantiumblanditiis.png?size=50x50&set=set1', '2019/02/10', true, 1);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (211, 78, 'Phillipp', 'Pottiphar', 'ppottiphar8@dailymotion.com', '6792314258', 'https://robohash.org/sintomnisvitae.png?size=50x50&set=set1', '2020/01/12', false, 5);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (358, 41, 'Valene', 'Bianco', 'vbianco9@privacy.gov.au', '2719102033', 'https://robohash.org/quisistequasi.png?size=50x50&set=set1', '2019/12/15', true, 2);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (63, 39, 'Duke', 'Runciman', 'druncimana@creativecommons.org', '5684540361', 'https://robohash.org/nihilinquia.png?size=50x50&set=set1', '2019/12/30', false, 6);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (130, 82, 'Even', 'Wartonby', 'ewartonbyb@fotki.com', '2028489842', 'https://robohash.org/corruptialiquamaut.png?size=50x50&set=set1', '2019/08/12', true, 2);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (390, 2, 'Truda', 'Hackelton', 'thackeltonc@amazonaws.com', '4076810455', 'https://robohash.org/odioerrorab.png?size=50x50&set=set1', '2020/01/18', true, 3);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (338, 13, 'Isac', 'Harefoot', 'iharefootd@huffingtonpost.com', '5946045552', 'https://robohash.org/teneturrerumperferendis.png?size=50x50&set=set1', '2019/09/06', false, 2);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (213, 22, 'Seymour', 'Gentle', 'sgentlee@time.com', '3326774774', 'https://robohash.org/quomolestiaevoluptatem.png?size=50x50&set=set1', '2019/03/14', false, 7);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (406, 6, 'Ulrika', 'Donne', 'udonnef@wordpress.org', '5238196771', 'https://robohash.org/nonnequeut.png?size=50x50&set=set1', '2019/12/17', true, 4);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (369, 46, 'Wenda', 'Edworthy', 'wedworthyg@youtube.com', '2801582779', 'https://robohash.org/idquivoluptatem.png?size=50x50&set=set1', '2019/06/08', false, 4);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (500, 86, 'Elvyn', 'MacKnocker', 'emacknockerh@mediafire.com', '6825350769', 'https://robohash.org/voluptatemminusaut.png?size=50x50&set=set1', '2020/02/06', false, 3);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (269, 7, 'Roddy', 'Gwin', 'rgwini@desdev.cn', '7011570744', 'https://robohash.org/modisequiquia.png?size=50x50&set=set1', '2019/11/07', true, 1);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (183, 43, 'Wye', 'Harrild', 'wharrildj@chronoengine.com', '6061557440', 'https://robohash.org/providentdelectusautem.png?size=50x50&set=set1', '2019/11/22', false, 3);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (444, 86, 'Dermot', 'Gravestone', 'dgravestonek@springer.com', '8358975631', 'https://robohash.org/voluptatibusdolorsed.png?size=50x50&set=set1', '2019/12/19', false, 3);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (410, 95, 'Bartolomeo', 'Lanfer', 'blanferl@nps.gov', '1197631070', 'https://robohash.org/providentomnisplaceat.png?size=50x50&set=set1', '2019/09/26', false, 5);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (316, 98, 'Courtenay', 'Whate', 'cwhatem@bigcartel.com', '9336203056', 'https://robohash.org/quibusdamsimiliqueesse.png?size=50x50&set=set1', '2019/07/22', false, 5);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (100, 1, 'Karrah', 'Lumsdall', 'klumsdalln@guardian.co.uk', '5299734615', 'https://robohash.org/accusamusdoloresad.png?size=50x50&set=set1', '2019/08/09', true, 7);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (463, 29, 'Sarette', 'Burg', 'sburgo@patch.com', '4318222499', 'https://robohash.org/suntvoluptatemofficiis.png?size=50x50&set=set1', '2019/09/19', false, 3);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (389, 10, 'Pren', 'Coard', 'pcoardp@boston.com', '3771785190', 'https://robohash.org/doloremiustoa.png?size=50x50&set=set1', '2019/09/23', true, 6);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (129, 23, 'Susanetta', 'Wimpress', 'swimpressq@slideshare.net', '6815671373', 'https://robohash.org/corruptiautsunt.png?size=50x50&set=set1', '2019/06/22', false, 7);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (400, 1, 'Kevin', 'Schober', 'kschoberr@dailymotion.com', '2211179109', 'https://robohash.org/modiofficiisasperiores.png?size=50x50&set=set1', '2019/02/11', false, 6);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (253, 76, 'Phylys', 'Double', 'pdoubles@newyorker.com', '8709345563', 'https://robohash.org/doloremautautem.png?size=50x50&set=set1', '2019/12/04', false, 1);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (418, 80, 'Philip', 'Bradfield', 'pbradfieldt@issuu.com', '7494688409', 'https://robohash.org/nobissapientehic.png?size=50x50&set=set1', '2019/09/29', false, 3);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (435, 55, 'Ber', 'Badham', 'bbadhamu@spotify.com', '7136316013', 'https://robohash.org/quasicommoditemporibus.png?size=50x50&set=set1', '2019/04/25', true, 3);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (174, 2, 'Cassey', 'Looks', 'clooksv@multiply.com', '4744420826', 'https://robohash.org/quisarchitectovoluptatem.png?size=50x50&set=set1', '2019/04/27', true, 4);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (425, 54, 'Carlin', 'Donnachie', 'cdonnachiew@artisteer.com', '1047119405', 'https://robohash.org/ducimusistevoluptates.png?size=50x50&set=set1', '2019/01/07', true, 6);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (365, 3, 'Kimberlee', 'Crowder', 'kcrowderx@marketwatch.com', '3884809503', 'https://robohash.org/veromodifacere.png?size=50x50&set=set1', '2019/08/27', false, 2);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (434, 36, 'Osborne', 'Habershon', 'ohabershony@who.int', '9459556348', 'https://robohash.org/errorprovidenteum.png?size=50x50&set=set1', '2019/10/14', true, 1);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (492, 64, 'Klarrisa', 'Figin', 'kfiginz@irs.gov', '2141371907', 'https://robohash.org/quiidvelit.png?size=50x50&set=set1', '2019/06/04', false, 3);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (423, 67, 'Maryrose', 'Sperski', 'msperski10@google.es', '1158213573', 'https://robohash.org/blanditiisquasiillum.png?size=50x50&set=set1', '2019/10/19', true, 1);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (175, 82, 'Greggory', 'Uff', 'guff11@opensource.org', '8894470521', 'https://robohash.org/autfugiatipsa.png?size=50x50&set=set1', '2019/12/08', true, 5);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (366, 7, 'Jabez', 'Prenty', 'jprenty12@guardian.co.uk', '4426237719', 'https://robohash.org/suscipititaqueexpedita.png?size=50x50&set=set1', '2019/06/11', true, 3);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (332, 60, 'Stirling', 'Cunnell', 'scunnell13@slate.com', '9845493062', 'https://robohash.org/maioresvoluptateest.png?size=50x50&set=set1', '2019/05/24', true, 2);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (462, 98, 'Desmond', 'Richarson', 'dricharson14@nhs.uk', '1123413836', 'https://robohash.org/anemoquia.png?size=50x50&set=set1', '2019/09/11', false, 7);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (103, 52, 'Claire', 'Shorthill', 'cshorthill15@thetimes.co.uk', '2706371026', 'https://robohash.org/eligendiinventorequo.png?size=50x50&set=set1', '2019/12/14', true, 1);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (473, 80, 'Noella', 'Sulley', 'nsulley16@typepad.com', '8273185440', 'https://robohash.org/mollitialiberoquasi.png?size=50x50&set=set1', '2019/04/04', false, 1);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (152, 19, 'Cindy', 'Gareisr', 'cgareisr17@ovh.net', '4075175311', 'https://robohash.org/autnumquammolestias.png?size=50x50&set=set1', '2019/11/03', false, 1);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (406, 11, 'Artair', 'Dalyell', 'adalyell18@google.pl', '4778780855', 'https://robohash.org/quisquamiureveniam.png?size=50x50&set=set1', '2019/10/31', true, 6);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (82, 33, 'Bryn', 'MacQuaker', 'bmacquaker19@123-reg.co.uk', '1451593189', 'https://robohash.org/avelitdistinctio.png?size=50x50&set=set1', '2019/07/15', false, 3);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (162, 89, 'Minna', 'Cansdale', 'mcansdale1a@telegraph.co.uk', '1382371727', 'https://robohash.org/autetaut.png?size=50x50&set=set1', '2019/01/31', true, 7);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (227, 16, 'Conan', 'Lerigo', 'clerigo1b@rediff.com', '3696162529', 'https://robohash.org/istevelsapiente.png?size=50x50&set=set1', '2019/05/19', true, 7);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (270, 50, 'Antonina', 'Bacup', 'abacup1c@alibaba.com', '6803022163', 'https://robohash.org/recusandaemolestiaereiciendis.png?size=50x50&set=set1', '2019/03/21', true, 7);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (254, 79, 'Gustav', 'Sturdey', 'gsturdey1d@thetimes.co.uk', '9086321325', 'https://robohash.org/velestet.png?size=50x50&set=set1', '2019/12/21', true, 1);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (451, 4, 'Annabal', 'Egiloff', 'aegiloff1e@businessinsider.com', '3425243565', 'https://robohash.org/laboriosamsedrem.png?size=50x50&set=set1', '2019/07/08', true, 1);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (119, 33, 'Wainwright', 'Baiss', 'wbaiss1f@issuu.com', '7793891666', 'https://robohash.org/exnobisipsam.png?size=50x50&set=set1', '2019/08/05', false, 2);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (308, 68, 'Feliks', 'Twatt', 'ftwatt1g@cbsnews.com', '3952428750', 'https://robohash.org/inventoredistinctiosed.png?size=50x50&set=set1', '2019/10/28', true, 7);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (148, 99, 'Gwendolen', 'Huebner', 'ghuebner1h@fda.gov', '6187564112', 'https://robohash.org/etteneturconsequuntur.png?size=50x50&set=set1', '2019/09/26', false, 6);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (109, 18, 'Shirlee', 'Margrem', 'smargrem1i@apache.org', '6611533777', 'https://robohash.org/nonoptioimpedit.png?size=50x50&set=set1', '2019/01/03', true, 6);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (299, 70, 'Stanford', 'Devanny', 'sdevanny1j@deviantart.com', '7628137186', 'https://robohash.org/assumendaminimaquia.png?size=50x50&set=set1', '2019/11/25', false, 1);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (481, 92, 'Kata', 'McCumesky', 'kmccumesky1k@gov.uk', '6129434938', 'https://robohash.org/minimapraesentiumcorrupti.png?size=50x50&set=set1', '2019/04/24', true, 1);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (309, 50, 'Patience', 'Rivel', 'privel1l@wordpress.org', '7178626098', 'https://robohash.org/aliquammodiassumenda.png?size=50x50&set=set1', '2019/09/19', true, 5);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (53, 89, 'Jamie', 'Whitelaw', 'jwhitelaw1m@bandcamp.com', '4614257511', 'https://robohash.org/laboriosamquidemconsequatur.png?size=50x50&set=set1', '2019/11/15', false, 4);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (22, 73, 'Rikki', 'Tanner', 'rtanner1n@nytimes.com', '3436180754', 'https://robohash.org/sedquiut.png?size=50x50&set=set1', '2019/05/02', true, 3);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (491, 13, 'Nick', 'Stonhouse', 'nstonhouse1o@soundcloud.com', '1421292014', 'https://robohash.org/rerumomniseius.png?size=50x50&set=set1', '2019/02/20', false, 2);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (169, 64, 'Tatiania', 'Gauntley', 'tgauntley1p@gizmodo.com', '6698813871', 'https://robohash.org/estautculpa.png?size=50x50&set=set1', '2019/07/11', false, 6);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (392, 27, 'Kellia', 'Jarnell', 'kjarnell1q@sourceforge.net', '8034458713', 'https://robohash.org/etnesciunteos.png?size=50x50&set=set1', '2019/07/24', true, 1);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (146, 53, 'Farra', 'Madine', 'fmadine1r@nps.gov', '3498325456', 'https://robohash.org/quasietqui.png?size=50x50&set=set1', '2019/04/09', false, 3);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (492, 9, 'Raynor', 'Ceaplen', 'rceaplen1s@google.co.uk', '8232856528', 'https://robohash.org/nemoautaliquam.png?size=50x50&set=set1', '2020/02/09', false, 4);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (424, 71, 'Reyna', 'Godard', 'rgodard1t@bing.com', '3424923948', 'https://robohash.org/veniamimpeditest.png?size=50x50&set=set1', '2019/11/16', false, 7);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (437, 43, 'Tracey', 'Alliston', 'talliston1u@free.fr', '1698196647', 'https://robohash.org/dolorenimet.png?size=50x50&set=set1', '2019/02/04', false, 7);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (26, 30, 'Kellen', 'Pylkynyton', 'kpylkynyton1v@xing.com', '3038275001', 'https://robohash.org/etrepellatesse.png?size=50x50&set=set1', '2019/03/24', false, 2);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (236, 92, 'Farica', 'Sailes', 'fsailes1w@tinyurl.com', '7438989868', 'https://robohash.org/utomnissit.png?size=50x50&set=set1', '2020/02/08', false, 1);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (41, 60, 'Nertie', 'Wheway', 'nwheway1x@yahoo.com', '6194624488', 'https://robohash.org/officiisteneturmaiores.png?size=50x50&set=set1', '2019/08/28', true, 2);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (239, 91, 'Gilemette', 'Emmatt', 'gemmatt1y@wufoo.com', '8723710104', 'https://robohash.org/sitvelquis.png?size=50x50&set=set1', '2020/02/11', false, 5);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (327, 44, 'Aldric', 'Topes', 'atopes1z@about.com', '4378974009', 'https://robohash.org/quiteneturautem.png?size=50x50&set=set1', '2019/04/27', true, 6);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (219, 72, 'Oby', 'Masi', 'omasi20@japanpost.jp', '1299249843', 'https://robohash.org/assumendaetvoluptate.png?size=50x50&set=set1', '2019/05/27', true, 1);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (69, 97, 'Osgood', 'Footitt', 'ofootitt21@people.com.cn', '8086302759', 'https://robohash.org/totamanimiexercitationem.png?size=50x50&set=set1', '2020/01/07', false, 5);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (198, 76, 'Ame', 'Carous', 'acarous22@bloomberg.com', '4733640533', 'https://robohash.org/explicaboaspernaturquaerat.png?size=50x50&set=set1', '2019/08/09', true, 4);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (476, 8, 'Jefferson', 'Cammiemile', 'jcammiemile23@ycombinator.com', '8135744121', 'https://robohash.org/quiautut.png?size=50x50&set=set1', '2019/04/11', true, 1);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (310, 98, 'Alex', 'Lagne', 'alagne24@macromedia.com', '4945116528', 'https://robohash.org/architectosolutamaiores.png?size=50x50&set=set1', '2020/01/12', true, 1);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (20, 47, 'Titus', 'Coghlan', 'tcoghlan25@tmall.com', '4105215797', 'https://robohash.org/excepturimollitiasoluta.png?size=50x50&set=set1', '2020/01/04', false, 5);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (454, 61, 'Barbara', 'Guislin', 'bguislin26@oaic.gov.au', '5829706241', 'https://robohash.org/perspiciatissapienteatque.png?size=50x50&set=set1', '2019/05/21', true, 1);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (243, 70, 'Hendrik', 'Studde', 'hstudde27@cbc.ca', '3363327547', 'https://robohash.org/cumqueametest.png?size=50x50&set=set1', '2019/06/21', true, 2);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (235, 64, 'Harbert', 'Benns', 'hbenns28@ameblo.jp', '2975131560', 'https://robohash.org/rationeexeum.png?size=50x50&set=set1', '2020/02/11', true, 2);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (131, 81, 'Peggie', 'Kyllford', 'pkyllford29@house.gov', '7014836813', 'https://robohash.org/odioaddoloribus.png?size=50x50&set=set1', '2020/01/28', true, 2);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (228, 57, 'Land', 'Thickett', 'lthickett2a@jugem.jp', '9411166335', 'https://robohash.org/reiciendisveroquasi.png?size=50x50&set=set1', '2019/03/24', false, 3);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (417, 26, 'Nickie', 'Giblett', 'ngiblett2b@google.fr', '6143780654', 'https://robohash.org/eaexercitationemrepellat.png?size=50x50&set=set1', '2019/06/09', true, 4);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (170, 5, 'Barbey', 'Bennington', 'bbennington2c@nationalgeographic.com', '3202041454', 'https://robohash.org/quoddoloremmagni.png?size=50x50&set=set1', '2019/04/02', false, 5);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (19, 52, 'Quinta', 'Fenelon', 'qfenelon2d@stumbleupon.com', '1551354380', 'https://robohash.org/quiareiciendisnatus.png?size=50x50&set=set1', '2019/01/26', false, 7);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (203, 5, 'Tommi', 'McGilleghole', 'tmcgilleghole2e@scribd.com', '3495356046', 'https://robohash.org/exercitationemvoluptaset.png?size=50x50&set=set1', '2020/02/17', false, 3);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (345, 45, 'Ginnie', 'Stentiford', 'gstentiford2f@ifeng.com', '5375138639', 'https://robohash.org/autemdignissimoset.png?size=50x50&set=set1', '2019/01/11', true, 3);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (425, 11, 'Letisha', 'Cupitt', 'lcupitt2g@adobe.com', '7479378299', 'https://robohash.org/exaspernatureum.png?size=50x50&set=set1', '2019/11/10', true, 7);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (463, 10, 'Boyd', 'Rockliffe', 'brockliffe2h@smh.com.au', '6887283419', 'https://robohash.org/namvoluptatibusoccaecati.png?size=50x50&set=set1', '2019/06/28', false, 4);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (389, 67, 'Moses', 'Shewery', 'mshewery2i@ftc.gov', '9443695772', 'https://robohash.org/quasnullased.png?size=50x50&set=set1', '2019/04/01', false, 3);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (104, 7, 'Devi', 'McLernon', 'dmclernon2j@wufoo.com', '4623895758', 'https://robohash.org/etmolestiaesed.png?size=50x50&set=set1', '2019/05/27', true, 6);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (229, 92, 'Mehetabel', 'Sivyour', 'msivyour2k@nifty.com', '7828549889', 'https://robohash.org/nequequasex.png?size=50x50&set=set1', '2019/03/09', true, 6);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (220, 57, 'Pattin', 'Dever', 'pdever2l@ucla.edu', '4341370065', 'https://robohash.org/namadex.png?size=50x50&set=set1', '2019/05/18', true, 5);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (226, 33, 'Tamas', 'Peyzer', 'tpeyzer2m@examiner.com', '3473973901', 'https://robohash.org/idmaximepariatur.png?size=50x50&set=set1', '2019/02/15', true, 7);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (66, 65, 'Odey', 'Charpling', 'ocharpling2n@parallels.com', '3075951909', 'https://robohash.org/temporibusaliquidcorporis.png?size=50x50&set=set1', '2019/04/05', false, 2);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (187, 81, 'Audrey', 'Luscombe', 'aluscombe2o@ezinearticles.com', '5447277254', 'https://robohash.org/autlaboreest.png?size=50x50&set=set1', '2019/05/22', false, 7);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (281, 20, 'Consuelo', 'Danniell', 'cdanniell2p@oracle.com', '9246632245', 'https://robohash.org/abreiciendisvoluptatem.png?size=50x50&set=set1', '2019/04/26', false, 6);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (99, 51, 'Trista', 'Brine', 'tbrine2q@hud.gov', '2594309335', 'https://robohash.org/porrodoloremolestiae.png?size=50x50&set=set1', '2019/09/26', false, 1);
+insert into Employees
+    (staff_seq_number, staff_number, first_name, last_name, email, phone_number, avatar_img, doj, is_active, role_id)
+values
+    (241, 83, 'Brigitte', 'Bonhome', 'bbonhome2r@free.fr', '4986950624', 'https://robohash.org/utvoluptasperferendis.png?size=50x50&set=set1', '2019/10/27', true, 6);
+
+
+### Roles
+insert into Roles
+    (role_id, role_name, description)
+values
+    (1, 'PM', 'Partial traumatic amputation of right great toe');
+insert into Roles
+    (role_id, role_name, description)
+values
+    (2, 'LM', 'Unsp opn wnd right lesser toe(s) w damage to nail, sequela');
+insert into Roles
+    (role_id, role_name, description)
+values
+    (3, 'GD', 'Person inj in clsn betw car and 2/3-whl mv, nontraf, subs');
+insert into Roles
+    (role_id, role_name, description)
+values
+    (4, 'SL', 'Loose body in hip');
+insert into Roles
+    (role_id, role_name, description)
+values
+    (5, 'Head PM', 'Poisoning by local astringents/detergents, self-harm, init');
+insert into Roles
+    (role_id, role_name, description)
+values
+    (6, 'Admin', 'Unsp injury of unsp pulmonary blood vessels, subs encntr');
+insert into Roles
+    (role_id, role_name, description)
+values
+    (7, 'NTM', 'Infarction of spleen');
+
+
+### Plan 
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (1, 48, 62, '2019/04/16', '2020/01/02', 'COM', 9, 65, '2019/12/29', 61, '2019/12/27', true);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (2, 15, 61, '2019/04/01', '2020/06/20', 'Cargo', 7, null, '2019/02/03', 61, '2019/02/02', false);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (3, 13, 62, '2019/04/05', '2020/04/01', 'IT', 8, null, '2019/05/28', 61, '2019/03/01', false);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (4, 35, 60, '2019/06/25', '2020/04/16', 'Cargo', 2, 61, '2019/10/04', 65, '2019/08/20', true);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (5, 17, 63, '2019/10/21', '2020/02/14', 'IT', 2, 64, '2019/04/10', 64, '2019/01/31', false);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (6, 49, 60, '2019/02/13', '2020/08/29', 'HR', 7, 61, '2019/11/30', 62, '2019/07/01', true);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (7, 22, 65, '2019/01/26', '2020/05/27', 'IT', 9, 65, '2019/10/19', 65, '2019/02/14', false);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (8, 35, 62, '2019/07/11', '2020/10/06', 'GS', 6, 64, '2019/05/03', 60, '2019/03/21', false);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (9, 23, 60, '2019/04/01', '2020/04/17', 'HIA', 9, null, '2020/01/14', 64, '2019/07/01', false);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (10, 37, 62, '2019/02/16', '2020/07/02', 'IT', 4, 60, '2019/09/09', 60, '2019/05/02', false);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (11, 39, 65, '2019/06/03', '2020/04/27', 'HIA', 8, 61, '2019/04/21', 61, '2019/05/08', true);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (12, 13, 60, '2019/02/10', '2020/03/12', 'GS', 5, 60, '2020/01/13', 61, '2019/05/20', false);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (13, 48, 61, '2019/03/18', '2020/02/09', 'Cargo', 5, null, '2019/07/05', 62, '2019/09/29', false);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (14, 11, 62, '2019/07/06', '2020/08/01', 'IT', 3, 64, '2019/05/01', 64, '2019/12/28', false);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (15, 46, 61, '2019/09/20', '2020/05/25', 'COM', 1, 62, '2019/05/07', 62, '2019/01/25', false);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (16, 16, 60, '2019/04/08', '2020/09/10', 'HIA', 8, 60, '2020/01/10', 60, '2019/06/22', true);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (17, 21, 60, '2019/07/05', '2020/09/24', 'HR', 8, 65, '2019/07/11', 60, '2019/05/19', true);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (18, 24, 65, '2019/08/14', '2020/08/19', 'CRM', 5, 65, '2019/12/03', 61, '2019/03/14', false);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (19, 46, 60, '2019/01/25', '2020/07/31', 'GS', 7, 65, '2019/03/05', 64, '2019/08/02', true);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (20, 31, 62, '2019/05/12', '2020/06/28', 'COM', 7, 63, '2019/06/05', 61, '2019/07/03', true);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (21, 20, 65, '2019/09/20', '2020/08/18', 'CRM', 2, 63, '2019/11/02', 62, '2019/08/08', true);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (22, 29, 61, '2019/01/27', '2020/09/28', 'HIA', 6, 62, '2019/03/07', 64, '2019/11/12', false);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (23, 26, 60, '2019/03/03', '2020/10/05', 'GS', 5, 64, '2019/07/11', 63, '2019/05/24', false);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (24, 22, 62, '2019/01/14', '2020/01/06', 'CRM', 1, 62, '2019/07/15', 61, '2019/11/24', true);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (25, 41, 60, '2019/09/09', '2020/08/08', 'GS', 8, 63, '2019/11/09', 65, '2019/12/13', false);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (26, 18, 60, '2019/09/28', '2020/10/30', 'CRM', 6, 61, '2019/09/23', 65, '2019/04/04', false);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (27, 41, 65, '2019/07/11', '2020/05/06', 'HR', 1, 64, '2019/12/08', 61, '2019/06/05', true);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (28, 15, 60, '2019/10/07', '2020/01/08', 'HR', 2, null, '2020/02/14', 61, '2019/06/11', false);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (29, 36, 62, '2019/06/07', '2020/03/19', 'IT', 9, 63, '2019/08/06', 62, '2019/03/20', false);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (30, 21, 65, '2019/06/23', '2020/05/31', 'Cargo', 7, 60, '2019/06/12', 63, '2019/12/08', false);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (31, 29, 61, '2019/03/05', '2020/10/16', 'IT', 5, 61, '2019/08/31', 62, '2019/04/07', true);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (32, 13, 62, '2019/05/22', '2020/10/08', 'IT', 9, 62, '2020/01/31', 61, '2019/01/23', true);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (33, 16, 64, '2019/08/06', '2020/08/20', 'HIA', 2, 61, '2020/01/16', 65, '2019/01/13', false);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (34, 29, 62, '2019/07/09', '2020/03/25', 'Cargo', 6, 65, '2019/02/22', 65, '2019/01/27', false);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (35, 47, 65, '2019/08/24', '2020/10/06', 'Cargo', 1, null, '2020/01/03', 60, '2019/05/30', false);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (36, 43, 64, '2019/01/08', '2020/03/31', 'HIA', 5, null, '2019/01/31', 62, '2019/12/04', true);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (37, 33, 61, '2019/01/09', '2020/05/17', 'GS', 1, 60, '2019/02/08', 65, '2019/07/01', true);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (38, 21, 63, '2019/03/01', '2020/07/02', 'HR', 7, null, '2019/12/04', 61, '2019/06/24', false);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (39, 12, 64, '2019/03/09', '2020/01/27', 'HR', 9, 64, '2020/01/19', 60, '2019/12/28', true);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (40, 49, 60, '2019/10/03', '2020/08/10', 'CRM', 8, 64, '2019/05/12', 61, '2019/12/18', false);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (41, 19, 61, '2019/01/02', '2020/01/10', 'GS', 1, 61, '2019/08/28', 61, '2019/10/10', true);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (42, 38, 60, '2019/05/24', '2020/07/31', 'HIA', 5, null, '2019/09/26', 60, '2020/01/21', false);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (43, 29, 63, '2019/02/07', '2020/08/02', 'HR', 5, 62, '2019/08/02', 62, '2019/05/30', true);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (44, 37, 62, '2019/02/01', '2020/02/07', 'GS', 3, 61, '2019/09/17', 63, '2019/09/15', false);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (45, 12, 62, '2019/02/28', '2020/03/13', 'CRM', 5, 61, '2019/07/13', 60, '2019/06/28', false);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (46, 42, 64, '2019/03/21', '2020/05/29', 'CRM', 1, null, '2019/06/01', 62, '2019/06/28', true);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (47, 30, 62, '2019/07/03', '2020/10/29', 'COM', 5, null, '2019/05/20', 60, '2019/06/20', true);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (48, 45, 63, '2019/10/20', '2020/03/20', 'IT', 2, 61, '2019/06/02', 60, '2019/05/31', true);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (49, 39, 65, '2019/05/22', '2020/04/08', 'HR', 1, 65, '2019/06/23', 62, '2019/02/13', false);
+insert into Plan
+    (plan_id, gd_id, pm_id, start_date, end_date, stream, number_of_rotations, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (50, 37, 60, '2019/08/13', '2020/02/09', 'HR', 5, 61, '2019/06/29', 62, '2019/05/04', true);
+
+
+### Rotation
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (1, 'OJT', null, '2019/05/28', '2020/08/31', 80, 7, null, null, 65, '2019/12/08', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (2, 'OJT', 'Torus fracture of upper end of left tibia, sequela', '2019/04/19', '2020/08/21', 86, 3, null, null, 64, '2019/10/23', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (3, 'Rotation', null, '2019/03/29', '2020/08/07', 85, 11, null, null, 60, '2019/08/04', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (4, 'OJT', null, '2019/10/28', '2020/07/25', 84, 5, 63, '2019/02/22', 63, '2020/01/28', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (5, 'Familiarization', null, '2019/04/20', '2020/08/14', 86, 17, null, null, 60, '2019/07/17', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (6, 'Rotation', null, '2020/03/31', '2020/08/19', 88, 42, null, null, 61, '2020/01/29', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (7, 'Rotation', null, '2019/07/28', '2020/10/26', 84, 49, null, null, 60, '2019/03/17', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (8, 'Rotation', 'Stable burst fracture of fifth lumbar vertebra, sequela', '2020/01/20', '2020/07/18', 82, 10, 61, '2019/02/24', 63, '2019/04/14', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (9, 'OJT', 'Unspecified injury of duodenum', '2020/02/07', '2020/10/20', 89, 29, null, null, 63, '2019/09/05', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (10, 'OJT', null, '2020/01/02', '2020/08/09', 88, 9, null, null, 61, '2019/12/10', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (11, 'Familiarization', 'Car passenger injured in clsn w ped/anml in traf, sequela', '2019/04/07', '2020/07/15', 80, 45, null, null, 63, '2019/11/20', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (12, 'OJT', null, '2019/12/07', '2020/11/22', 89, 36, null, null, 63, '2019/12/17', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (13, 'Rotation', null, '2019/11/18', '2020/08/15', 90, 23, null, null, 65, '2019/09/07', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (14, 'OJT', 'Sprain of unspecified part of wrist and hand', '2019/10/28', '2020/09/12', 86, 13, 65, '2019/11/30', 61, '2019/05/13', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (15, 'OJT', null, '2019/07/03', '2020/11/16', 87, 16, null, null, 61, '2020/01/17', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (16, 'Familiarization', 'Disp fx of less tuberosity of unsp humer, 7thD', '2019/06/09', '2020/08/04', 82, 4, 64, '2019/01/05', 65, '2020/02/06', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (17, 'Rotation', null, '2020/04/21', '2020/11/12', 84, 31, null, null, 62, '2019/12/11', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (18, 'OJT', null, '2020/01/08', '2020/10/03', 83, 36, null, null, 61, '2020/01/11', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (19, 'Rotation', 'Unspecified open wound of unspecified forearm', '2019/03/25', '2020/09/14', 82, 24, null, null, 62, '2019/04/04', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (20, 'Familiarization', 'Driver of 3-whl mv injured in clsn w nonmtr vehicle nontraf', '2020/05/30', '2020/08/07', 84, 37, null, null, 60, '2019/11/15', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (21, 'Familiarization', 'Diffuse traumatic brain injury', '2020/05/06', '2020/07/02', 82, 4, 62, '2019/06/07', 65, '2019/04/24', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (22, 'OJT', 'Generalized enlarged lymph nodes', '2019/07/27', '2020/10/08', 88, 28, 60, '2019/09/27', 62, '2019/10/06', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (23, 'Familiarization', null, '2019/12/30', '2020/11/03', 89, 38, null, null, 61, '2019/10/23', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (24, 'Rotation', null, '2019/06/30', '2020/11/21', 82, 27, null, null, 62, '2019/08/28', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (25, 'Familiarization', null, '2019/04/20', '2020/10/26', 81, 38, null, null, 60, '2019/06/30', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (26, 'OJT', 'Other accident with wheelchair (powered)', '2020/02/04', '2020/10/31', 83, 37, null, null, 62, '2019/04/13', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (27, 'Familiarization', 'Displ seg fx shaft of r fibula, 7thG', '2019/08/08', '2020/07/02', 87, 44, null, null, 64, '2019/09/11', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (28, 'Rotation', null, '2019/06/06', '2020/12/02', 84, 24, null, null, 63, '2019/07/17', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (29, 'Rotation', null, '2019/03/31', '2020/10/24', 81, 35, null, null, 63, '2019/11/11', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (30, 'Rotation', null, '2020/03/21', '2020/08/04', 88, 46, null, null, 64, '2019/06/20', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (31, 'OJT', 'Fall down embankment (hill), initial encounter', '2019/07/11', '2020/11/26', 85, 27, null, null, 60, '2019/10/01', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (32, 'OJT', 'Hit by falling object due to acc to fishing boat, sequela', '2020/05/13', '2020/11/30', 82, 43, 64, '2019/05/14', 64, '2019/08/15', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (33, 'Rotation', 'Maternal care for benign tumor of corpus uteri, unsp tri', '2019/04/06', '2020/10/13', 84, 7, 62, '2019/11/21', 62, '2019/11/29', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (34, 'OJT', 'Exposure keratoconjunctivitis, right eye', '2019/03/17', '2020/08/09', 88, 40, null, null, 63, '2019/09/30', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (35, 'OJT', 'Displ unsp condyle fx low end r femr, 7thR', '2020/06/26', '2020/08/10', 90, 26, 65, '2019/03/16', 61, '2019/06/18', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (36, 'Rotation', 'Chronic leukemia of unspecified cell type, in remission', '2019/05/26', '2020/07/01', 86, 23, null, null, 61, '2019/06/05', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (37, 'Rotation', null, '2020/03/06', '2020/08/09', 88, 45, null, null, 60, '2019/01/07', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (38, 'Rotation', null, '2020/04/10', '2020/08/12', 82, 28, null, null, 60, '2019/04/09', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (39, 'Rotation', null, '2020/03/29', '2020/07/02', 82, 10, null, null, 64, '2019/07/12', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (40, 'Rotation', null, '2020/06/03', '2020/07/02', 86, 34, null, null, 63, '2019/07/15', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (41, 'Familiarization', 'Contact with nail gun, initial encounter', '2020/03/16', '2020/09/21', 88, 19, null, null, 63, '2019/05/21', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (42, 'Rotation', null, '2019/09/19', '2020/12/03', 87, 18, null, null, 61, '2019/07/21', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (43, 'Familiarization', null, '2019/03/06', '2020/11/10', 81, 31, null, null, 61, '2019/08/23', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (44, 'OJT', null, '2020/06/29', '2020/09/01', 89, 48, null, null, 61, '2019/12/27', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (45, 'Rotation', null, '2019/03/25', '2020/07/04', 81, 22, null, null, 60, '2019/08/15', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (46, 'Familiarization', null, '2020/02/02', '2020/07/17', 87, 27, null, null, 65, '2019/01/21', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (47, 'Rotation', 'Prsn brd/alit a car injured in clsn w pick-up truck, init', '2020/06/01', '2020/07/16', 80, 37, null, null, 60, '2019/06/22', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (48, 'OJT', null, '2020/01/22', '2020/07/28', 80, 42, null, null, 61, '2019/09/30', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (49, 'Familiarization', null, '2019/06/15', '2020/10/07', 88, 17, null, null, 60, '2019/03/10', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (50, 'Rotation', null, '2019/03/22', '2020/11/14', 90, 42, null, null, 65, '2019/06/08', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (51, 'Familiarization', null, '2019/03/07', '2020/07/05', 82, 20, 64, '2020/01/03', 60, '2019/04/13', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (52, 'OJT', 'Prsn brd/alit a 3-whl mv injured in clsn w pedl cyc, subs', '2019/06/29', '2020/09/22', 86, 11, 64, '2019/08/03', 60, '2019/02/21', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (53, 'Rotation', null, '2020/01/23', '2020/11/23', 88, 30, null, null, 60, '2019/10/31', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (54, 'OJT', null, '2019/09/13', '2020/12/23', 89, 32, null, null, 64, '2019/11/21', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (55, 'OJT', null, '2019/08/04', '2020/10/27', 86, 14, 62, '2019/07/05', 65, '2019/07/27', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (56, 'Familiarization', 'Motorcycle rider injured in collision w pedestrian or animal', '2020/06/12', '2020/09/07', 88, 49, null, null, 61, '2019/01/15', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (57, 'OJT', null, '2019/05/18', '2020/11/17', 88, 31, null, null, 60, '2019/09/15', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (58, 'Rotation', null, '2020/06/08', '2020/09/20', 89, 15, null, null, 62, '2019/10/02', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (59, 'Familiarization', null, '2019/08/05', '2020/09/25', 89, 47, null, null, 60, '2019/10/28', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (60, 'Familiarization', null, '2020/02/25', '2020/09/17', 89, 42, null, null, 61, '2020/02/14', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (61, 'OJT', null, '2020/01/20', '2020/07/04', 81, 11, null, null, 62, '2019/07/26', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (62, 'OJT', null, '2020/02/27', '2020/12/19', 80, 20, null, null, 65, '2019/04/23', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (63, 'OJT', 'Unspecified injury of right Achilles tendon, init encntr', '2019/11/04', '2020/07/04', 90, 33, null, null, 61, '2019/07/11', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (64, 'OJT', null, '2019/08/13', '2020/08/24', 82, 1, null, null, 64, '2019/09/04', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (65, 'Rotation', null, '2019/10/05', '2020/12/28', 84, 44, null, null, 61, '2019/10/29', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (66, 'OJT', 'Laceration w foreign body of unsp cheek and TMJ area, init', '2020/05/23', '2020/09/19', 81, 5, null, null, 60, '2019/08/31', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (67, 'Rotation', null, '2019/10/06', '2020/11/28', 80, 8, null, null, 61, '2019/12/22', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (68, 'Familiarization', null, '2019/07/24', '2020/09/10', 89, 44, null, null, 65, '2019/02/13', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (69, 'Familiarization', null, '2020/05/25', '2020/09/19', 87, 45, null, null, 62, '2019/04/10', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (70, 'Familiarization', null, '2019/08/15', '2020/12/23', 82, 44, null, null, 62, '2019/05/23', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (71, 'Rotation', null, '2019/08/11', '2020/08/16', 83, 6, null, null, 60, '2019/04/23', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (72, 'Familiarization', 'Female infertility associated with anovulation', '2019/03/30', '2020/11/21', 90, 47, null, null, 63, '2019/07/23', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (73, 'OJT', null, '2019/11/03', '2020/09/12', 90, 43, null, null, 63, '2019/07/27', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (74, 'OJT', null, '2020/02/12', '2020/10/24', 85, 46, null, null, 63, '2019/05/17', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (75, 'Familiarization', null, '2019/12/29', '2020/08/12', 80, 9, null, null, 61, '2019/08/06', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (76, 'Rotation', 'Maternal care for excess fetal growth, unsp tri, fetus 4', '2020/05/03', '2020/07/12', 84, 36, null, null, 62, '2020/02/04', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (77, 'OJT', null, '2019/11/20', '2020/11/25', 83, 40, null, null, 60, '2019/05/21', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (78, 'Rotation', 'Sltr-haris Type II physl fx lower end humer, right arm, sqla', '2020/04/01', '2020/08/17', 90, 15, 61, '2019/12/31', 61, '2019/06/20', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (79, 'OJT', 'Prsn brd/alit a car injured in collision w pick-up truck', '2020/06/25', '2020/09/02', 84, 28, null, null, 64, '2019/10/17', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (80, 'OJT', 'Cellulitis, unspecified', '2019/10/10', '2020/12/14', 83, 20, null, null, 63, '2019/09/03', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (81, 'OJT', 'Laceration of popliteal vein, unspecified leg', '2019/09/27', '2020/09/25', 88, 34, null, null, 64, '2020/01/05', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (82, 'OJT', null, '2019/02/25', '2020/10/16', 88, 36, null, null, 60, '2019/06/14', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (83, 'Familiarization', null, '2020/03/28', '2020/11/05', 89, 2, null, null, 62, '2020/02/10', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (84, 'Familiarization', null, '2019/06/20', '2020/12/22', 81, 50, null, null, 64, '2019/06/02', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (85, 'Familiarization', 'Discoid meniscus', '2019/12/29', '2020/07/11', 81, 24, null, null, 61, '2019/07/15', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (86, 'Familiarization', null, '2019/11/20', '2020/08/06', 81, 42, 61, '2019/01/17', 64, '2019/09/09', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (87, 'Familiarization', 'Unsp fracture of unsp ilium, subs for fx w routn heal', '2019/08/12', '2020/07/03', 80, 19, null, null, 65, '2019/08/05', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (88, 'OJT', 'Insomnia not due to a substance or known physiol condition', '2020/06/26', '2020/12/23', 90, 32, null, null, 64, '2019/01/08', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (89, 'Rotation', null, '2019/05/16', '2020/07/20', 88, 45, null, null, 64, '2019/03/23', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (90, 'Familiarization', 'Injury of branches of celiac and mesenteric artery', '2019/09/12', '2020/08/30', 85, 46, null, null, 61, '2019/05/21', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (91, 'Familiarization', 'Disp fx of olecran pro w/o intartic extn r ulna, 7thK', '2019/02/19', '2020/09/01', 80, 32, 61, '2019/09/10', 64, '2019/03/23', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (92, 'OJT', null, '2019/11/21', '2020/08/25', 80, 20, null, null, 62, '2019/06/07', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (93, 'OJT', 'Alcohol dependence with other alcohol-induced disorder', '2019/09/22', '2020/10/04', 89, 13, null, null, 65, '2019/10/08', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (94, 'Rotation', null, '2020/04/27', '2020/10/07', 82, 1, null, null, 61, '2019/12/15', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (95, 'Rotation', 'Unsp intracranial injury w/o loss of consciousness, sequela', '2019/08/01', '2020/12/24', 86, 7, null, null, 60, '2019/04/06', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (96, 'Familiarization', 'Maxillary fracture, unspecified side, 7thK', '2019/09/16', '2020/11/26', 80, 40, 60, '2019/08/01', 61, '2019/10/30', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (97, 'OJT', null, '2019/08/14', '2020/07/18', 89, 41, null, null, 60, '2019/12/30', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (98, 'Rotation', null, '2020/06/09', '2020/10/29', 88, 44, null, null, 62, '2020/01/20', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (99, 'Familiarization', null, '2020/02/08', '2020/08/09', 85, 42, null, null, 62, '2019/06/23', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (100, 'Rotation', null, '2019/05/27', '2020/10/28', 80, 2, 65, '2020/02/13', 60, '2019/05/20', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (101, 'Familiarization', 'Burn of first degree of back of unspecified hand', '2019/05/16', '2020/09/26', 87, 3, null, null, 60, '2019/01/20', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (102, 'OJT', null, '2020/03/10', '2020/08/24', 88, 37, null, null, 63, '2019/11/08', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (103, 'OJT', 'Mechanical loosening of unsp internal prosthetic joint, subs', '2019/08/14', '2020/07/21', 89, 29, null, null, 64, '2019/10/09', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (104, 'Familiarization', null, '2020/06/22', '2020/12/26', 90, 5, null, null, 64, '2019/07/06', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (105, 'Rotation', null, '2019/04/04', '2020/07/28', 81, 44, null, null, 65, '2019/03/05', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (106, 'Familiarization', null, '2020/01/16', '2020/08/03', 89, 2, 65, '2019/12/16', 63, '2019/03/16', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (107, 'OJT', null, '2019/08/17', '2020/09/22', 85, 27, null, null, 63, '2019/07/16', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (108, 'Rotation', null, '2019/04/30', '2020/08/16', 85, 21, null, null, 61, '2019/02/01', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (109, 'Rotation', 'Unsp mtrcy rider inj in clsn w nonmtr vehicle in traf, subs', '2019/07/01', '2020/07/23', 85, 47, null, null, 62, '2019/09/18', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (110, 'OJT', null, '2019/10/05', '2020/10/06', 80, 3, null, null, 63, '2019/10/03', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (111, 'OJT', null, '2019/10/18', '2020/07/20', 88, 19, 63, '2019/08/24', 64, '2019/08/17', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (112, 'OJT', null, '2019/03/11', '2020/11/19', 81, 17, null, null, 62, '2019/01/09', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (113, 'Familiarization', 'Sprain of jaw, bilateral', '2019/10/01', '2020/12/18', 83, 11, 63, '2019/07/25', 65, '2019/02/19', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (114, 'Rotation', null, '2019/04/12', '2020/07/03', 80, 28, null, null, 63, '2019/01/11', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (115, 'Familiarization', null, '2020/03/20', '2020/10/27', 80, 9, null, null, 65, '2019/01/31', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (116, 'OJT', 'Other subluxation of left ulnohumeral joint, sequela', '2020/03/12', '2020/11/14', 80, 13, 65, '2020/01/19', 64, '2019/12/17', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (117, 'OJT', 'Unsp open wound of unsp cheek and TMJ area, subs', '2019/08/31', '2020/07/08', 86, 5, null, null, 60, '2019/10/22', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (118, 'Rotation', null, '2019/10/04', '2020/10/30', 84, 41, null, null, 60, '2019/11/18', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (119, 'OJT', 'Anomalies of dental arch relationship', '2019/07/27', '2020/10/03', 82, 30, null, null, 65, '2019/07/01', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (120, 'Rotation', null, '2020/02/24', '2020/10/19', 85, 20, null, null, 63, '2020/01/11', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (121, 'OJT', 'Nondisp fx of greater trochanter of unsp femr, 7thC', '2020/05/19', '2020/07/05', 90, 46, null, null, 64, '2019/07/01', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (122, 'OJT', 'Post disp fx of sternal end unsp clavicle, init for opn fx', '2019/12/05', '2020/12/30', 85, 12, null, null, 61, '2019/06/20', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (123, 'Rotation', null, '2020/04/20', '2020/11/09', 80, 47, null, null, 60, '2019/05/20', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (124, 'Rotation', null, '2020/01/02', '2020/07/31', 89, 18, null, null, 65, '2019/04/02', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (125, 'Familiarization', null, '2019/03/06', '2020/11/23', 90, 29, 65, '2019/10/06', 63, '2019/01/06', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (126, 'Rotation', null, '2020/06/06', '2020/10/08', 90, 45, null, null, 65, '2019/12/08', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (127, 'Rotation', 'Lacerat unsp blood vess at hip and thi lev, left leg, subs', '2019/03/10', '2020/07/23', 80, 22, null, null, 60, '2019/03/25', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (128, 'OJT', null, '2019/10/03', '2020/12/18', 81, 7, null, null, 64, '2019/10/10', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (129, 'Rotation', null, '2019/07/21', '2020/07/26', 85, 17, null, null, 61, '2019/04/11', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (130, 'Familiarization', null, '2019/08/20', '2020/10/10', 86, 10, null, null, 61, '2019/01/17', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (131, 'Rotation', null, '2019/03/29', '2020/10/07', 83, 11, null, null, 65, '2019/09/11', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (132, 'Familiarization', null, '2019/02/28', '2020/07/31', 85, 33, null, null, 65, '2019/03/06', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (133, 'Familiarization', 'Constant exophthalmos, bilateral', '2020/06/20', '2020/09/15', 82, 23, null, null, 64, '2019/08/31', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (134, 'OJT', 'Poisoning by aspirin, assault, subsequent encounter', '2020/01/11', '2020/12/21', 87, 39, null, null, 65, '2019/06/26', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (135, 'Rotation', null, '2020/03/17', '2020/07/06', 80, 27, null, null, 65, '2019/11/17', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (136, 'OJT', 'Malignant neoplasm of jejunum', '2020/01/18', '2020/11/02', 83, 39, null, null, 65, '2019/08/19', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (137, 'Rotation', null, '2020/03/28', '2020/11/17', 88, 9, null, null, 62, '2019/12/29', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (138, 'Rotation', null, '2020/02/10', '2020/10/02', 90, 1, 61, '2019/09/27', 64, '2019/12/07', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (139, 'Familiarization', null, '2019/03/31', '2020/08/13', 88, 27, null, null, 63, '2020/02/10', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (140, 'OJT', 'Lacerat extensor musc/fasc/tend l mid finger at wrs/hnd lv', '2020/03/08', '2020/10/29', 88, 5, null, null, 65, '2019/06/19', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (141, 'OJT', null, '2020/01/08', '2020/10/14', 86, 38, null, null, 60, '2019/02/07', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (142, 'Rotation', null, '2020/02/11', '2020/11/10', 80, 2, 62, '2019/07/07', 63, '2019/12/10', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (143, 'Rotation', null, '2020/02/15', '2020/07/07', 89, 19, null, null, 61, '2019/09/12', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (144, 'OJT', null, '2019/03/19', '2020/10/21', 82, 36, null, null, 61, '2019/12/23', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (145, 'OJT', null, '2020/02/02', '2020/10/29', 80, 30, null, null, 64, '2019/05/28', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (146, 'Rotation', null, '2019/12/09', '2020/09/24', 87, 23, null, null, 65, '2019/11/02', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (147, 'OJT', 'Conjunctival concretions, left eye', '2020/02/23', '2020/11/28', 80, 43, null, null, 62, '2020/01/27', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (148, 'OJT', null, '2020/05/11', '2020/08/04', 88, 37, null, null, 60, '2019/02/10', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (149, 'Familiarization', 'Algoneurodystrophy, unspecified thigh', '2020/06/19', '2020/07/24', 83, 43, null, null, 61, '2020/02/16', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (150, 'Familiarization', null, '2020/02/03', '2020/10/15', 82, 50, 62, '2019/09/13', 64, '2019/11/14', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (151, 'OJT', null, '2020/01/06', '2020/10/26', 85, 42, null, null, 61, '2020/01/24', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (152, 'Familiarization', null, '2019/05/23', '2020/12/23', 89, 50, null, null, 62, '2019/02/11', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (153, 'Familiarization', 'Atresia of pulmonary artery', '2019/10/17', '2020/09/13', 86, 47, null, null, 65, '2019/06/15', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (154, 'OJT', 'Inj oth blood vessels at wrist and hand level of left arm', '2019/09/06', '2020/08/04', 89, 40, null, null, 60, '2019/09/01', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (155, 'Familiarization', null, '2020/01/12', '2020/10/18', 81, 35, null, null, 60, '2019/10/20', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (156, 'Familiarization', null, '2019/08/31', '2020/08/30', 90, 35, null, null, 63, '2020/02/10', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (157, 'Rotation', 'Absolute glaucoma, left eye', '2019/08/13', '2020/08/19', 88, 15, null, null, 65, '2019/04/14', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (158, 'Familiarization', 'Disp fx of epiphy (separation) (upper) of l femr, 7thP', '2020/05/04', '2020/10/28', 88, 36, 61, '2019/03/22', 61, '2019/01/04', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (159, 'Rotation', 'Bitten by pig', '2019/07/04', '2020/10/07', 87, 36, 63, '2020/01/04', 65, '2019/08/25', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (160, 'Familiarization', null, '2019/12/28', '2020/08/30', 90, 48, null, null, 60, '2019/12/27', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (161, 'Rotation', null, '2020/04/22', '2020/08/21', 90, 8, null, null, 63, '2020/01/02', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (162, 'Rotation', null, '2019/05/07', '2020/12/12', 88, 10, null, null, 60, '2019/10/24', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (163, 'OJT', null, '2019/07/12', '2020/07/13', 80, 44, 63, '2019/03/18', 60, '2019/03/22', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (164, 'Familiarization', 'Scorbutic anemia', '2019/11/14', '2020/08/28', 85, 39, null, null, 64, '2020/01/06', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (165, 'OJT', 'Toxic effect of strychnine and its salts, self-harm, subs', '2019/05/12', '2020/09/13', 90, 33, null, null, 64, '2019/07/31', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (166, 'Rotation', null, '2019/05/18', '2020/12/22', 87, 38, null, null, 63, '2019/06/17', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (167, 'Familiarization', null, '2019/08/19', '2020/08/09', 80, 47, null, null, 61, '2020/01/16', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (168, 'OJT', null, '2020/05/11', '2020/10/30', 81, 14, null, null, 64, '2019/06/09', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (169, 'OJT', null, '2020/04/05', '2020/09/30', 89, 20, null, null, 60, '2019/04/22', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (170, 'Familiarization', null, '2020/01/08', '2020/07/20', 90, 31, null, null, 60, '2019/03/16', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (171, 'OJT', 'Breakdown (mechanical) of implanted urinary sphincter, subs', '2019/07/01', '2020/08/05', 83, 18, null, null, 61, '2019/06/15', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (172, 'OJT', null, '2019/08/26', '2020/08/08', 88, 39, null, null, 61, '2019/11/27', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (173, 'Familiarization', null, '2019/03/19', '2020/09/15', 88, 24, 60, '2019/03/31', 60, '2019/08/30', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (174, 'Rotation', null, '2020/02/14', '2020/12/10', 84, 35, null, null, 61, '2020/01/24', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (175, 'Rotation', 'Dysarthria and anarthria', '2019/12/24', '2020/11/12', 84, 34, null, null, 60, '2019/11/03', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (176, 'Familiarization', null, '2020/01/30', '2020/11/16', 83, 47, null, null, 62, '2019/02/28', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (177, 'Familiarization', null, '2019/08/01', '2020/11/04', 81, 43, null, null, 60, '2019/10/09', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (178, 'OJT', null, '2020/06/22', '2020/07/11', 80, 3, null, null, 65, '2019/10/18', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (179, 'Rotation', 'Adverse effect of ganglionic blocking drugs, subs encntr', '2020/05/25', '2020/07/06', 84, 32, null, null, 62, '2019/10/11', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (180, 'OJT', 'Down syndrome', '2019/05/02', '2020/12/20', 89, 32, 61, '2019/12/14', 60, '2019/10/11', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (181, 'OJT', 'Unspecified retinal break, unspecified eye', '2020/01/03', '2020/11/27', 82, 34, null, null, 62, '2019/12/23', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (182, 'Rotation', null, '2019/07/14', '2020/08/30', 85, 23, null, null, 65, '2019/07/13', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (183, 'OJT', 'Galeazzi''s fracture of r radius, init for opn fx type I/2', '2019/05/27', '2020/08/29', 85, 28, null, null, 61, '2019/04/14', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (184, 'OJT', null, '2019/12/26', '2020/09/01', 87, 20, null, null, 64, '2019/10/30', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (185, 'OJT', null, '2020/02/13', '2020/10/27', 89, 22, null, null, 65, '2019/01/13', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (186, 'OJT', null, '2020/05/29', '2020/07/04', 89, 3, 63, '2019/05/22', 60, '2019/04/02', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (187, 'Rotation', null, '2020/03/10', '2020/09/02', 82, 50, null, null, 60, '2019/03/18', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (188, 'Rotation', null, '2020/03/29', '2020/12/04', 80, 28, null, null, 60, '2019/11/22', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (189, 'Familiarization', 'Unsp non-institutional (private) residence as place', '2019/02/28', '2020/10/31', 84, 41, null, null, 62, '2019/11/04', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (190, 'OJT', 'Unspecified petrositis, left ear', '2020/01/29', '2020/09/22', 89, 20, null, null, 63, '2019/10/16', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (191, 'OJT', 'Hydrops fetalis due to other hemolytic disease', '2020/05/23', '2020/11/09', 81, 44, null, null, 63, '2019/10/07', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (192, 'Rotation', null, '2019/08/25', '2020/09/22', 88, 24, null, null, 62, '2020/01/22', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (193, 'Rotation', null, '2019/11/02', '2020/07/19', 88, 21, null, null, 65, '2019/04/27', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (194, 'OJT', 'Person on outside of military vehicle injured nontraf, subs', '2019/03/30', '2020/12/18', 86, 43, 62, '2019/06/03', 65, '2019/12/28', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (195, 'OJT', null, '2019/05/16', '2020/12/06', 86, 3, null, null, 62, '2019/06/05', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (196, 'Rotation', 'Injury of optic chiasm, sequela', '2020/05/14', '2020/10/20', 90, 42, null, null, 65, '2019/08/23', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (197, 'OJT', null, '2019/12/28', '2020/07/10', 87, 48, null, null, 62, '2019/01/11', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (198, 'Rotation', null, '2019/09/07', '2020/12/20', 89, 16, null, null, 61, '2019/02/28', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (199, 'Familiarization', 'Stable burst fx T5-T6 vertebra, subs for fx w routn heal', '2020/05/02', '2020/09/16', 83, 33, null, null, 65, '2020/01/02', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (200, 'Rotation', null, '2020/01/30', '2020/09/27', 89, 20, null, null, 60, '2020/01/09', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (201, 'OJT', null, '2020/03/18', '2020/12/18', 90, 16, null, null, 62, '2019/12/23', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (202, 'Familiarization', 'Inj musc/tend the rotator cuff of right shoulder, sequela', '2019/08/03', '2020/08/30', 85, 29, null, null, 65, '2019/09/03', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (203, 'Familiarization', null, '2019/11/27', '2020/09/06', 80, 16, null, null, 61, '2019/09/24', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (204, 'OJT', null, '2020/04/11', '2020/08/16', 85, 29, null, null, 63, '2019/03/25', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (205, 'Rotation', null, '2020/01/23', '2020/11/01', 87, 41, null, null, 61, '2019/06/29', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (206, 'OJT', null, '2020/03/05', '2020/07/31', 82, 18, 61, '2020/01/27', 65, '2019/09/20', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (207, 'OJT', 'Poisoning by macrolides, intentional self-harm, init encntr', '2019/08/14', '2020/07/02', 90, 12, null, null, 63, '2019/04/27', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (208, 'Rotation', null, '2019/02/28', '2020/07/05', 80, 6, null, null, 65, '2019/03/24', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (209, 'OJT', null, '2020/02/22', '2020/10/13', 80, 23, null, null, 65, '2019/07/12', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (210, 'OJT', null, '2020/02/17', '2020/12/17', 82, 42, null, null, 64, '2019/09/18', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (211, 'Familiarization', null, '2020/04/07', '2020/08/19', 84, 5, null, null, 65, '2019/04/29', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (212, 'OJT', null, '2019/10/18', '2020/12/25', 85, 46, null, null, 61, '2019/04/02', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (213, 'Rotation', null, '2019/07/02', '2020/12/24', 89, 16, null, null, 60, '2019/04/20', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (214, 'OJT', null, '2019/03/31', '2020/10/13', 84, 7, null, null, 62, '2019/09/24', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (215, 'Rotation', 'Toxic effect of unspecified pesticide, assault, subs encntr', '2020/03/22', '2020/11/24', 88, 15, null, null, 60, '2019/04/16', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (216, 'Familiarization', null, '2020/03/11', '2020/11/27', 89, 50, null, null, 60, '2019/04/12', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (217, 'OJT', 'Heat syncope', '2019/03/17', '2020/12/21', 85, 28, null, null, 61, '2019/08/21', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (218, 'Familiarization', null, '2020/05/06', '2020/09/23', 87, 16, null, null, 65, '2019/12/26', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (219, 'Rotation', null, '2019/04/13', '2020/10/30', 90, 28, null, null, 62, '2019/04/14', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (220, 'OJT', null, '2020/04/06', '2020/12/10', 89, 32, null, null, 64, '2019/02/04', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (221, 'OJT', null, '2020/01/03', '2020/08/20', 88, 31, 65, '2019/06/09', 60, '2019/10/11', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (222, 'Familiarization', null, '2019/08/13', '2020/11/13', 86, 49, null, null, 64, '2019/10/24', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (223, 'OJT', 'Sltr-haris Type II physl fx upr end r fibula, 7thK', '2019/06/16', '2020/11/23', 90, 5, null, null, 61, '2019/11/29', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (224, 'OJT', null, '2019/07/04', '2020/12/30', 84, 42, null, null, 63, '2019/04/27', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (225, 'OJT', null, '2020/06/12', '2020/12/12', 85, 48, null, null, 61, '2019/12/07', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (226, 'Rotation', null, '2019/05/24', '2020/07/11', 81, 11, null, null, 60, '2019/09/05', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (227, 'Familiarization', null, '2020/04/02', '2020/09/13', 89, 40, null, null, 63, '2019/08/29', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (228, 'Rotation', null, '2019/07/16', '2020/07/20', 86, 41, 61, '2019/07/15', 63, '2019/11/07', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (229, 'OJT', 'Other physeal fracture of calcaneus', '2019/11/29', '2020/08/24', 82, 7, null, null, 61, '2019/08/16', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (230, 'Familiarization', 'Lymphocyte depleted Hodgkin lymphoma', '2019/04/29', '2020/07/23', 85, 10, null, null, 62, '2019/05/13', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (231, 'Familiarization', null, '2020/01/18', '2020/12/12', 81, 25, null, null, 64, '2019/10/01', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (232, 'OJT', null, '2020/02/18', '2020/07/29', 86, 43, null, null, 65, '2019/12/03', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (233, 'Familiarization', 'Familial chondrocalcinosis, shoulder', '2019/05/28', '2020/08/03', 80, 22, null, null, 65, '2019/06/14', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (234, 'Rotation', null, '2019/05/15', '2020/07/28', 83, 44, null, null, 62, '2020/01/06', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (235, 'Rotation', null, '2019/08/13', '2020/09/19', 87, 1, null, null, 62, '2019/10/26', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (236, 'OJT', null, '2019/10/02', '2020/09/07', 90, 12, null, null, 65, '2019/02/26', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (237, 'Rotation', null, '2020/01/03', '2020/12/19', 88, 49, null, null, 62, '2019/11/08', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (238, 'OJT', 'Poisoning by immunoglobulin, assault, sequela', '2019/04/29', '2020/08/09', 81, 31, null, null, 64, '2019/01/21', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (239, 'Familiarization', 'Oth intentional self-harm by drowning and submersion, subs', '2020/03/31', '2020/07/27', 88, 7, 61, '2019/01/06', 61, '2019/01/31', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (240, 'Rotation', 'Ankylosis of ear ossicles, left ear', '2020/01/05', '2020/08/06', 82, 20, null, null, 63, '2020/01/15', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (241, 'OJT', 'Occup of oth sp off-rd mv injured in traffic accident, subs', '2019/04/25', '2020/10/26', 88, 38, null, null, 60, '2019/09/24', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (242, 'Rotation', 'Insect bite (nonvenomous) of l bk wl of thorax, sequela', '2019/08/25', '2020/07/04', 87, 44, null, null, 63, '2019/03/26', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (243, 'OJT', 'Toxic effect of coral snake venom, accidental', '2020/02/29', '2020/12/29', 89, 37, 63, '2019/04/21', 63, '2020/01/15', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (244, 'Rotation', null, '2019/05/05', '2020/10/22', 90, 35, null, null, 61, '2019/05/24', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (245, 'OJT', null, '2019/11/09', '2020/08/23', 81, 40, null, null, 60, '2019/07/10', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (246, 'OJT', 'Poisoning by oth antipsychot/neurolept, self-harm, subs', '2019/12/15', '2020/10/26', 86, 50, null, null, 65, '2019/08/14', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (247, 'Familiarization', null, '2020/01/02', '2020/12/28', 80, 2, null, null, 63, '2019/07/07', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (248, 'Rotation', null, '2020/02/16', '2020/07/11', 90, 28, null, null, 63, '2019/07/22', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (249, 'Rotation', null, '2019/10/02', '2020/09/20', 80, 15, 62, '2019/06/11', 61, '2019/07/04', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (250, 'Rotation', 'Cardiac failure due to anesth during preg, third trimester', '2019/12/11', '2020/08/12', 83, 21, null, null, 60, '2019/10/12', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (251, 'OJT', 'Osteitis deformans in neoplastic diseases, left upper arm', '2019/06/20', '2020/10/07', 89, 4, null, null, 64, '2020/01/18', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (252, 'Familiarization', null, '2019/03/27', '2020/08/24', 82, 16, 64, '2019/03/26', 65, '2019/09/23', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (253, 'OJT', null, '2019/12/03', '2020/10/27', 89, 2, null, null, 61, '2019/11/18', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (254, 'Familiarization', null, '2020/06/04', '2020/12/01', 82, 6, 63, '2019/12/06', 63, '2019/02/01', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (255, 'Familiarization', null, '2019/08/23', '2020/12/08', 81, 48, 62, '2019/02/08', 60, '2019/05/20', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (256, 'Familiarization', null, '2020/03/16', '2020/12/04', 82, 32, null, null, 63, '2019/05/30', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (257, 'Familiarization', null, '2020/04/06', '2020/07/05', 86, 2, null, null, 61, '2019/11/11', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (258, 'Rotation', null, '2020/02/27', '2020/12/27', 82, 42, null, null, 62, '2019/07/02', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (259, 'Rotation', 'Unsp inj blood vessels at wrs/hnd lv of right arm, sequela', '2019/07/14', '2020/12/12', 86, 25, 65, '2019/05/07', 62, '2019/08/11', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (260, 'OJT', null, '2019/04/07', '2020/08/17', 89, 49, null, null, 65, '2019/09/06', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (261, 'OJT', null, '2019/03/30', '2020/07/03', 81, 4, null, null, 64, '2019/05/08', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (262, 'Familiarization', null, '2019/11/22', '2020/09/06', 86, 29, null, null, 63, '2019/08/08', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (263, 'Rotation', null, '2019/08/18', '2020/11/14', 81, 16, null, null, 60, '2019/09/12', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (264, 'Rotation', null, '2019/03/25', '2020/08/12', 84, 41, 60, '2019/12/24', 64, '2019/10/18', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (265, 'OJT', 'Injury of other cranial nerves, right side, sequela', '2019/09/16', '2020/10/28', 88, 13, null, null, 61, '2019/03/12', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (266, 'Rotation', 'Nondisplaced fracture of right ulna styloid process', '2020/06/26', '2020/07/05', 89, 28, 60, '2019/01/27', 63, '2019/06/06', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (267, 'OJT', 'Chronic osteomyelitis with draining sinus, femur', '2019/11/12', '2020/08/23', 84, 33, null, null, 62, '2019/01/05', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (268, 'OJT', 'Major laceration of inferior vena cava', '2019/12/19', '2020/12/01', 81, 10, 65, '2019/08/06', 61, '2020/01/18', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (269, 'Rotation', 'Cholesteatoma of attic, unspecified ear', '2020/02/03', '2020/07/10', 83, 3, null, null, 62, '2019/06/01', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (270, 'Familiarization', null, '2019/11/07', '2020/10/08', 80, 43, null, null, 64, '2019/08/14', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (271, 'Rotation', null, '2019/10/10', '2020/12/05', 81, 34, null, null, 61, '2019/07/11', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (272, 'Rotation', 'Aneurysm of iliac artery', '2020/04/06', '2020/12/18', 89, 41, null, null, 64, '2019/07/21', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (273, 'Rotation', 'Corrosion of second degree of oth site of trunk, subs encntr', '2019/10/21', '2020/08/14', 83, 10, null, null, 64, '2019/06/22', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (274, 'Rotation', 'Cont preg aft elctv fetl rdct of 1 fts or more,1st tri, fts1', '2019/10/26', '2020/10/09', 84, 45, 61, '2019/08/19', 64, '2019/09/08', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (275, 'OJT', null, '2019/09/25', '2020/12/27', 82, 24, null, null, 65, '2019/06/01', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (276, 'Familiarization', 'Monoplg upr lmb following nontraumatic intcrbl hemorrhage', '2019/12/21', '2020/09/21', 83, 41, null, null, 65, '2019/05/26', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (277, 'OJT', 'Open bite of right little finger without damage to nail', '2020/05/06', '2020/11/29', 80, 1, null, null, 61, '2019/09/21', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (278, 'Rotation', null, '2020/01/29', '2020/08/27', 84, 8, null, null, 62, '2019/11/03', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (279, 'Familiarization', 'Toxic effect of unsp halogen deriv of aromat hydrocrb, acc', '2019/05/28', '2020/07/27', 88, 20, null, null, 61, '2019/06/03', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (280, 'OJT', null, '2019/12/04', '2020/10/22', 80, 45, null, null, 61, '2019/02/16', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (281, 'OJT', null, '2019/11/18', '2020/07/18', 80, 36, null, null, 64, '2020/02/04', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (282, 'OJT', null, '2020/03/15', '2020/12/12', 89, 30, null, null, 60, '2019/09/24', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (283, 'OJT', 'Calculus of gallbladder with acute cholecystitis', '2020/03/26', '2020/12/11', 82, 42, null, null, 63, '2019/09/27', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (284, 'OJT', null, '2019/11/22', '2020/09/06', 90, 15, null, null, 61, '2019/07/22', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (285, 'Familiarization', 'Other superficial mycoses', '2019/07/25', '2020/10/08', 82, 11, null, null, 65, '2019/11/30', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (286, 'Rotation', null, '2019/05/24', '2020/08/19', 88, 14, null, null, 64, '2019/03/18', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (287, 'Familiarization', null, '2020/01/22', '2020/08/25', 84, 46, 65, '2019/04/03', 62, '2019/04/23', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (288, 'Rotation', null, '2019/09/24', '2020/08/11', 84, 39, null, null, 60, '2020/01/10', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (289, 'Familiarization', null, '2020/02/06', '2020/10/20', 90, 17, 62, '2019/10/30', 65, '2020/02/10', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (290, 'Rotation', null, '2019/10/12', '2020/12/03', 88, 47, null, null, 65, '2019/07/08', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (291, 'Familiarization', 'Insect bite (nonvenomous) of unsp parts of thorax, subs', '2020/05/03', '2020/09/25', 90, 17, null, null, 62, '2019/10/17', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (292, 'Rotation', null, '2019/07/01', '2020/08/19', 83, 35, null, null, 64, '2019/04/16', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (293, 'Familiarization', 'Sltr-haris Type III physl fx upper end humer, left arm, init', '2019/12/27', '2020/11/05', 80, 12, null, null, 62, '2019/01/28', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (294, 'Familiarization', null, '2019/10/06', '2020/10/11', 85, 30, 65, '2019/11/16', 63, '2019/01/14', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (295, 'Rotation', 'Oth chronic hematogenous osteomyelitis, left ankle and foot', '2020/02/21', '2020/09/11', 89, 20, null, null, 64, '2019/09/03', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (296, 'Rotation', null, '2019/04/13', '2020/12/18', 88, 44, null, null, 60, '2019/12/28', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (297, 'Rotation', null, '2019/03/18', '2020/09/28', 83, 40, null, null, 65, '2019/04/11', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (298, 'OJT', null, '2019/08/10', '2020/07/12', 88, 37, 63, '2019/01/04', 62, '2019/02/20', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (299, 'OJT', null, '2020/03/18', '2020/08/08', 87, 40, null, null, 61, '2019/03/17', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (300, 'Rotation', null, '2020/03/12', '2020/07/16', 83, 13, null, null, 65, '2019/05/01', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (301, 'Rotation', 'Superficial foreign body of right wrist, subs encntr', '2019/09/25', '2020/09/05', 80, 34, 61, '2019/03/08', 61, '2019/09/06', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (302, 'Familiarization', null, '2019/05/07', '2020/11/24', 80, 50, 60, '2019/04/26', 60, '2019/12/23', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (303, 'Familiarization', null, '2020/01/25', '2020/11/24', 84, 50, null, null, 63, '2019/10/23', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (304, 'Familiarization', null, '2019/03/03', '2020/12/03', 81, 24, null, null, 60, '2019/01/04', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (305, 'Rotation', 'Nondisp fx of posterior column of unsp acetabulum, init', '2019/12/28', '2020/10/24', 89, 22, null, null, 61, '2019/03/13', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (306, 'OJT', 'Insect bite of other specified part of neck, init encntr', '2020/04/16', '2020/07/16', 89, 22, 64, '2019/01/15', 62, '2020/01/04', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (307, 'Rotation', null, '2019/08/07', '2020/08/18', 88, 9, null, null, 60, '2019/06/29', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (308, 'Familiarization', 'Varicose veins of unspecified lower extremity with ulcer', '2020/05/31', '2020/11/08', 85, 44, null, null, 62, '2019/12/21', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (309, 'Rotation', null, '2019/10/13', '2020/11/27', 86, 34, null, null, 60, '2019/04/26', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (310, 'Rotation', null, '2019/08/07', '2020/07/31', 80, 44, null, null, 65, '2019/07/18', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (311, 'OJT', null, '2019/04/19', '2020/12/01', 85, 2, null, null, 65, '2020/02/14', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (312, 'OJT', null, '2020/03/14', '2020/11/09', 85, 42, null, null, 63, '2019/04/15', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (313, 'Familiarization', 'Nondisp fx of hook pro of hamate bone, r wrs, 7thD', '2020/05/16', '2020/08/13', 82, 6, 60, '2019/03/21', 64, '2019/03/04', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (314, 'Familiarization', null, '2019/12/20', '2020/12/16', 88, 40, null, null, 60, '2019/03/29', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (315, 'Familiarization', null, '2020/02/19', '2020/09/18', 90, 33, null, null, 63, '2019/10/22', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (316, 'OJT', null, '2019/07/19', '2020/10/06', 89, 50, null, null, 64, '2019/04/15', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (317, 'Rotation', 'Rupture of synovium, unspecified foot', '2020/05/10', '2020/08/14', 84, 20, 63, '2019/12/14', 64, '2019/06/11', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (318, 'Rotation', 'Blister (nonthermal) of right upper arm, initial encounter', '2019/12/04', '2020/09/16', 81, 46, null, null, 60, '2019/07/15', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (319, 'Rotation', 'Osteitis deformans of right upper arm', '2020/03/10', '2020/07/21', 84, 45, null, null, 64, '2019/06/29', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (320, 'Familiarization', 'Other contact with cat, subsequent encounter', '2019/10/27', '2020/11/24', 83, 4, null, null, 64, '2019/05/25', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (321, 'Familiarization', 'Nondisp fx of med wall of r acetab, subs for fx w routn heal', '2019/10/09', '2020/09/13', 84, 4, 61, '2019/04/22', 65, '2019/05/05', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (322, 'Rotation', 'Other and unspecified cord compression', '2019/04/25', '2020/07/13', 88, 2, null, null, 63, '2019/12/16', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (323, 'OJT', null, '2019/03/18', '2020/07/01', 87, 21, null, null, 62, '2019/11/18', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (324, 'OJT', null, '2020/01/31', '2020/11/16', 89, 35, null, null, 65, '2019/12/11', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (325, 'Rotation', null, '2020/05/30', '2020/08/04', 83, 46, 64, '2020/01/02', 63, '2019/12/30', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (326, 'Rotation', null, '2019/12/25', '2020/07/02', 84, 30, null, null, 60, '2019/01/03', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (327, 'Familiarization', 'Other instability, right shoulder', '2019/10/05', '2020/11/18', 82, 26, null, null, 60, '2019/07/01', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (328, 'Familiarization', null, '2020/01/04', '2020/08/14', 86, 32, null, null, 62, '2019/09/14', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (329, 'OJT', 'Mastoiditis in infec/parastc diseases classified elsewhere', '2020/01/13', '2020/10/31', 82, 23, null, null, 64, '2019/12/12', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (330, 'Rotation', null, '2020/03/03', '2020/08/23', 81, 39, null, null, 65, '2020/01/08', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (331, 'Familiarization', null, '2019/05/13', '2020/07/01', 82, 24, 63, '2020/02/08', 62, '2019/09/24', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (332, 'OJT', null, '2019/07/26', '2020/08/25', 82, 23, 62, '2019/04/04', 61, '2020/01/20', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (333, 'OJT', 'Displ seg fx shaft of ulna, l arm, 7thE', '2019/09/28', '2020/11/13', 90, 14, 60, '2020/01/02', 65, '2019/05/20', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (334, 'Familiarization', null, '2019/06/25', '2020/10/29', 88, 22, null, null, 64, '2019/08/17', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (335, 'Familiarization', null, '2020/03/28', '2020/08/30', 81, 7, null, null, 61, '2020/02/07', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (336, 'OJT', 'Infect/inflm reaction due to int fix of right ulna, sequela', '2019/09/03', '2020/11/08', 84, 11, null, null, 63, '2019/10/08', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (337, 'OJT', null, '2019/06/08', '2020/10/20', 82, 31, null, null, 60, '2019/08/01', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (338, 'OJT', null, '2020/02/16', '2020/12/17', 85, 39, null, null, 62, '2019/03/19', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (339, 'Rotation', 'Transient tachypnea of newborn', '2019/12/03', '2020/10/30', 85, 36, null, null, 65, '2019/11/20', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (340, 'OJT', 'Pathological fracture, unsp ankle, subs for fx w malunion', '2019/08/08', '2020/09/18', 82, 8, null, null, 65, '2020/02/10', true);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (341, 'OJT', null, '2020/05/01', '2020/11/13', 85, 28, null, null, 62, '2019/02/22', false);
+insert into Rotation
+    (rotation_id, name, description, start_date, end_date, lm_id, plan_id, modified_by, modified_at, created_by, created_at, is_active)
+values
+    (342, 'Rotation', 'Other hypertrophic osteoarthropathy, unspecified hand', '2019/05/01', '2020/08/31', 87, 45, 64, '2020/01/13', 62, '2019/08/19', false);
