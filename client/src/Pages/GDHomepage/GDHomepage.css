@@ -6,11 +6,11 @@
   right: 0;
 }
 
-.headerBox {
+/* .headerBox {
   min-height: 110px;
   max-height: 15vh;
   background-color: white;
-}
+} */
 
 .contentBox {
   background-color: #d7d7d7;

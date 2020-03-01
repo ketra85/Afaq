@@ -1,4 +1,4 @@
-.ant-table-body {
+/* .ant-table-body {
   overflow-y: auto !important;
 }
 
@@ -17,16 +17,16 @@
   border-radius: 8px;
   border-color: transparent;
   color: #323232;
-}
+} */
 
-.pointerClass {
+/* .pointerClass {
   color: #1890ff;
   cursor: pointer;
-}
+} */
 
 /* modal */
 
-.ant-modal-header {
+/* .ant-modal-header {
   border-bottom: 0;
 }
 
@@ -48,4 +48,4 @@
 
 .ant-input:focus {
   border-color: darkgrey;
-}
+} */
