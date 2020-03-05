@@ -13,8 +13,6 @@ namespace Afaq.Infrastructure.Data.Config
                 .IsRequired();
             builder.Property(p => p.pmId)
                 .IsRequired();
-            builder.Property(p => p.dates)
-                .IsRequired();
         }
     }
 }

@@ -13,8 +13,6 @@ namespace Afaq.Infrastructure.Data.Config
                 .IsRequired();
             builder.Property(p => p.rotationId)
                 .IsRequired();
-            builder.Property(p => p.dates)
-                .IsRequired();
         }
     }
 }

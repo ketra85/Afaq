@@ -15,8 +15,6 @@ namespace Afaq.Infrastructure.Data.Config
                 .IsRequired();
             builder.Property(r => r.planId)
                 .IsRequired();
-            builder.Property(r => r.dates)
-                .IsRequired();
         }
     }
 }

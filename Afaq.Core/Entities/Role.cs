@@ -9,5 +9,9 @@ namespace Afaq.Core.Entities
         public string name { get; set; }
 
         public string description { get; set; }
+
+        public string modifiedBy { get; set; }
+
+        public DateTime modifiedAt { get; set; }
     }
 }

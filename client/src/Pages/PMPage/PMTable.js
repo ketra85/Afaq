@@ -262,7 +262,7 @@ export default class PMTable extends React.Component {
     const isLoaded = this.state.isLoaded;
     const gds = this.state.gds;
     console.log(gds);
-
+    
     const columns = [
       {
         dataIndex: 'avatar',
@@ -296,27 +296,27 @@ export default class PMTable extends React.Component {
         dataIndex: 'stream',
         sorter: (a, b) => this.compareByAlpha(a.stream, b.stream),
         // sortDirection: ["descend", "ascend"],
-        render: tags => (
-          <span>
-            {tags.map(tag => {
-              var color;
-              if (tag === 'IT') {
-                color = 'rgba(255,10,0,0.25)';
-              }
-              if (tag === 'HR') {
-                color = 'rgba(255,191,0,0.25)';
-              }
-              if (tag === 'COM (Delegated)') {
-                color = 'rgba(127,0,255,0.25)';
-              }
-              return (
-                <Tag color={color} key={tag}>
-                  {tag}
-                </Tag>
-              );
-            })}
-          </span>
-        )
+        // render: tags => (
+        //   <span>
+        //     {tags.map(tag => {
+        //       var color;
+        //       if (tag === 'IT') {
+        //         color = 'rgba(255,10,0,0.25)';
+        //       }
+        //       if (tag === 'HR') {
+        //         color = 'rgba(255,191,0,0.25)';
+        //       }
+        //       if (tag === 'COM (Delegated)') {
+        //         color = 'rgba(127,0,255,0.25)';
+        //       }
+        //       return (
+        //         <Tag color={color} key={tag}>
+        //           {tag}
+        //         </Tag>
+        //       );
+        //     })}
+        //   </span>
+        // )
       },
       {
         title: 'Phase',
@@ -324,30 +324,30 @@ export default class PMTable extends React.Component {
         dataIndex: 'phase',
         sorter: (a, b) => this.compareByAlpha(a.phase, b.phase),
         // sortDirection: ["descend", "ascend"],
-        render: tags => (
-          <span>
-            {tags.map(tag => {
-              var color;
-              if (tag === 'OJT') {
-                color = 'rgba(0,80,0,0.25)';
-              }
-              if (tag === 'Familiarization') {
-                color = 'rgba(170,170,0,0.25)';
-              }
-              if (tag === 'Rotation') {
-                color = 'rgba(0,200,0,0.25)';
-              }
-              if (tag === 'Finishing OJT') {
-                color = 'rgba(0,0,0,0.25)';
-              }
-              return (
-                <Tag color={color} key={tag}>
-                  {tag}
-                </Tag>
-              );
-            })}
-          </span>
-        )
+        // render: tags => (
+        //   <span>
+        //     {tags.map(tag => {
+        //       var color;
+        //       if (tag === 'OJT') {
+        //         color = 'rgba(0,80,0,0.25)';
+        //       }
+        //       if (tag === 'Familiarization') {
+        //         color = 'rgba(170,170,0,0.25)';
+        //       }
+        //       if (tag === 'Rotation') {
+        //         color = 'rgba(0,200,0,0.25)';
+        //       }
+        //       if (tag === 'Finishing OJT') {
+        //         color = 'rgba(0,0,0,0.25)';
+        //       }
+        //       return (
+        //         <Tag color={color} key={tag}>
+        //           {tag}
+        //         </Tag>
+        //       );
+        //     })}
+        //   </span>
+        // )
       },
       {
         title: 'DOJ',
@@ -541,7 +541,7 @@ export default class PMTable extends React.Component {
               <div className="h5 afaqHeading">Graduate Developees</div>
               <Table
                 columns={columns}
-                dataSource={this.state.tableData}
+                dataSource={this.state.gds}
                 pagination={{ position: 'false' }}
                 scroll={{ y: 'calc(70vh - 4em)' }}
               />

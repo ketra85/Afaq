@@ -8,6 +8,8 @@ namespace Afaq.Core.Entities
 {
     public class User : BaseEntity
     {
+        // public Int64 StaffSeqNumber { get; set; }
+
         // required
         public int StaffId { get; set; }
 
@@ -18,13 +20,16 @@ namespace Afaq.Core.Entities
         public string Email { get; set; }
 
         //add phone field not required
+        // public string Phone { get; set; }
 
         // add avatar img field not required
+        // public string avatarImg { get; set; }
 
         // required
         public DateTime Doj { get; set; }
 
         // isActive required
+        // public bool isActive { get; set; }
 
     }
 }
