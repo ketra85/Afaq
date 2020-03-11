@@ -140,7 +140,7 @@ export default class PMTable extends React.Component {
   }
 
   componentDidMount() {
-    this.userList();
+    //this.userList();
   }
 
   userList() {

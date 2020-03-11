@@ -28,7 +28,7 @@ function Navigation() {
     //     // like your _Layout.cshtml in ASP.NET MVC for example */}
     //     $('a[href="' + this.location.pathname + '"]').parents('li,ul').addClass('active');
     // </script>
-    <div>
+    <div className="navigationWrapper">
       {/* Sidebar */}
       <nav id="sidebar">
         <ul className="list-unstyled components">

@@ -125,30 +125,32 @@ export default class GDHomepage extends React.Component {
         <Content style={{ minHeight: "100vh" }} className="gdProfile">
           <Row type="flex" align="bottom" className="headerBox">
             <Col span={24}>
-              <Steps
-                type="navigation"
-                labelPlacement="vertical"
-                size="default"
-                current={this.state.current}
-                onChange={this.onChange}
-              >
-                {this.data.map(item => (
-                  <Step
-                    key={item.name}
-                    title={item.name}
-                    subTitle={item.date}
-                    status={item.status}
-                    disabled={item.isDisabled}
-                    icon={
-                      <FontAwesomeIcon
-                        icon={item.faIcon}
-                        color={item.color}
-                        size="1x"
-                      />
-                    }
-                  />
-                ))}
-              </Steps>
+              <div className="gdWizard">
+                <Steps
+                  type="navigation"
+                  labelPlacement="vertical"
+                  size="default"
+                  current={this.state.current}
+                  onChange={this.onChange}
+                >
+                  {this.data.map(item => (
+                    <Step
+                      key={item.name}
+                      title={item.name}
+                      subTitle={item.date}
+                      status={item.status}
+                      disabled={item.isDisabled}
+                      icon={
+                        <FontAwesomeIcon
+                          icon={item.faIcon}
+                          color={item.color}
+                          size="1x"
+                        />
+                      }
+                    />
+                  ))}
+                </Steps>
+              </div>
             </Col>
           </Row>
           <Row>
